@@ -1,3 +1,5 @@
+
+# Seed Data for the User Class
 harry = {
   first_name: 'Harry',
   last_name: 'Potter',
@@ -648,19 +650,7 @@ riddle = {
   school_house: 'Slytherin'
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Seed Data for the Wand Class
 harry_wand = {
   length: 11,
   core: 'Phoenix Feather',
@@ -686,6 +676,10 @@ ron_wand = {
   creator_id: 12
 }
 
+
+
+
+
 ollivander_wand = {
   length: 12.75,
   core: 'Dragon Heartstring',
@@ -694,6 +688,8 @@ ollivander_wand = {
   creator_id: 12
 }
 
+
+# Seed Data for the GringottsAccount Class
 harry_account = {
   user_id: 1,
   balance: 15_000_00,
@@ -713,11 +709,12 @@ ron_account = {
 }
 
 ollivander_account = {
-  user_id: 4,
+  user_id: 12,
   balance: 3_000_000,
   interest_rate: 0.04
 }
 
+# Seed Data for the Article Class
 harry_article = {
   user_id: 1,
   article_title: 'Harry Potters Info Page',
@@ -737,11 +734,12 @@ ron_article3 = {
 }
 
 ollivander_article4 = {
-  user_id: 4,
+  user_id: 12,
   article_title: 'Garrick Ollivander Info Page',
   article_body: "Info about Garrick Ollivander's Stuff"
 }
 
+# Seed Data for the Owl Class
 harry_owl = {
   owner_id: 1,
   name: 'Hedwig',
@@ -769,14 +767,7 @@ ron_owl2 = {
 
 
 
-
-
-
-
-
-
-
-
+# Create User Objects
 User.create(harry)
 User.create(hermione)
 User.create(ron)
@@ -791,22 +782,25 @@ User.create(ginny)
 User.create(ollivander)
 User.create(sirius)
 
-
+# Create Wand Objects
 Wand.create(harry_wand)
 Wand.create(hermione_wand)
 Wand.create(ron_wand)
 Wand.create(ollivander_wand)
 
+# Create GringottsAccount Objects
 GringottsAccount.create(harry_account)
 GringottsAccount.create(hermione_account)
 GringottsAccount.create(ron_account)
 GringottsAccount.create(ollivander_account)
 
+# Create Article Objects
 Article.create(harry_article)
 Article.create(hermione_article2)
 Article.create(ron_article3)
 Article.create(ollivander_article4)
 
+# Create Owl Objects
 Owl.create(harry_owl)
 Owl.create(ron_owl1)
 Owl.create(ron_owl2)
