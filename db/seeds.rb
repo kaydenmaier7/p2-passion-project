@@ -7,7 +7,7 @@ harry = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Head of the Department of Magical Law Enforcement',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -20,7 +20,7 @@ hermione = {
   blood_status: 'Muggle-born',
   species: 'Witch',
   occupation: 'Deputy Head of the Department of Magical Law Enforcement',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -33,7 +33,7 @@ ron = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: "Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -46,7 +46,7 @@ arthur = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Head of the Office for the Detection and Confiscation of Counterfeit Defensive Spells and Protective Objects',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -59,7 +59,7 @@ molly = {
   blood_status: 'Pure-blood',
   species: 'Witch',
   occupation: 'Stay At Home Mom',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -72,7 +72,7 @@ bill = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Curse Breaker for Gringotts Bank',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -85,7 +85,7 @@ charlie = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Dragonologist',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -98,7 +98,7 @@ percy = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Head of the Department of Magical Transportation',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -111,7 +111,7 @@ fredI = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: "Deceased... Former Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -124,7 +124,7 @@ george = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: "Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -137,7 +137,7 @@ ginny = {
   blood_status: 'Pure-blood',
   species: 'Witch',
   occupation: 'Sports Editor for the Daily Prophet',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -150,7 +150,7 @@ ollivander = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Wandmaker',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
 
@@ -163,7 +163,7 @@ sirius = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: '',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -176,7 +176,7 @@ hagrid = {
   blood_status: 'Part-Human',
   species: 'Wizard and Giant',
   occupation: 'Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -189,7 +189,7 @@ hooch = {
   blood_status: 'Half-blood or Pure-blood',
   species: 'Witch',
   occupation: 'Flying Instructor at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'unknown'
 }
 
@@ -202,7 +202,7 @@ lockhart = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Author and Former Professor of Defense Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
 
@@ -215,7 +215,7 @@ lupin = {
   blood_status: 'Half-blood',
   species: 'Wizard and Werewolf',
   occupation: 'Deceased, Former Professor of Defense Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -228,7 +228,7 @@ mcgonagall = {
   blood_status: 'Half-blood',
   species: 'Witch',
   occupation: 'Headmistress of Hogwarts School of Witchcraft and Wizardry, Former Professor of Transfiguration at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -241,7 +241,7 @@ madeye = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Retired Auror, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'unknown'
 }
 
@@ -254,7 +254,7 @@ quirrell = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Former Professor of Defense Against the Dark Arts, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
 
@@ -267,7 +267,7 @@ slughorn = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Potions Master at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Slytherin'
 }
 
@@ -280,7 +280,7 @@ snape = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Former Potions Master at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Slytherin'
 }
 
@@ -293,7 +293,7 @@ sprout = {
   blood_status: 'Half-blood or Pure-blood',
   species: 'Witch',
   occupation: 'Professor of Herbology at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Hufflepuff'
 }
 
@@ -306,7 +306,7 @@ trelawney = {
   blood_status: 'Half-blood',
   species: 'Witch',
   occupation: 'Professor of Divination at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
 
@@ -319,7 +319,7 @@ james_potterI = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Former Fighter for the Order of the Phoenix, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -332,7 +332,7 @@ lily_potter = {
   blood_status: 'Muggle-born',
   species: 'Witch',
   occupation: 'Former Fighter for the Order of the Phoenix, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -345,7 +345,7 @@ winky = {
   blood_status: nil,
   species: 'House-Elf',
   occupation: 'Hogwarts kitchens worker',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: nil
 }
 
@@ -358,7 +358,7 @@ albus_dumbledore = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'Headmaster of Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -371,7 +371,7 @@ flitwick = {
   blood_status: 'Part-Goblin',
   species: 'Wizard and Goblin',
   occupation: 'Charms Master at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
 
@@ -384,7 +384,7 @@ abbott = {
   blood_status: 'Half-blood',
   species: 'Witch',
   occupation: 'Landlady of the Leaky Cauldron',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Hufflepuff'
 }
 
@@ -397,7 +397,7 @@ crabbe = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Slytherin'
 }
 
@@ -410,7 +410,7 @@ golye = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Slytherin'
 }
 
@@ -423,7 +423,7 @@ diggory = {
   blood_status: 'Half-blood or Pure-blood',
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry, Deceased',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Hufflepuff'
 }
 
@@ -436,7 +436,7 @@ finnigan = {
   blood_status: 'Half-blood',
   species: 'Wizard',
   occupation: 'unknown',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -449,7 +449,7 @@ longbottom = {
   blood_status: 'Pure-blood',
   species: 'Wizard',
   occupation: 'Professor of Herbology at Hogwarts School of Witchcraft and Wizardry',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor'
 }
 
@@ -462,9 +462,147 @@ lovegood = {
   blood_status: 'Pure-blood or Half-blood',
   species: 'Witch',
   occupation: 'Magizoologist',
-  school: 'Hogwarts',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Ravenclaw'
 }
+
+malfoy = {
+  first_name: 'Draco',
+  last_name: 'Malfoy',
+  username: 'd.malfoy37',
+  email: 'd.malfoy37@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Wizard',
+  occupation: 'None',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+
+shacklebolt = {
+  first_name: 'Kingsley',
+  last_name: 'Shacklebolt',
+  username: 'k.shacklebolt38',
+  email: 'k.shacklebolt38@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Wizard',
+  occupation: 'Minister For Magic',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'unknown'
+}
+
+tonks = {
+  first_name: 'Nymphadora',
+  last_name: 'Tonks',
+  username: 'tonks39',
+  email: 'tonks39@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'Auror',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Hufflepuff'
+}
+
+umbridge = {
+  first_name: 'Dolores',
+  last_name: 'Umbridge',
+  username: 'umbridge40',
+  email: 'umbridge40@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'Former Head of the Muggle-Born Registration Commission, sent to Azkaban',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+
+delacour = {
+  first_name: 'Fleur',
+  last_name: 'Delacour',
+  username: 'f.delacour41',
+  email: 'f.delacour41@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Witch and Veela',
+  occupation: 'Part-time at Gringotts Wizarding Bank',
+  school: 'Beauxbatons Academy of Magic',
+  school_house: 'unknown'
+}
+   
+gabby_delacour = {
+  first_name: 'Gabrielle',
+  last_name: 'Delacour',
+  username: 'gabby.delacour42',
+  email: 'gabby.delacour42@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Witch and Veela',
+  occupation: 'Student Beauxbatons Academy of Magic',
+  school: 'Beauxbatons Academy of Magic',
+  school_house: 'unknown'
+}
+
+krum = {
+  first_name: 'Viktor',
+  last_name: 'Krum',
+  username: 'v.krum43',
+  email: 'v.krum43@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Seeker for the Bulgarian National Quidditch team',
+  school: 'Durmstrang Institute',
+  school_house: 'unknown'
+}
+
+maxime = {
+  first_name: 'Olympe',
+  last_name: 'Maxime',
+  username: 'o.maxime44',
+  email: 'o.maxime44@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Witch and Giant',
+  occupation: 'Headmistress of Beauxbatons Academy of Magic ',
+  school: 'Beauxbatons Academy of Magic',
+  school_house: 'unknown'
+}
+
+karkaroff = {
+  first_name: 'Igor',
+  last_name: 'Karkaroff',
+  username: 'i.karkaroff45',
+  email: 'i.karkaroff45@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Former Headmaster of Durmstrang Institute, Deceased',
+  school: 'Headmaster of Durmstrang Institute',
+  school_house: 'unknown'
+}
+
+lestrange = {
+  first_name: 'Bellatrix',
+  last_name: 'Lestrange',
+  username: 'b.lestrange46',
+  email: 'b.lestrange46@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Witch',
+  occupation: 'Death Eater',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+
+
+
+
+
+
+
+
 
 
 
