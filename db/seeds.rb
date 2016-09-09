@@ -63,11 +63,14 @@ User.create(user4)
 Wand.create(wand1)
 wand = Wand.last
 wand.owner_id = 1
+wand.creator_id = 4
 
 Wand.create(wand2)
 wand = Wand.last
 wand.owner_id = 2
+wand.creator_id = 4
 
 Wand.create(wand3)
 wand = Wand.last
 wand.owner_id = 3
+wand.creator_id = 4
