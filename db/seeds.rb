@@ -591,11 +591,62 @@ lestrange = {
   password: 'a',
   blood_status: 'Pure-blood',
   species: 'Witch',
-  occupation: 'Death Eater',
+  occupation: 'Former Death Eater, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Slytherin'
 }
 
+lucius_malfoy = {
+  first_name: 'Lucius',
+  last_name: 'Malfoy',
+  username: 'l.malfoy47',
+  email: 'l.malfoy47@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Wizard',
+  occupation: 'Former Death Eater',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+
+narcissa_malfoy = {
+  first_name: 'Narcissa',
+  last_name: 'Malfoy',
+  username: 'n.malfoy48',
+  email: 'n.malfoy48@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Witch',
+  occupation: 'Former Death Eater',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+
+pettigrew = {
+  first_name: 'Peter',
+  last_name: 'Pettigrew',
+  username: 'p.pettigrew49',
+  email: 'p.pettigrew49@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Former Death Eater, Deceased',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor'
+}
+
+riddle = {
+  first_name: 'Tom',
+  last_name: 'Riddle',
+  username: 'lordvoldemort50',
+  email: 'lordvoldemort50@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: 'Dark Lord',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
 
 
 
