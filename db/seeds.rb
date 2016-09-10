@@ -1488,53 +1488,424 @@ teddy_lupin_wand = {
   creator_id: 12
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Seed Data for the GringottsAccount Class
 harry_account = {
   user_id: 1,
   balance: 15_000_00,
-  interest_rate: 0.04
+  interest_rate: 0.10
 }
 
 hermione_account = {
   user_id: 2,
   balance: 1_000_000,
-  interest_rate: 0.04
+  interest_rate: 0.10
 }
 
 ron_account = {
   user_id: 3,
   balance: 1_000_000,
-  interest_rate: 0.04
+  interest_rate: 0.10
+}
+
+arthur_account = {
+  user_id: 4,
+  balance: 100_000,
+  interest_rate: 0.10
+}
+
+molly_account = {
+  user_id: 5,
+  balance: 100_000,
+  interest_rate: 0.10 
+}
+
+bill_account = {
+  user_id: 6,
+  balance: 500_000,
+  interest_rate: 0.10
+}
+
+charlie_account = {
+  user_id: 7,
+  balance: 200_000,
+  interest_rate: 0.10
+}
+
+percy_account = {
+  user_id: 8,
+  balance: 2_500_000,
+  interest_rate: 0.10
+}
+
+fredI_account = {
+  user_id: 9,
+  balance: 5_000,
+  interest_rate: 0.10 
+}
+
+george_account = {
+  user_id: 10,
+  balance: 6_000_000,
+  interest_rate: 0.10 
+}
+
+ginny_account = {
+  user_id: 11,
+  balance: 10_000_000,
+  interest_rate: 0.10 
 }
 
 ollivander_account = {
   user_id: 12,
   balance: 3_000_000,
-  interest_rate: 0.04
+  interest_rate: 0.10
 }
+
+sirius = {
+  user_id: 13,
+  balance: 20_000_000,
+  interest_rate: 0.10
+}
+
+hagrid = {
+  user_id: 14,
+  balance: 300_000,
+  interest_rate: 0.10
+}
+
+hooch = {
+  user_id: 15,
+  balance: 400_000,
+  interest_rate: 0.10
+}
+
+lockhart = {
+  user_id: 16,
+  balance: 1_000_000,
+  interest_rate: 0.10
+}
+
+
+lupin = {
+  user_id: 17,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+mcgonagall = {
+  user_id: 18,
+  balance: 1_000_000,
+  interest_rate: 0.10
+}
+
+madeye = {
+  user_id: 19,
+  balance: 600_000,
+  interest_rate: 0.10
+}
+
+quirrell = {
+  user_id: 20,
+  balance: 30_000,
+  interest_rate: 0.10
+}
+
+slughorn = {
+  user_id: 21,
+  balance: 5_000_000,
+  interest_rate: 0.10
+}
+
+snape = {
+  user_id: 22,
+  balance: 750_000,
+  interest_rate: 0.10
+}
+
+sprout = {
+  user_id: 23,
+  balance: 600_000,
+  interest_rate: 0.10
+}
+
+trelawney = {
+  user_id: 24,
+  balance: 100_000,
+  interest_rate: 0.10
+}
+
+james_potterI = {
+  user_id: 25,
+  balance: 40_000_000,
+  interest_rate: 0.10
+}
+
+lily_potter = {
+  user_id: 26,
+  balance: 600_000,
+  interest_rate: 0.10
+}
+
+winky = {
+  user_id: 27,
+  balance: 10_000,
+  interest_rate: 0.10
+}
+
+albus_dumbledore = {
+  user_id: 28,
+  balance: 10_000_000,
+  interest_rate: 0.10
+}
+
+flitwick = {
+  user_id: 29,
+  balance: 500_000,
+  interest_rate: 0.10
+}
+
+abbott = {
+  user_id: 30,
+  balance: 830_000,
+  interest_rate: 0.10
+}
+
+crabbe = {
+  user_id: 31,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+golye = {
+  user_id: 32,
+  balance: 30_000,
+  interest_rate: 0.10
+}
+
+diggory = {
+  user_id: 33,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+finnigan = {
+  user_id: 34,
+  balance: 300_000,
+  interest_rate: 0.10
+}
+
+longbottom = {
+  user_id: 35,
+  balance: 1_500_000,
+  interest_rate: 0.10
+}
+
+lovegood = {
+  user_id: 36,
+  balance: 500_000,
+  interest_rate: 0.10
+}
+
+malfoy = {
+  user_id: 37,
+  balance: 20_000_000,
+  interest_rate: 0.10
+}
+
+shacklebolt = {
+  user_id: 38,
+  balance: 3_000_000,
+  interest_rate: 0.10
+}
+
+tonks = {
+  user_id: 39,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+umbridge = {
+  user_id: 40,
+  balance: 300_000,
+  interest_rate: 0.10
+}
+
+delacour = {
+  user_id: 41,
+  balance: 900_000,
+  interest_rate: 0.10
+}
+
+gabby_delacour = {
+  user_id: 42,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+krum = {
+  user_id: 43,
+  balance: 10_000_000,
+  interest_rate: 0.10
+}
+
+maxime = {
+  user_id: 44,
+  balance: 930_000,
+  interest_rate: 0.10
+}
+
+karkaroff = {
+  user_id: 45,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+lestrange = {
+  user_id: 46,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+lucius_malfoy = {
+  user_id: 47,
+  balance: 30_000_000,
+  interest_rate: 0.10
+}
+
+narcissa_malfoy = {
+  user_id: 48,
+  balance: 35_000_000,
+  interest_rate: 0.10
+}
+
+pettigrew = {
+  user_id: 49,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+riddle = {
+  user_id: 50,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+dobby = {
+  user_id: 51,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+aberforth = {
+  user_id: 52,
+  balance: 800_000,
+  interest_rate: 0.10
+}
+
+gregorovitch = {
+  user_id: 53,
+  balance: 700_000,
+  interest_rate: 0.10
+}
+
+james_potterII = {
+  user_id: 54,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+albus_potter = {
+  user_id: 55,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+lily_luna_potter = {
+  user_id: 56,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+rose_granger_weasley = {
+  user_id: 57,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+hugo_granger_weasley = {
+  user_id: 58,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+audrey_weasley = {
+  user_id: 59,
+  balance: 650_000,
+  interest_rate: 0.10
+}
+
+victoire_weasley = {
+  user_id: 60,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+dominique_weasley = {
+  user_id: 61,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+louis_weasley = {
+  user_id: 62,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+angelina_johnson = {
+  user_id: 63,
+  balance: 300_000,
+  interest_rate: 0.10
+}
+
+fred_weasleyII = {
+  user_id: 64,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+roxanne_weasley = {
+  user_id: 65,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+molly_weasleyII = {
+  user_id: 66,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+lucy_weasley = {
+  user_id: 67,
+  balance: 500,
+  interest_rate: 0.10
+}
+
+teddy_lupin = {
+  user_id: 68,
+  balance: 10_000,
+  interest_rate: 0.10
+}
+
+
+
+
+
+
+
+
+
 
 # Seed Data for the Article Class
 harry_article = {
