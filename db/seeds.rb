@@ -742,9 +742,215 @@ gregorovitch = {
   patronus: nil
 }
 
+james_potterII = {
+  first_name: 'James',
+  last_name: 'Potter II',
+  username: 'james_potter54',
+  email: 'james_potter54@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: 'Student at Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
 
+albus_potter = {
+  first_name: 'Albus',
+  last_name: 'Potter',
+  username: 'a.potter55',
+  email: 'a.potter55@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
 
+lily_luna_potter = {
+  first_name: 'Lily',
+  last_name: 'Potter II',
+  username: 'lily_luna_potter56',
+  email: 'lily_luna_potter56@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
 
+rose_granger_weasley = {
+  first_name: 'Rose',
+  last_name: 'Granger-Weasley',
+  username: 'r.granger-weasley57',
+  email: 'r.granger-weasley57@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+hugo_granger_weasley = {
+  first_name: 'Hugo',
+  last_name: 'Granger-Weasley',
+  username: 'h.granger-weasley58',
+  email: 'h.granger-weasley58@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+audrey_weasley = {
+  first_name: 'Audrey',
+  last_name: 'Weasley',
+  username: 'audrey_weasley59',
+  email: 'audrey_weasley59@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: nil,
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: nil,
+  patronus: nil
+} 
+
+victoire_weasley = {
+  first_name: 'Victoire',
+  last_name: 'Weasley',
+  username: 'v.weasley60',
+  email: 'v.weasley60@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Witch and Veela',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: nil,
+  patronus: nil
+}
+
+dominique_weasley = {
+  first_name: 'Dominique',
+  last_name: 'Weasley',
+  username: 'dweasley61',
+  email: 'dweasley61@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Witch and Veela',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: nil,
+  patronus: nil
+}
+
+louis_weasley = {
+  first_name: 'Louis',
+  last_name: 'Weasley',
+  username: 'louis_weasley62',
+  email: 'louis_weasley62@gmail.com',
+  password: 'a',
+  blood_status: 'Part-Human',
+  species: 'Wizard and Veela',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: nil,
+  patronus: nil
+}
+
+angelina_johnson = {
+  first_name: 'Angelina',
+  last_name: 'Weasley',
+  username: 'angelina_johnson63',
+  email: 'angelina_johnson63@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'unknown',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+fred_weasleyII = {
+  first_name: 'Fred',
+  last_name: 'Weasley II',
+  username: 'fred_weasleyII64',
+  email: 'fred_weasleyII64@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+} 
+
+roxanne_weasley = {
+  first_name: 'Roxanne',
+  last_name: 'Weasley',
+  username: 'roxanne_weasley65',
+  email: 'roxanne_weasley65@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+molly_weasleyII = {
+  first_name: 'Molly',
+  last_name: 'Weasley II',
+  username: 'molly_weasleyII66',
+  email: 'molly_weasleyII66@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+lucy_weasley = {
+  first_name: 'Lucy',
+  last_name: 'Weasley',
+  username: 'lucy_weasley67',
+  email: 'lucy_weasley67@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: nil
+}
+
+teddy_lupin = {
+  first_name: 'Teddy',
+  last_name: 'Lupin',
+  username: 'teddy_lupin68',
+  email: 'teddy_lupin68@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: 'Student Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Hufflepuff',
+  patronus: nil
+}
 
 
 
@@ -1162,11 +1368,125 @@ gregorovitch = {
   creator_id: nil
 }
 
+james_potterII_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 54,
+  creator_id: 12
+}
 
+albus_potter_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 55,
+  creator_id: 12
+}
 
+lily_luna_potter_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 56,
+  creator_id: 12
+}
 
+rose_granger_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 57,
+  creator_id: 12
+}
 
+hugo_granger_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 58,
+  creator_id: 12
+}
 
+audrey_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 59,
+  creator_id: 12
+}
+
+victoire_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 60,
+  creator_id: 12
+}
+
+dominique_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 61,
+  creator_id: 12
+}
+
+louis_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 62,
+  creator_id: 12
+}
+
+angelina_johnson_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 63,
+  creator_id: 12
+}
+
+fred_weasleyII_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 64,
+  creator_id: 12
+} 
+
+roxanne_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 65,
+  creator_id: 12
+}
+
+molly_weasleyII_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 66,
+  creator_id: 12
+}
+
+lucy_weasley_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 67,
+  creator_id: 12
+}
+
+teddy_lupin_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 68,
+  creator_id: 12
+}
 
 
 
