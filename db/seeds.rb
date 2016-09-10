@@ -1561,338 +1561,338 @@ ollivander_account = {
   interest_rate: 0.10
 }
 
-sirius = {
+sirius_account = {
   user_id: 13,
   balance: 20_000_000,
   interest_rate: 0.10
 }
 
-hagrid = {
+hagrid_account = {
   user_id: 14,
   balance: 300_000,
   interest_rate: 0.10
 }
 
-hooch = {
+hooch_account = {
   user_id: 15,
   balance: 400_000,
   interest_rate: 0.10
 }
 
-lockhart = {
+lockhart_account = {
   user_id: 16,
   balance: 1_000_000,
   interest_rate: 0.10
 }
 
 
-lupin = {
+lupin_account = {
   user_id: 17,
   balance: 0,
   interest_rate: 0.10
 }
 
-mcgonagall = {
+mcgonagall_account = {
   user_id: 18,
   balance: 1_000_000,
   interest_rate: 0.10
 }
 
-madeye = {
+madeye_account = {
   user_id: 19,
   balance: 600_000,
   interest_rate: 0.10
 }
 
-quirrell = {
+quirrell_account = {
   user_id: 20,
   balance: 30_000,
   interest_rate: 0.10
 }
 
-slughorn = {
+slughorn_account = {
   user_id: 21,
   balance: 5_000_000,
   interest_rate: 0.10
 }
 
-snape = {
+snape_account = {
   user_id: 22,
   balance: 750_000,
   interest_rate: 0.10
 }
 
-sprout = {
+sprout_account = {
   user_id: 23,
   balance: 600_000,
   interest_rate: 0.10
 }
 
-trelawney = {
+trelawney_account = {
   user_id: 24,
   balance: 100_000,
   interest_rate: 0.10
 }
 
-james_potterI = {
+james_potterI_account = {
   user_id: 25,
   balance: 40_000_000,
   interest_rate: 0.10
 }
 
-lily_potter = {
+lily_potter_account = {
   user_id: 26,
   balance: 600_000,
   interest_rate: 0.10
 }
 
-winky = {
+winky_account = {
   user_id: 27,
   balance: 10_000,
   interest_rate: 0.10
 }
 
-albus_dumbledore = {
+albus_dumbledore_account = {
   user_id: 28,
   balance: 10_000_000,
   interest_rate: 0.10
 }
 
-flitwick = {
+flitwick_account = {
   user_id: 29,
   balance: 500_000,
   interest_rate: 0.10
 }
 
-abbott = {
+abbott_account = {
   user_id: 30,
   balance: 830_000,
   interest_rate: 0.10
 }
 
-crabbe = {
+crabbe_account = {
   user_id: 31,
   balance: 0,
   interest_rate: 0.10
 }
 
-golye = {
+golye_account = {
   user_id: 32,
   balance: 30_000,
   interest_rate: 0.10
 }
 
-diggory = {
+diggory_account = {
   user_id: 33,
   balance: 0,
   interest_rate: 0.10
 }
 
-finnigan = {
+finnigan_account = {
   user_id: 34,
   balance: 300_000,
   interest_rate: 0.10
 }
 
-longbottom = {
+longbottom_account = {
   user_id: 35,
   balance: 1_500_000,
   interest_rate: 0.10
 }
 
-lovegood = {
+lovegood_account = {
   user_id: 36,
   balance: 500_000,
   interest_rate: 0.10
 }
 
-malfoy = {
+malfoy_account = {
   user_id: 37,
   balance: 20_000_000,
   interest_rate: 0.10
 }
 
-shacklebolt = {
+shacklebolt_account = {
   user_id: 38,
   balance: 3_000_000,
   interest_rate: 0.10
 }
 
-tonks = {
+tonks_account = {
   user_id: 39,
   balance: 0,
   interest_rate: 0.10
 }
 
-umbridge = {
+umbridge_account = {
   user_id: 40,
   balance: 300_000,
   interest_rate: 0.10
 }
 
-delacour = {
+delacour_account = {
   user_id: 41,
   balance: 900_000,
   interest_rate: 0.10
 }
 
-gabby_delacour = {
+gabby_delacour_account = {
   user_id: 42,
   balance: 500,
   interest_rate: 0.10
 }
 
-krum = {
+krum_account = {
   user_id: 43,
   balance: 10_000_000,
   interest_rate: 0.10
 }
 
-maxime = {
+maxime_account = {
   user_id: 44,
   balance: 930_000,
   interest_rate: 0.10
 }
 
-karkaroff = {
+karkaroff_account = {
   user_id: 45,
   balance: 0,
   interest_rate: 0.10
 }
 
-lestrange = {
+lestrange_account = {
   user_id: 46,
   balance: 0,
   interest_rate: 0.10
 }
 
-lucius_malfoy = {
+lucius_malfoy_account = {
   user_id: 47,
   balance: 30_000_000,
   interest_rate: 0.10
 }
 
-narcissa_malfoy = {
+narcissa_malfoy_account = {
   user_id: 48,
   balance: 35_000_000,
   interest_rate: 0.10
 }
 
-pettigrew = {
+pettigrew_account = {
   user_id: 49,
   balance: 0,
   interest_rate: 0.10
 }
 
-riddle = {
+riddle_account = {
   user_id: 50,
   balance: 0,
   interest_rate: 0.10
 }
 
-dobby = {
+dobby_account = {
   user_id: 51,
   balance: 0,
   interest_rate: 0.10
 }
 
-aberforth = {
+aberforth_account = {
   user_id: 52,
   balance: 800_000,
   interest_rate: 0.10
 }
 
-gregorovitch = {
+gregorovitch_account = {
   user_id: 53,
   balance: 700_000,
   interest_rate: 0.10
 }
 
-james_potterII = {
+james_potterII_account = {
   user_id: 54,
   balance: 500,
   interest_rate: 0.10
 }
 
-albus_potter = {
+albus_potter_account = {
   user_id: 55,
   balance: 500,
   interest_rate: 0.10
 }
 
-lily_luna_potter = {
+lily_luna_potter_account = {
   user_id: 56,
   balance: 500,
   interest_rate: 0.10
 }
 
-rose_granger_weasley = {
+rose_granger_weasley_account = {
   user_id: 57,
   balance: 500,
   interest_rate: 0.10
 }
 
-hugo_granger_weasley = {
+hugo_granger_weasley_account = {
   user_id: 58,
   balance: 500,
   interest_rate: 0.10
 }
 
-audrey_weasley = {
+audrey_weasley_account = {
   user_id: 59,
   balance: 650_000,
   interest_rate: 0.10
 }
 
-victoire_weasley = {
+victoire_weasley_account = {
   user_id: 60,
   balance: 500,
   interest_rate: 0.10
 }
 
-dominique_weasley = {
+dominique_weasley_account = {
   user_id: 61,
   balance: 500,
   interest_rate: 0.10
 }
 
-louis_weasley = {
+louis_weasley_account = {
   user_id: 62,
   balance: 500,
   interest_rate: 0.10
 }
 
-angelina_johnson = {
+angelina_johnson_account = {
   user_id: 63,
   balance: 300_000,
   interest_rate: 0.10
 }
 
-fred_weasleyII = {
+fred_weasleyII_account = {
   user_id: 64,
   balance: 500,
   interest_rate: 0.10
 }
 
-roxanne_weasley = {
+roxanne_weasley_account = {
   user_id: 65,
   balance: 500,
   interest_rate: 0.10
 }
 
-molly_weasleyII = {
+molly_weasleyII_account = {
   user_id: 66,
   balance: 500,
   interest_rate: 0.10
 }
 
-lucy_weasley = {
+lucy_weasley_account = {
   user_id: 67,
   balance: 500,
   interest_rate: 0.10
 }
 
-teddy_lupin = {
+teddy_lupin_account = {
   user_id: 68,
   balance: 10_000,
   interest_rate: 0.10
