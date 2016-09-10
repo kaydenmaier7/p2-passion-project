@@ -66,11 +66,14 @@
 <row name="school_house" null="1" autoincrement="0">
 <datatype>VARCHAR</datatype>
 <default>NULL</default></row>
+<row name="patronus" null="1" autoincrement="0">
+<datatype>VARCHAR</datatype>
+<default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="1514" y="109" name="wands">
+<table x="1437" y="125" name="wands">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -95,7 +98,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="113" y="103" name="relationships">
+<table x="159" y="120" name="relationships">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>

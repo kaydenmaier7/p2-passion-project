@@ -10,7 +10,8 @@ harry = {
   species: 'Wizard',
   occupation: 'Head of the Department of Magical Law Enforcement',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Stag'
 }
 
 hermione = {
@@ -23,7 +24,8 @@ hermione = {
   species: 'Witch',
   occupation: 'Deputy Head of the Department of Magical Law Enforcement',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Otter'
 }
 
 ron = {
@@ -36,7 +38,8 @@ ron = {
   species: 'Wizard',
   occupation: "Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Jack Russell Terrier'
 }
 
 arthur = {
@@ -49,7 +52,8 @@ arthur = {
   species: 'Wizard',
   occupation: 'Head of the Office for the Detection and Confiscation of Counterfeit Defensive Spells and Protective Objects',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Weasel'
 }
 
 molly = {
@@ -62,7 +66,8 @@ molly = {
   species: 'Witch',
   occupation: 'Stay At Home Mom',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 bill = {
@@ -75,7 +80,8 @@ bill = {
   species: 'Wizard',
   occupation: 'Curse Breaker for Gringotts Bank',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 charlie = {
@@ -88,7 +94,8 @@ charlie = {
   species: 'Wizard',
   occupation: 'Dragonologist',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 percy = {
@@ -101,7 +108,8 @@ percy = {
   species: 'Wizard',
   occupation: 'Head of the Department of Magical Transportation',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 fredI = {
@@ -114,7 +122,8 @@ fredI = {
   species: 'Wizard',
   occupation: "Deceased... Former Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 george = {
@@ -127,7 +136,8 @@ george = {
   species: 'Wizard',
   occupation: "Co-owner and Co-manager of Weasleys' Wizard Wheezes ",
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 ginny = {
@@ -140,7 +150,8 @@ ginny = {
   species: 'Witch',
   occupation: 'Sports Editor for the Daily Prophet',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'horse'
 }
 
 ollivander = {
@@ -153,7 +164,8 @@ ollivander = {
   species: 'Wizard',
   occupation: 'Wandmaker',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: nil
 }
 
 sirius = {
@@ -166,11 +178,12 @@ sirius = {
   species: 'Wizard',
   occupation: '',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 hagrid = {
-  first_name: 'Ruebeus',
+  first_name: 'Rubeus',
   last_name: 'Hagrid',
   username: 'hagrid14',
   email: 'hagrid14@gmail.com',
@@ -179,7 +192,8 @@ hagrid = {
   species: 'Wizard and Giant',
   occupation: 'Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 hooch = {
@@ -192,7 +206,8 @@ hooch = {
   species: 'Witch',
   occupation: 'Flying Instructor at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: 'Non-Corporeal'
 }
 
 lockhart = {
@@ -205,7 +220,8 @@ lockhart = {
   species: 'Wizard',
   occupation: 'Author and Former Professor of Defense Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: 'Non-Corporeal'
 }
 
 lupin = {
@@ -218,7 +234,8 @@ lupin = {
   species: 'Wizard and Werewolf',
   occupation: 'Deceased, Former Professor of Defense Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Wolf'
 }
 
 mcgonagall = {
@@ -231,7 +248,8 @@ mcgonagall = {
   species: 'Witch',
   occupation: 'Headmistress of Hogwarts School of Witchcraft and Wizardry, Former Professor of Transfiguration at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Cat'
 }
 
 madeye = {
@@ -244,7 +262,8 @@ madeye = {
   species: 'Wizard',
   occupation: 'Retired Auror, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
 
 quirrell = {
@@ -257,7 +276,8 @@ quirrell = {
   species: 'Wizard',
   occupation: 'Former Professor of Defense Against the Dark Arts, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: 'Non-Corporeal'
 }
 
 slughorn = {
@@ -270,7 +290,8 @@ slughorn = {
   species: 'Wizard',
   occupation: 'Potions Master at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 snape = {
@@ -283,7 +304,8 @@ snape = {
   species: 'Wizard',
   occupation: 'Former Potions Master at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: 'Doe'
 }
 
 sprout = {
@@ -296,7 +318,8 @@ sprout = {
   species: 'Witch',
   occupation: 'Professor of Herbology at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Hufflepuff'
+  school_house: 'Hufflepuff',
+  patronus: 'Non-Corporeal'
 }
 
 trelawney = {
@@ -309,7 +332,8 @@ trelawney = {
   species: 'Witch',
   occupation: 'Professor of Divination at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: 'Non-Corporeal'
 }
 
 james_potterI = {
@@ -322,7 +346,8 @@ james_potterI = {
   species: 'Wizard',
   occupation: 'Former Fighter for the Order of the Phoenix, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Stag'
 }
 
 lily_potter = {
@@ -335,7 +360,8 @@ lily_potter = {
   species: 'Witch',
   occupation: 'Former Fighter for the Order of the Phoenix, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Doe'
 }
 
 winky = {
@@ -348,7 +374,8 @@ winky = {
   species: 'House-Elf',
   occupation: 'Hogwarts kitchens worker',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: nil
+  school_house: nil,
+  patronus: nil
 }
 
 albus_dumbledore = {
@@ -361,7 +388,8 @@ albus_dumbledore = {
   species: 'Wizard',
   occupation: 'Headmaster of Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Phoenix'
 }
 
 flitwick = {
@@ -374,7 +402,8 @@ flitwick = {
   species: 'Wizard and Goblin',
   occupation: 'Charms Master at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: 'Non-Corporeal'
 }
 
 abbott = {
@@ -387,7 +416,8 @@ abbott = {
   species: 'Witch',
   occupation: 'Landlady of the Leaky Cauldron',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Hufflepuff'
+  school_house: 'Hufflepuff',
+  patronus: nil
 }
 
 crabbe = {
@@ -400,7 +430,8 @@ crabbe = {
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 golye = {
@@ -413,7 +444,8 @@ golye = {
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 diggory = {
@@ -426,7 +458,8 @@ diggory = {
   species: 'Wizard',
   occupation: 'Former Student at Hogwarts School of Witchcraft and Wizardry, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Hufflepuff'
+  school_house: 'Hufflepuff',
+  patronus: nil
 }
 
 finnigan = {
@@ -439,7 +472,8 @@ finnigan = {
   species: 'Wizard',
   occupation: 'unknown',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Fox'
 }
 
 longbottom = {
@@ -452,7 +486,8 @@ longbottom = {
   species: 'Wizard',
   occupation: 'Professor of Herbology at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: 'Non-Corporeal'
 }
 
 lovegood = {
@@ -465,7 +500,8 @@ lovegood = {
   species: 'Witch',
   occupation: 'Magizoologist',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Ravenclaw'
+  school_house: 'Ravenclaw',
+  patronus: 'Hare'
 }
 
 malfoy = {
@@ -478,7 +514,8 @@ malfoy = {
   species: 'Wizard',
   occupation: 'None',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 shacklebolt = {
@@ -491,7 +528,8 @@ shacklebolt = {
   species: 'Wizard',
   occupation: 'Minister For Magic',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: 'Lynx'
 }
 
 tonks = {
@@ -504,7 +542,8 @@ tonks = {
   species: 'Witch',
   occupation: 'Auror',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Hufflepuff'
+  school_house: 'Hufflepuff',
+  patronus: 'Wolf'
 }
 
 umbridge = {
@@ -517,7 +556,8 @@ umbridge = {
   species: 'Witch',
   occupation: 'Former Head of the Muggle-Born Registration Commission, sent to Azkaban',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: 'Persian Cat'
 }
 
 delacour = {
@@ -530,7 +570,8 @@ delacour = {
   species: 'Witch and Veela',
   occupation: 'Part-time at Gringotts Wizarding Bank',
   school: 'Beauxbatons Academy of Magic',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
    
 gabby_delacour = {
@@ -543,7 +584,8 @@ gabby_delacour = {
   species: 'Witch and Veela',
   occupation: 'Student Beauxbatons Academy of Magic',
   school: 'Beauxbatons Academy of Magic',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
 
 krum = {
@@ -556,7 +598,8 @@ krum = {
   species: 'Wizard',
   occupation: 'Seeker for the Bulgarian National Quidditch team',
   school: 'Durmstrang Institute',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
 
 maxime = {
@@ -569,7 +612,8 @@ maxime = {
   species: 'Witch and Giant',
   occupation: 'Headmistress of Beauxbatons Academy of Magic ',
   school: 'Beauxbatons Academy of Magic',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
 
 karkaroff = {
@@ -582,7 +626,8 @@ karkaroff = {
   species: 'Wizard',
   occupation: 'Former Headmaster of Durmstrang Institute, Deceased',
   school: 'Headmaster of Durmstrang Institute',
-  school_house: 'unknown'
+  school_house: 'unknown',
+  patronus: nil
 }
 
 lestrange = {
@@ -595,7 +640,8 @@ lestrange = {
   species: 'Witch',
   occupation: 'Former Death Eater, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 lucius_malfoy = {
@@ -608,7 +654,8 @@ lucius_malfoy = {
   species: 'Wizard',
   occupation: 'Former Death Eater',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 narcissa_malfoy = {
@@ -621,7 +668,8 @@ narcissa_malfoy = {
   species: 'Witch',
   occupation: 'Former Death Eater',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
 }
 
 pettigrew = {
@@ -634,7 +682,8 @@ pettigrew = {
   species: 'Wizard',
   occupation: 'Former Death Eater, Deceased',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Gryffindor'
+  school_house: 'Gryffindor',
+  patronus: nil
 }
 
 riddle = {
@@ -647,7 +696,50 @@ riddle = {
   species: 'Wizard',
   occupation: 'Dark Lord',
   school: 'Hogwarts School of Witchcraft and Wizardry',
-  school_house: 'Slytherin'
+  school_house: 'Slytherin',
+  patronus: nil
+}
+
+dobby = {
+  first_name: 'Dobby',
+  last_name: nil,
+  username: 'dobby51',
+  email: 'dobby51@gmail.com',
+  password: 'a',
+  blood_status: nil,
+  species: 'House-Elf',
+  occupation: 'Former Hogwarts Kitchens Worker, Deceased',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: nil,
+  patronus: nil
+}
+
+aberforth = {
+  first_name: 'Aberforth',
+  last_name: 'Dumbledore',
+  username: 'a.dumbledore52',
+  email: 'a.dumbledore52@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Wizard',
+  occupation: "Owner and Barman of the Hog's Head Inn",
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor',
+  patronus: 'Goat'
+}
+
+gregorovitch = {
+  first_name: 'Mykew',
+  last_name: 'Gregorovitch',
+  username: 'm.gregorovitch53',
+  email: 'm.gregorovitch53@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Wandmaker',
+  school: 'unknown',
+  school_house: 'unknown',
+  patronus: nil
 }
 
 # Seed Data for the Wand Class
@@ -676,9 +768,69 @@ ron_wand = {
   creator_id: 12
 }
 
+arthur_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 4,
+  creator_id: 12
+}
 
+molly_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 5,
+  creator_id: 12
+}
 
+bill_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 6,
+  creator_id: 12
+}
 
+charlie_wand = {
+  length: 12,
+  core: 'Unicorn Hair',
+  wood_type: 'Ash',
+  owner_id: 7,
+  creator_id: 12
+}
+
+percy_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 8,
+  creator_id: 12
+}
+
+fredI_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 9,
+  creator_id: 12
+}
+
+george_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 10,
+  creator_id: 12
+}
+
+ginny_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'Yew',
+  owner_id: 11,
+  creator_id: 12
+}
 
 ollivander_wand = {
   length: 12.75,
@@ -687,6 +839,346 @@ ollivander_wand = {
   owner_id: 12,
   creator_id: 12
 }
+
+sirius_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 13,
+  creator_id: 12
+}
+
+hagrid_wand = {
+  length: 16,
+  core: 'unknown',
+  wood_type: 'Oak',
+  owner_id: 14,
+  creator_id: 12
+}
+
+hooch_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 15,
+  creator_id: 12
+}
+
+lockhart_wand = {
+  length: 9,
+  core: 'Dragon Heartstring',
+  wood_type: 'Cherry',
+  owner_id: 16,
+  creator_id: 12
+}
+
+lupin_wand = {
+  length: 10.25,
+  core: 'Unicorn Hair',
+  wood_type: 'Cypress',
+  owner_id: 17,
+  creator_id: 12
+}
+
+mcgonagall_wand = {
+  length: 9.50,
+  core: 'Dragon Heartstring',
+  wood_type: 'Fir',
+  owner_id: 18,
+  creator_id: 12
+}
+
+madeye_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 19,
+  creator_id: 12
+}
+
+quirrell_wand = {
+  length: 9,
+  core: 'Unicorn Hair',
+  wood_type: 'Alder',
+  owner_id: 20,
+  creator_id: 12
+}
+
+slughorn_wand = {
+  length: 10.25,
+  core: 'Dragon Heartstring',
+  wood_type: 'Cedar',
+  owner_id: 21,
+  creator_id: 12
+}
+
+snape_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 22,
+  creator_id: 12
+}
+
+sprout_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 23,
+  creator_id: 12
+}
+
+trelawney_wand = {
+  length: 9.50,
+  core: 'Unicorn Hair',
+  wood_type: 'Hazel',
+  owner_id: 24,
+  creator_id: 12
+}
+
+james_potterI_wand = {
+  length: 11,
+  core: 'unknown',
+  wood_type: 'Mahogany',
+  owner_id: 25,
+  creator_id: 12
+}
+
+lily_potter_wand = {
+  length: 10.25,
+  core: 'unknown',
+  wood_type: 'Willow',
+  owner_id: 26,
+  creator_id: 12
+}
+
+albus_dumbledore_wand = {
+  length: 15,
+  core: 'Thestral Tail Hair',
+  wood_type: 'Elder',
+  owner_id: 28,
+  creator_id: 12
+}
+
+flitwick_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 29,
+  creator_id: 12
+}
+
+abbott_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 30,
+  creator_id: 12
+}
+
+crabbe_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 31,
+  creator_id: 12
+}
+
+golye_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 32,
+  creator_id: 12
+}
+
+diggory_wand = {
+  length: 12.25,
+  core: 'Unicorn Hair',
+  wood_type: 'Ash',
+  owner_id: 33,
+  creator_id: 12
+}
+
+finnigan_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 34,
+  creator_id: 12
+}
+
+longbottom_wand = {
+  length: 13,
+  core: 'Unicorn Hair',
+  wood_type: 'Cherry',
+  owner_id: 35,
+  creator_id: 12
+}
+
+lovegood_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 36,
+  creator_id: 12
+}
+
+malfoy_wand = {
+  length: 10,
+  core: 'Unicorn Hair',
+  wood_type: 'Hawthorn',
+  owner_id: 37,
+  creator_id: 12
+}
+
+shacklebolt_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 38,
+  creator_id: 12
+}
+
+tonks_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 39,
+  creator_id: 12
+}
+
+umbridge_wand = {
+  length: 8,
+  core: 'Dragon Heartstring',
+  wood_type: 'Birchwood',
+  owner_id: 40,
+  creator_id: 12
+}
+
+delacour_wand = {
+  length: 9.50,
+  core: 'Veela Hair',
+  wood_type: 'Rosewood',
+  owner_id: 41,
+  creator_id: nil
+}
+
+gabby_delacour_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 42,
+  creator_id: nil
+}
+
+krum_wand = {
+  length: 10.25,
+  core: 'Dragon Heartstring',
+  wood_type: 'Hornbeam',
+  owner_id: 43,
+  creator_id: 53
+}
+
+maxime_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 44,
+  creator_id: 12 djfasl;kjs
+}
+
+karkaroff_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 45,
+  creator_id: 12 ldjsfls;ak
+}
+
+lestrange_wand = {
+  length: 12.75,
+  core: 'Dragon Heartstring',
+  wood_type: 'Walnut',
+  owner_id: 46,
+  creator_id: 12
+}
+
+lucius_malfoy_wand = {
+  length: 18,
+  core: 'Dragon Heartstring',
+  wood_type: 'Elm',
+  owner_id: 47,
+  creator_id: 12
+}
+
+narcissa_malfoy_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 48,
+  creator_id: 12
+}
+
+pettigrew_wand = {
+  length: 9.25,
+  core: 'Dragon Heartstring',
+  wood_type: 'Chestnut',
+  owner_id: 49,
+  creator_id: 12
+}
+
+riddle_wand = {
+  length: 13.5,
+  core: 'Phoenix Tail Feather',
+  wood_type: 'Yew',
+  owner_id: 50,
+  creator_id: 12
+}
+
+aberforth_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 52,
+  creator_id: 12
+}
+
+gregorovitch = {
+  length: 15,
+  core: 'Thestral Tail Hair',
+  wood_type: 'Elder',
+  owner_id: 53,
+  creator_id: nil
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Seed Data for the GringottsAccount Class
