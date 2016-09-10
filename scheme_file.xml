@@ -165,7 +165,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="525" y="651" name="owls">
+<table x="525" y="651" name="pets">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>

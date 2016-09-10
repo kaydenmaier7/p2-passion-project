@@ -742,6 +742,16 @@ gregorovitch = {
   patronus: nil
 }
 
+
+
+
+
+
+
+
+
+
+
 # Seed Data for the Wand Class
 harry_wand = {
   length: 11,
