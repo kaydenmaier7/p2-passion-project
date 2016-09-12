@@ -9714,6 +9714,2562 @@ lily_luna_potter_relationship27 = {
     # godparents
 }
 
+rose_granger_weasley_relationship1 = {
+    # relative name: Harry
+  user_id: 57,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship2 = {
+    # relative name: Hermione 
+  user_id: 57,
+  relative_id: 2,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship3 = {
+    # relative name: Ron 
+  user_id: 57,
+  relative_id: 3,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship4 = {
+    # relative name: Arthur
+  user_id: 57,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship5 = {
+    # relative name: Molly I
+  user_id: 57,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship6 = {
+    # relative name: Bill
+  user_id: 57,
+  relative_id: 6,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship7 = {
+    # relative name: Charlie
+  user_id: 57,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship8 = {
+    # relative name: Percy
+  user_id: 57,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship9 = {
+    # relative name: FredI
+  user_id: 57,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship10 = {
+    # relative name: George 
+  user_id: 57,
+  relative_id: 10,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship11 = {
+    # relative name: Ginny 
+  user_id: 57,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship12 = {
+    # relative name: Fleur
+  user_id: 57,
+  relative_id: 41,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship13 = {
+    # relative name: James II
+  user_id: 57,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 57,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 57,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship16 = {
+    # relative name: Hugo
+  user_id: 57,
+  relative_id: 58,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship17 = {
+    # relative name: Audrey
+  user_id: 57,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship18 = {
+    # relative name: Victoire
+  user_id: 57,
+  relative_id: 60,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship19 = {
+    # relative name: Dominique
+  user_id: 57,
+  relative_id: 61,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship20 = {
+    # relative name: Louis
+  user_id: 57,
+  relative_id: 62,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship21 = {
+    # relative name: Angelina
+  user_id: 57,
+  relative_id: 63,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship22 = {
+    # relative name: Fred II 
+  user_id: 57,
+  relative_id: 64,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship23 = {
+    # relative name: Roxanne
+  user_id: 57,
+  relative_id: 65,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship24 = {
+    # relative name: Molly II
+  user_id: 57,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+rose_granger_weasley_relationship25 = {
+    # relative name: Lucy
+  user_id: 57,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship1 = {
+    # relative name: Harry
+  user_id: 58,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship2 = {
+    # relative name: Hermione 
+  user_id: 58,
+  relative_id: 2,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship3 = {
+    # relative name: Ron 
+  user_id: 58,
+  relative_id: 3,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship4 = {
+    # relative name: Arthur
+  user_id: 58,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship5 = {
+    # relative name: Molly I
+  user_id: 58,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship6 = {
+    # relative name: Bill
+  user_id: 58,
+  relative_id: 6,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship7 = {
+    # relative name: Charlie
+  user_id: 58,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship8 = {
+    # relative name: Percy
+  user_id: 58,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship9 = {
+    # relative name: FredI
+  user_id: 58,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship10 = {
+    # relative name: George 
+  user_id: 58,
+  relative_id: 10,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship11 = {
+    # relative name: Ginny 
+  user_id: 58,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship12 = {
+    # relative name: Fleur
+  user_id: 58,
+  relative_id: 41,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship13 = {
+    # relative name: James II
+  user_id: 58,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 58,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 58,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship16 = {
+    # relative name: Hugo
+  user_id: 58,
+  relative_id: 57,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship17 = {
+    # relative name: Audrey
+  user_id: 58,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship18 = {
+    # relative name: Victoire
+  user_id: 58,
+  relative_id: 60,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship19 = {
+    # relative name: Dominique
+  user_id: 58,
+  relative_id: 61,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship20 = {
+    # relative name: Louis
+  user_id: 58,
+  relative_id: 62,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship21 = {
+    # relative name: Angelina
+  user_id: 58,
+  relative_id: 63,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship22 = {
+    # relative name: Fred II 
+  user_id: 58,
+  relative_id: 64,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship23 = {
+    # relative name: Roxanne
+  user_id: 58,
+  relative_id: 65,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship24 = {
+    # relative name: Molly II
+  user_id: 58,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+hugo_granger_weasley_relationship25 = {
+    # relative name: Lucy
+  user_id: 58,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship1 = {
+    # relative name: Harry
+  user_id: 60,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship2 = {
+    # relative name: Hermione 
+  user_id: 60,
+  relative_id: 2,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship3 = {
+    # relative name: Ron 
+  user_id: 60,
+  relative_id: 3,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship4 = {
+    # relative name: Arthur
+  user_id: 60,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship5 = {
+    # relative name: Molly I
+  user_id: 60,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship6 = {
+    # relative name: Bill
+  user_id: 60,
+  relative_id: 6,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship7 = {
+    # relative name: Charlie
+  user_id: 60,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship8 = {
+    # relative name: Percy
+  user_id: 60,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship9 = {
+    # relative name: FredI
+  user_id: 60,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship10 = {
+    # relative name: George 
+  user_id: 60,
+  relative_id: 10,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship11 = {
+    # relative name: Ginny 
+  user_id: 60,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship12 = {
+    # relative name: Fleur
+  user_id: 60,
+  relative_id: 41,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship13 = {
+    # relative name: James II
+  user_id: 60,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 60,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 60,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship16 = {
+    # relative name: Rose
+  user_id: 60,
+  relative_id: 57,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship17 = {
+    # relative name: Hugo
+  user_id: 60,
+  relative_id: 58,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship18 = {
+    # relative name: Audrey
+  user_id: 60,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
+victoire_weasley_relationship19 = {
+    # relative name: Dominique
+  user_id: 60,
+  relative_id: 61,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship20 = {
+    # relative name: Louis
+  user_id: 60,
+  relative_id: 62,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship21 = {
+    # relative name: Angelina
+  user_id: 60,
+  relative_id: 63,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship22 = {
+    # relative name: Fred II 
+  user_id: 60,
+  relative_id: 64,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship23 = {
+    # relative name: Roxanne
+  user_id: 60,
+  relative_id: 65,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship24 = {
+    # relative name: Molly II
+  user_id: 60,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+victoire_weasley_relationship25 = {
+    # relative name: Lucy
+  user_id: 60,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship1 = {
+    # relative name: Harry
+  user_id: 61,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship2 = {
+    # relative name: Hermione 
+  user_id: 61,
+  relative_id: 2,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship3 = {
+    # relative name: Ron 
+  user_id: 61,
+  relative_id: 3,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship4 = {
+    # relative name: Arthur
+  user_id: 61,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship5 = {
+    # relative name: Molly I
+  user_id: 61,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship6 = {
+    # relative name: Bill
+  user_id: 61,
+  relative_id: 6,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship7 = {
+    # relative name: Charlie
+  user_id: 61,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship8 = {
+    # relative name: Percy
+  user_id: 61,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship9 = {
+    # relative name: FredI
+  user_id: 61,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship10 = {
+    # relative name: George 
+  user_id: 61,
+  relative_id: 10,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship11 = {
+    # relative name: Ginny 
+  user_id: 61,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship12 = {
+    # relative name: Fleur
+  user_id: 61,
+  relative_id: 41,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship13 = {
+    # relative name: James II
+  user_id: 61,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 61,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 61,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship16 = {
+    # relative name: Rose
+  user_id: 61,
+  relative_id: 57,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship17 = {
+    # relative name: Hugo
+  user_id: 61,
+  relative_id: 58,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship18 = {
+    # relative name: Audrey
+  user_id: 61,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
+dominique_weasley_relationship19 = {
+    # relative name: Victoire
+  user_id: 61,
+  relative_id: 60,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship20 = {
+    # relative name: Louis
+  user_id: 61,
+  relative_id: 62,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship21 = {
+    # relative name: Angelina
+  user_id: 61,
+  relative_id: 63,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship22 = {
+    # relative name: Fred II 
+  user_id: 61,
+  relative_id: 64,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship23 = {
+    # relative name: Roxanne
+  user_id: 61,
+  relative_id: 65,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship24 = {
+    # relative name: Molly II
+  user_id: 61,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+dominique_weasley_relationship25 = {
+    # relative name: Lucy
+  user_id: 61,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship1 = {
+    # relative name: Harry
+  user_id: 62,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship2 = {
+    # relative name: Hermione 
+  user_id: 62,
+  relative_id: 2,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship3 = {
+    # relative name: Ron 
+  user_id: 62,
+  relative_id: 3,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship4 = {
+    # relative name: Arthur
+  user_id: 62,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship5 = {
+    # relative name: Molly I
+  user_id: 62,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship6 = {
+    # relative name: Bill
+  user_id: 62,
+  relative_id: 6,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship7 = {
+    # relative name: Charlie
+  user_id: 62,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship8 = {
+    # relative name: Percy
+  user_id: 62,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship9 = {
+    # relative name: FredI
+  user_id: 62,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship10 = {
+    # relative name: George 
+  user_id: 62,
+  relative_id: 10,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship11 = {
+    # relative name: Ginny 
+  user_id: 62,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship12 = {
+    # relative name: Fleur
+  user_id: 62,
+  relative_id: 41,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship13 = {
+    # relative name: James II
+  user_id: 62,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 62,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 62,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship16 = {
+    # relative name: Rose
+  user_id: 62,
+  relative_id: 57,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship17 = {
+    # relative name: Hugo
+  user_id: 62,
+  relative_id: 58,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship18 = {
+    # relative name: Audrey
+  user_id: 62,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
+louis_weasley_relationship19 = {
+    # relative name: Victoire
+  user_id: 62,
+  relative_id: 60,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship20 = {
+    # relative name: Dominique
+  user_id: 62,
+  relative_id: 61,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship21 = {
+    # relative name: Angelina
+  user_id: 62,
+  relative_id: 63,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship22 = {
+    # relative name: Fred II 
+  user_id: 62,
+  relative_id: 64,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship23 = {
+    # relative name: Roxanne
+  user_id: 62,
+  relative_id: 65,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship24 = {
+    # relative name: Molly II
+  user_id: 62,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+louis_weasley_relationship25 = {
+    # relative name: Lucy
+  user_id: 62,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship1 = {
+    # relative name: Harry
+  user_id: 64,
+  relative_id: 1,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship2 = {
+    # relative name: Hermione 
+  user_id: 64,
+  relative_id: 2,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship3 = {
+    # relative name: Ron 
+  user_id: 64,
+  relative_id: 3,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship4 = {
+    # relative name: Arthur
+  user_id: 64,
+  relative_id: 4,
+  type: 'Grandfather'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship5 = {
+    # relative name: Molly I
+  user_id: 64,
+  relative_id: 5,
+  type: 'Grandmother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship6 = {
+    # relative name: Bill
+  user_id: 64,
+  relative_id: 6,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship7 = {
+    # relative name: Charlie
+  user_id: 64,
+  relative_id: 7,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship8 = {
+    # relative name: Percy
+  user_id: 64,
+  relative_id: 8,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship9 = {
+    # relative name: FredI
+  user_id: 64,
+  relative_id: 9,
+  type: 'Uncle'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship10 = {
+    # relative name: George 
+  user_id: 64,
+  relative_id: 10,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship11 = {
+    # relative name: Ginny 
+  user_id: 64,
+  relative_id: 11,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship12 = {
+    # relative name: Fleur
+  user_id: 64,
+  relative_id: 41,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship13 = {
+    # relative name: James II
+  user_id: 64,
+  relative_id: 54,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship14 = {
+    # relative name: Albus Potter
+  user_id: 64,
+  relative_id: 55,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship15 = {
+    # relative name: Lily Luna Potter
+  user_id: 64,
+  relative_id: 56,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship16 = {
+    # relative name: Rose
+  user_id: 64,
+  relative_id: 57,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship17 = {
+    # relative name: Hugo
+  user_id: 64,
+  relative_id: 58,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship18 = {
+    # relative name: Audrey
+  user_id: 64,
+  relative_id: 59,
+  type: 'Aunt'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
+fred_weasleyII_relationship19 = {
+    # relative name: Victoire
+  user_id: 64,
+  relative_id: 60,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship20 = {
+    # relative name: Dominique
+  user_id: 64,
+  relative_id: 61,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship21 = {
+    # relative name: Louis 
+  user_id: 64,
+  relative_id: 62,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship22 = {
+    # relative name: Angelina
+  user_id: 64,
+  relative_id: 63,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
+fred_weasleyII_relationship23 = {
+    # relative name: Roxanne
+  user_id: 64,
+  relative_id: 65,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship24 = {
+    # relative name: Molly II
+  user_id: 64,
+  relative_id: 66,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+fred_weasleyII_relationship25 = {
+    # relative name: Lucy
+  user_id: 64,
+  relative_id: 67,
+  type: 'Cousin'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+
 #  @@@@@@@@ Left off here. Continue here! @@@@@@@@
 
 audrey_relationship1 = {
