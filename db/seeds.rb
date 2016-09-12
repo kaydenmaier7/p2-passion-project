@@ -1553,7 +1553,7 @@ aberforth_wand = {
   creator_id: 12
 }
 
-gregorovitch = {
+gregorovitch_wand = {
   length: 15,
   core: 'Thestral Tail Hair',
   wood_type: 'Elder',
@@ -2776,11 +2776,18 @@ salazar_slytherin_article = {
   article_body: "Info about Salazar Slytherin's Stuff"
 }
  
-# Seed Data for the Owl Class
+# Seed Data for the Pet Class
 harry_pet = {
   owner_id: 1,
   name: 'Hedwig',
   species: 'Snowy Owl'
+
+}
+
+hermione_pet = {
+  owner_id: 2,
+  name: 'Crookshanks',
+  species: 'Kneazle'
 
 }
 
@@ -2805,8 +2812,110 @@ percy_pet = {
 
 }
 
+ginny_pet = {
+  owner_id: 11,
+  name: 'Arnold',
+  species: 'Pygmy Puff'
 
+}
 
+ollivander_pet = {
+  owner_id: 12,
+  name: 'Peacock',
+  species: 'Peacock'
+
+}
+
+sirius_pet = {
+  owner_id: 13,
+  name: 'Buckbeak',
+  species: 'Hippogriff'
+
+}
+
+hagrid_pet1 = {
+  owner_id: 14,
+  name: 'Fang',
+  species: 'Boar Hound'
+
+}
+
+hagrid_pet2 = {
+  owner_id: 14,
+  name: 'Fluffy',
+  species: 'Three-Headed Dog'
+
+}
+
+hagrid_pet3 = {
+  owner_id: 14,
+  name: 'Norbert',
+  species: 'Norwegian Ridgeback Dragon'
+
+}
+
+hagrid_pet4 = {
+  owner_id: 14,
+  name: 'Aragog',
+  species: 'Acromantula'
+
+}
+
+hagrid_pet5 = {
+  owner_id: 14,
+  name: 'Mosag',
+  species: 'Acromantula'
+
+}
+
+hagrid_pet6 = {
+  owner_id: 14,
+  name: 'Witherwings',
+  species: 'Hippogriff'
+
+}
+
+hagrid_pet7 = {
+  owner_id: 14,
+  name: 'Thestral Herd',
+  species: 'Thestrals'
+
+}
+
+albus_dumbledore_pet = {
+  owner_id: 28,
+  name: 'Fawkes',
+  species: 'Phoenix'
+
+}
+
+longbottom_pet = {
+  owner_id: 35,
+  name: 'Trevor',
+  species: 'Toad'
+
+}
+
+malfory_pet = {
+  owner_id: 37,
+  name: 'unknown',
+  species: 'Eagle Owl'
+
+}
+
+riddle_pet= {
+  owner_id: 50,
+  name: 'Nagini',
+  species: 'Snake'
+
+}
+
+salazar_slytherin_pet = {
+  owner_id: 83,
+  name: 'Basilisk',
+  species: 'Basilisk'
+
+}
 
 
 # Create User Objects
@@ -2823,26 +2932,349 @@ User.create(george)
 User.create(ginny)
 User.create(ollivander)
 User.create(sirius)
+User.create(hagrid)   
+User.create(hooch)   
+User.create(lockhart)   
+User.create(lupin)   
+User.create(mcgonagall)   
+User.create(madeye)   
+User.create(quirrell)   
+User.create(slughorn)   
+User.create(snape)   
+User.create(sprout)   
+User.create(trelawney)   
+User.create(james_potterI)   
+User.create(lily_potter)   
+User.create(winky)   
+User.create(albus_dumbledore)   
+User.create(flitwick)   
+User.create(abbott)   
+User.create(crabbe)   
+User.create(golye)   
+User.create(diggory)   
+User.create(finnigan)   
+User.create(longbottom)   
+User.create(lovegood)   
+User.create(malfoy)   
+User.create(shacklebolt)   
+User.create(tonks)   
+User.create(umbridge)   
+User.create(delacour)   
+User.create(gabby_delacour)   
+User.create(krum)   
+User.create(maxime)   
+User.create(karkaroff)   
+User.create(lestrange)   
+User.create(lucius_malfoy)   
+User.create(narcissa_malfoy)   
+User.create(pettigrew)   
+User.create(riddle)   
+User.create(dobby)   
+User.create(aberforth)   
+User.create(gregorovitch)   
+User.create(james_potterII)   
+User.create(albus_potter)   
+User.create(lily_luna_potter)   
+User.create(rose_granger_weasley)   
+User.create(hugo_granger_weasley)   
+User.create(audrey_weasley)   
+User.create(victoire_weasley)   
+User.create(dominique_weasley)   
+User.create(louis_weasley)   
+User.create(angelina_johnson)   
+User.create(fred_weasleyII)   
+User.create(roxanne_weasley)   
+User.create(molly_weasleyII)   
+User.create(lucy_weasley)   
+User.create(teddy_lupin)   
+User.create(isolt_sayre)  
+User.create(william_sayre)  
+User.create(rionach_sayre)  
+User.create(james_steward)  
+User.create(chadwick_boot)
+User.create(webster_boot)  
+User.create(josefina_calderon)  
+User.create(martha_steward)  
+User.create(rionach_steward)  
+User.create(gormlaith_gaunt)
+User.create(william_the_pukwudgie)  
+User.create(godric_gryffindor)  
+User.create(rowena_ravenclaw)  
+User.create(helga_hufflepuff)  
+User.create(salazar_slytherin)
 
 # Create Wand Objects
 Wand.create(harry_wand)
 Wand.create(hermione_wand)
 Wand.create(ron_wand)
-Wand.create(ollivander_wand)
+Wand.create(arthur_wand)  
+Wand.create(molly_wand)  
+Wand.create(bill_wand)  
+Wand.create(charlie_wand)  
+Wand.create(percy_wand)  
+Wand.create(fredI_wand)  
+Wand.create(george_wand)  
+Wand.create(ginny_wand)  
+Wand.create(ollivander_wand)  
+Wand.create(sirius_wand)   
+Wand.create(hagrid_wand)   
+Wand.create(hooch_wand)   
+Wand.create(lockhart_wand)   
+Wand.create(lupin_wand)   
+Wand.create(mcgonagall_wand)   
+Wand.create(madeye_wand)   
+Wand.create(quirrell_wand)   
+Wand.create(slughorn_wand)   
+Wand.create(snape_wand)   
+Wand.create(sprout_wand)   
+Wand.create(trelawney_wand)   
+Wand.create(james_potterI_wand)   
+Wand.create(lily_potter_wand)   
+Wand.create(winky_wand)   
+Wand.create(albus_dumbledore_wand)   
+Wand.create(flitwick_wand)   
+Wand.create(abbott_wand)   
+Wand.create(crabbe_wand)   
+Wand.create(golye_wand)   
+Wand.create(diggory_wand)   
+Wand.create(finnigan_wand)   
+Wand.create(longbottom_wand)   
+Wand.create(lovegood_wand)   
+Wand.create(malfoy_wand)   
+Wand.create(shacklebolt_wand)   
+Wand.create(tonks_wand)   
+Wand.create(umbridge_wand)   
+Wand.create(delacour_wand)   
+Wand.create(gabby_delacour_wand)   
+Wand.create(krum_wand)   
+Wand.create(maxime_wand)   
+Wand.create(karkaroff_wand)   
+Wand.create(lestrange_wand)   
+Wand.create(lucius_malfoy_wand)   
+Wand.create(narcissa_malfoy_wand)   
+Wand.create(pettigrew_wand)   
+Wand.create(riddle_wand)   
+Wand.create(dobby_wand)   
+Wand.create(aberforth_wand)   
+Wand.create(gregorovitch_wand)   
+Wand.create(james_potterII_wand)   
+Wand.create(albus_potter_wand)   
+Wand.create(lily_luna_potter_wand)   
+Wand.create(rose_granger_weasley_wand)   
+Wand.create(hugo_granger_weasley_wand)   
+Wand.create(audrey_weasley_wand)   
+Wand.create(victoire_weasley_wand)   
+Wand.create(dominique_weasley_wand)   
+Wand.create(louis_weasley_wand)   
+Wand.create(angelina_johnson_wand)   
+Wand.create(fred_weasleyII_wand)   
+Wand.create(roxanne_weasley_wand)   
+Wand.create(molly_weasleyII_wand)   
+Wand.create(lucy_weasley_wand)   
+Wand.create(teddy_lupin_wand)   
+Wand.create(isolt_sayre_wand)  
+Wand.create(william_sayre_wand)  
+Wand.create(rionach_sayre_wand)  
+Wand.create(james_steward_wand)  
+Wand.create(chadwick_boot_wand)
+Wand.create(webster_boot_wand)  
+Wand.create(josefina_calderon_wand)  
+Wand.create(martha_steward_wand)  
+Wand.create(rionach_steward_wand)  
+Wand.create(gormlaith_gaunt_wand)
+Wand.create(william_the_pukwudgie_wand)  
+Wand.create(godric_gryffindor_wand)  
+Wand.create(rowena_ravenclaw_wand)  
+Wand.create(helga_hufflepuff_wand)  
+Wand.create(salazar_slytherin_wand)
 
 # Create GringottsAccount Objects
-GringottsAccount.create(harry_account)
-GringottsAccount.create(hermione_account)
-GringottsAccount.create(ron_account)
-GringottsAccount.create(ollivander_account)
+GringottsAccount.create(harry_account)  
+GringottsAccount.create(hermione_account)  
+GringottsAccount.create(ron_account)  
+GringottsAccount.create(arthur_account)  
+GringottsAccount.create(molly_account)  
+GringottsAccount.create(bill_account)  
+GringottsAccount.create(charlie_account)  
+GringottsAccount.create(percy_account)  
+GringottsAccount.create(fredI_account)  
+GringottsAccount.create(george_account)  
+GringottsAccount.create(ginny_account)  
+GringottsAccount.create(ollivander_account)  
+GringottsAccount.create(sirius_account)   
+GringottsAccount.create(hagrid_account)   
+GringottsAccount.create(hooch_account)   
+GringottsAccount.create(lockhart_account)   
+GringottsAccount.create(lupin_account)   
+GringottsAccount.create(mcgonagall_account)   
+GringottsAccount.create(madeye_account)   
+GringottsAccount.create(quirrell_account)   
+GringottsAccount.create(slughorn_account)   
+GringottsAccount.create(snape_account)   
+GringottsAccount.create(sprout_account)   
+GringottsAccount.create(trelawney_account)   
+GringottsAccount.create(james_potterI_account)   
+GringottsAccount.create(lily_potter_account)   
+GringottsAccount.create(winky_account)   
+GringottsAccount.create(albus_dumbledore_account)   
+GringottsAccount.create(flitwick_account)   
+GringottsAccount.create(abbott_account)   
+GringottsAccount.create(crabbe_account)   
+GringottsAccount.create(golye_account)   
+GringottsAccount.create(diggory_account)   
+GringottsAccount.create(finnigan_account)   
+GringottsAccount.create(longbottom_account)   
+GringottsAccount.create(lovegood_account)   
+GringottsAccount.create(malfoy_account)   
+GringottsAccount.create(shacklebolt_account)   
+GringottsAccount.create(tonks_account)   
+GringottsAccount.create(umbridge_account)   
+GringottsAccount.create(delacour_account)   
+GringottsAccount.create(gabby_delacour_account)   
+GringottsAccount.create(krum_account)   
+GringottsAccount.create(maxime_account)   
+GringottsAccount.create(karkaroff_account)   
+GringottsAccount.create(lestrange_account)   
+GringottsAccount.create(lucius_malfoy_account)   
+GringottsAccount.create(narcissa_malfoy_account)   
+GringottsAccount.create(pettigrew_account)   
+GringottsAccount.create(riddle_account)   
+GringottsAccount.create(dobby_account)   
+GringottsAccount.create(aberforth_account)   
+GringottsAccount.create(gregorovitch_account)   
+GringottsAccount.create(james_potterII_account)   
+GringottsAccount.create(albus_potter_account)   
+GringottsAccount.create(lily_luna_potter_account)   
+GringottsAccount.create(rose_granger_weasley_account)   
+GringottsAccount.create(hugo_granger_weasley_account)   
+GringottsAccount.create(audrey_weasley_account)   
+GringottsAccount.create(victoire_weasley_account)   
+GringottsAccount.create(dominique_weasley_account)   
+GringottsAccount.create(louis_weasley_account)   
+GringottsAccount.create(angelina_johnson_account)   
+GringottsAccount.create(fred_weasleyII_account)   
+GringottsAccount.create(roxanne_weasley_account)   
+GringottsAccount.create(molly_weasleyII_account)   
+GringottsAccount.create(lucy_weasley_account)   
+GringottsAccount.create(teddy_lupin_account)   
+GringottsAccount.create(isolt_sayre_account)  
+GringottsAccount.create(william_sayre_account)  
+GringottsAccount.create(rionach_sayre_account)  
+GringottsAccount.create(james_steward_account)  
+GringottsAccount.create(chadwick_boot_account)
+GringottsAccount.create(webster_boot_account)  
+GringottsAccount.create(josefina_calderon_account)  
+GringottsAccount.create(martha_steward_account)  
+GringottsAccount.create(rionach_steward_account)  
+GringottsAccount.create(gormlaith_gaunt_account)
+GringottsAccount.create(william_the_pukwudgie_account)  
+GringottsAccount.create(godric_gryffindor_account)  
+GringottsAccount.create(rowena_ravenclaw_account)  
+GringottsAccount.create(helga_hufflepuff_account)  
+GringottsAccount.create(salazar_slytherin_account)
 
 # Create Article Objects
-Article.create(harry_article)
-Article.create(hermione_article2)
-Article.create(ron_article3)
-Article.create(ollivander_article4)
+Article.create(harry_article)  
+Article.create(hermione_article)  
+Article.create(ron_article)  
+Article.create(arthur_article)  
+Article.create(molly_article)  
+Article.create(bill_article)  
+Article.create(charlie_article)  
+Article.create(percy_article)  
+Article.create(fredI_article)  
+Article.create(george_article)  
+Article.create(ginny_article)  
+Article.create(ollivander_article)  
+Article.create(sirius_article)   
+Article.create(hagrid_article)   
+Article.create(hooch_article)   
+Article.create(lockhart_article)   
+Article.create(lupin_article)   
+Article.create(mcgonagall_article)   
+Article.create(madeye_article)   
+Article.create(quirrell_article)   
+Article.create(slughorn_article)   
+Article.create(snape_article)   
+Article.create(sprout_article)   
+Article.create(trelawney_article)   
+Article.create(james_potterI_article)   
+Article.create(lily_potter_article)   
+Article.create(winky_article)   
+Article.create(albus_dumbledore_article)   
+Article.create(flitwick_article)   
+Article.create(abbott_article)   
+Article.create(crabbe_article)   
+Article.create(golye_article)   
+Article.create(diggory_article)   
+Article.create(finnigan_article)   
+Article.create(longbottom_article)   
+Article.create(lovegood_article)   
+Article.create(malfoy_article)   
+Article.create(shacklebolt_article)   
+Article.create(tonks_article)   
+Article.create(umbridge_article)   
+Article.create(delacour_article)   
+Article.create(gabby_delacour_article)   
+Article.create(krum_article)   
+Article.create(maxime_article)   
+Article.create(karkaroff_article)   
+Article.create(lestrange_article)   
+Article.create(lucius_malfoy_article)   
+Article.create(narcissa_malfoy_article)   
+Article.create(pettigrew_article)   
+Article.create(riddle_article)   
+Article.create(dobby_article)   
+Article.create(aberforth_article)   
+Article.create(gregorovitch_article)   
+Article.create(james_potterII_article)   
+Article.create(albus_potter_article)   
+Article.create(lily_luna_potter_article)   
+Article.create(rose_granger_weasley_article)   
+Article.create(hugo_granger_weasley_article)   
+Article.create(audrey_weasley_article)   
+Article.create(victoire_weasley_article)   
+Article.create(dominique_weasley_article)   
+Article.create(louis_weasley_article)   
+Article.create(angelina_johnson_article)   
+Article.create(fred_weasleyII_article)   
+Article.create(roxanne_weasley_article)   
+Article.create(molly_weasleyII_article)   
+Article.create(lucy_weasley_article)   
+Article.create(teddy_lupin_article)   
+Article.create(isolt_sayre_article)  
+Article.create(william_sayre_article)  
+Article.create(rionach_sayre_article)  
+Article.create(james_steward_article)  
+Article.create(chadwick_boot_article)
+Article.create(webster_boot_article)  
+Article.create(josefina_calderon_article)  
+Article.create(martha_steward_article)  
+Article.create(rionach_steward_article)  
+Article.create(gormlaith_gaunt_article)
+Article.create(william_the_pukwudgie_article)  
+Article.create(godric_gryffindor_article)  
+Article.create(rowena_ravenclaw_article)  
+Article.create(helga_hufflepuff_article)  
+Article.create(salazar_slytherin_article)
 
 # Create Owl Objects
 Pet.create(harry_pet)
+Pet.create(hermione_pet)
 Pet.create(ron_pet1)
 Pet.create(ron_pet2)
+Pet.create(percy_pet)
+Pet.create(ginny_pet)
+Pet.create(ollivander_pet)
+Pet.create(hagrid_pet1)
+Pet.create(hagrid_pet2)
+Pet.create(hagrid_pet3)
+Pet.create(hagrid_pet4)
+Pet.create(hagrid_pet5)
+Pet.create(hagrid_pet6)
+Pet.create(hagrid_pet7)
+Pet.create(albus_dumbledore_pet)
+Pet.create(longbottom_pet)
+Pet.create(malfory_pet)
+Pet.create(riddle_pet)
+Pet.create(salazar_slytherin_pet)
