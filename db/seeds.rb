@@ -5374,7 +5374,7 @@ bill_relationship18 = {
     # relative name: Victoire
   user_id: 6,
   relative_id: 60,
-  type: 'Niece'
+  type: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -5391,7 +5391,7 @@ bill_relationship19 = {
     # relative name: Dominique
   user_id: 6,
   relative_id: 61,
-  type: 'Niece'
+  type: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -5408,7 +5408,7 @@ bill_relationship20 = {
     # relative name: Louis
   user_id: 6,
   relative_id: 62,
-  type: 'Nephew'
+  type: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -5527,6 +5527,855 @@ bill_relationship26 = {
 
 
 
+charlie_relationship1 = {
+    # relative name: Harry
+  user_id: 7,
+  relative_id: 1,
+  type: 'Brother-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship2 = {
+    # relative name: Hermione
+  user_id: 7,
+  relative_id: 2,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship3 = {
+    # relative name: Ron
+  user_id: 7,
+  relative_id: 3,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship4 = {
+    # relative name: Arthur
+  user_id: 7,
+  relative_id: 4,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship5 = {
+    # relative name:  Molly I
+  user_id: 7,
+  relative_id: 5,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship6 = {
+    # relative name: Bill 
+  user_id: 7,
+  relative_id: 6,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship7 = {
+    # relative name: Percy
+  user_id: 7,
+  relative_id: 8,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship8 = {
+    # relative name: Fred I
+  user_id: 7,
+  relative_id: 9,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship9 = {
+    # relative name: George
+  user_id: 7,
+  relative_id: 10,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship10 = {
+    # relative name: Ginny
+  user_id: 7,
+  relative_id: 11,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship11 = {
+    # relative name: Fleur
+  user_id: 7,
+  relative_id: 41,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship12 = {
+    # relative name: James II
+  user_id: 7,
+  relative_id: 54,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship13 = {
+    # relative name: Albus Potter
+  user_id: 7,
+  relative_id: 55,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship14 = {
+    # relative name: Lily II
+  user_id: 7,
+  relative_id: 56,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship15 = {
+    # relative name: Rose
+  user_id: 7,
+  relative_id: 57,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship16 = {
+    # relative name: Hugo 
+  user_id: 7,
+  relative_id: 58,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship17 = {
+    # relative name: Audrey
+  user_id: 7,
+  relative_id: 59,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship18 = {
+    # relative name: Victoire
+  user_id: 7,
+  relative_id: 60,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship19 = {
+    # relative name: Dominique
+  user_id: 7,
+  relative_id: 61,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship20 = {
+    # relative name: Louis
+  user_id: 7,
+  relative_id: 62,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship21 = {
+    # relative name: Angelina
+  user_id: 7,
+  relative_id: 63,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship22 = {
+    # relative name: Fred II
+  user_id: 7,
+  relative_id: 64,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship23 = {
+    # relative name: Roxanne
+  user_id: 7,
+  relative_id: 65,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship24 = {
+    # relative name: Molly II
+  user_id: 7,
+  relative_id: 66,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+charlie_relationship25 = {
+    # relative name: Lucy 
+  user_id: 7,
+  relative_id: 67,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship1 = {
+    # relative name: Harry
+  user_id: 8,
+  relative_id: 1,
+  type: 'Brother-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship2 = {
+    # relative name: Hermione
+  user_id: 8,
+  relative_id: 2,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship3 = {
+    # relative name: Ron
+  user_id: 8,
+  relative_id: 3,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship4 = {
+    # relative name: Arthur
+  user_id: 8,
+  relative_id: 4,
+  type: 'Father'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship5 = {
+    # relative name:  Molly I
+  user_id: 8,
+  relative_id: 5,
+  type: 'Mother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship6 = {
+    # relative name: Bill 
+  user_id: 8,
+  relative_id: 6,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship7 = {
+    # relative name: Charlie
+  user_id: 8,
+  relative_id: 7,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship8 = {
+    # relative name: Fred I
+  user_id: 8,
+  relative_id: 9,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship9 = {
+    # relative name: George
+  user_id: 8,
+  relative_id: 10,
+  type: 'Brother'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship10 = {
+    # relative name: Ginny
+  user_id: 8,
+  relative_id: 11,
+  type: 'Sister'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship11 = {
+    # relative name: Fleur
+  user_id: 8,
+  relative_id: 41,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship12 = {
+    # relative name: James II
+  user_id: 8,
+  relative_id: 54,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship13 = {
+    # relative name: Albus Potter
+  user_id: 8,
+  relative_id: 55,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship14 = {
+    # relative name: Lily II
+  user_id: 8,
+  relative_id: 56,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship15 = {
+    # relative name: Rose
+  user_id: 8,
+  relative_id: 57,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship16 = {
+    # relative name: Hugo 
+  user_id: 8,
+  relative_id: 58,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship17 = {
+    # relative name: Audrey
+  user_id: 8,
+  relative_id: 59,
+  type: 'Spouse'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship18 = {
+    # relative name: Victoire
+  user_id: 8,
+  relative_id: 60,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship19 = {
+    # relative name: Dominique
+  user_id: 8,
+  relative_id: 61,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship20 = {
+    # relative name: Louis
+  user_id: 8,
+  relative_id: 62,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship21 = {
+    # relative name: Angelina
+  user_id: 8,
+  relative_id: 63,
+  type: 'Sister-In-Law'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship22 = {
+    # relative name: Fred II
+  user_id: 8,
+  relative_id: 64,
+  type: 'Nephew'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship23 = {
+    # relative name: Roxanne
+  user_id: 8,
+  relative_id: 65,
+  type: 'Niece'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship24 = {
+    # relative name: Molly II
+  user_id: 8,
+  relative_id: 66,
+  type: 'Daughter'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
+
+percy_relationship25 = {
+    # relative name: Lucy 
+  user_id: 8,
+  relative_id: 67,
+  type: 'Daughter'
+  # relationship types: 
+    # brother, 
+    # sister, 
+    # aunt, 
+    # uncle 
+    # cousin, 
+    # niece, 
+    # nephew, 
+    # all in-laws, 
+    # godparents
+}
 
 
 
