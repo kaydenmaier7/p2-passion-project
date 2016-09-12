@@ -952,7 +952,200 @@ teddy_lupin = {
   patronus: nil
 }
 
+isolt_sayre = {
+  first_name: 'Isolt',
+  last_name: 'Sayre',
+  username: 'isot.Sayre69Sayre',
+  email: 'isot.Sayre69@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Witch',
+  occupation: 'Founder and Headmistress of Ilvermorny School of Witchcraft and Wizardry',
+  school: 'Home Schooled',
+  school_house: 'Horned Serpent'
+}
+ 
+william_sayre = {
+  first_name: 'William',
+  last_name: 'Sayre',
+  username: 'w.Sayre70',
+  email: 'w.Sayre70@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Wizard',
+  occupation: 'unknown',
+  school: 'unknown',
+  school_house: 'unknown'
+}
+ 
+rionach_sayre = {
+  first_name: 'Rionach',
+  last_name: 'Sayre',
+  username: 'rionach.Sayre71',
+  email: 'rionach.Sayre71@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Witch',
+  occupation: 'unknown',
+  school: 'unknown',
+  school_house: 'unknown'
+}
+ 
+james_steward = {
+  first_name: 'James',
+  last_name: 'Steward',
+  username: 'j.steward72',
+  email: 'j.steward72@gmail.com',
+  password: 'a',
+  blood_status: 'Muggle',
+  species: 'Human',
+  occupation: 'Founder and Co-headmaster of Ilvermorny School of Witchcraft and Wizardry',
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'Pukwudgie'
+}
+ 
+chadwick_boot = {
+  first_name: 'Chadwick',
+  last_name: 'Boot',
+  username: 'c.boot73',
+  email: 'c.boot73@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: "Author of Chadwick's Charms Vols I-VII",
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'Thunderbird'
+}
 
+webster_boot = {
+  first_name: 'Webster',
+  last_name: 'Boot',
+  username: 'w.boot74',
+  email: 'w.boot74@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Auror For Hire',
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'Wampus'
+}
+
+josefina_calderon = {
+  first_name: 'Josefina',
+  last_name: 'Calderon',
+  username: 'j.calderon75',
+  email: 'j.calderon75@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Healer',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor Ravenclaw Hufflepuff Slytherin'
+}
+  
+martha_steward = {
+  first_name: 'Martha',
+  last_name: 'Steward',
+  username: 'm.steward76',
+  email: 'm.steward76@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'unknown',
+  school: nil,
+  school_house: nil
+}
+ 
+rionach_steward = {
+  first_name: 'Rionach',
+  last_name: 'Steward',
+  username: 'rsteward77',
+  email: 'rsteward77@gmail.com',
+  password: 'a',
+  blood_status: 'Half-blood',
+  species: 'Witch',
+  occupation: 'Defense Against the Dark Arts Teacher at Ilvermorny',
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'unknown'
+}
+ 
+gormlaith_gaunt = {
+  first_name: 'Gormlaith',
+  last_name: 'Gaunt',
+  username: 'g.gaunt78',
+  email: 'g.gaunt78@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Witch',
+  occupation: 'unknown',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
+ 
+william_the_pukwudgie = {
+  first_name: 'William',
+  last_name: 'Pukwudgie',
+  username: 'w.pukwudgie79',
+  email: 'w.pukwudgie79@gmail.com',
+  password: 'a',
+  blood_status: 'Goblin Family',
+  species: 'Pukwudgie',
+  occupation: 'Security and Caretaker at Ilvermorny School of Witchcraft and Wizardry',
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'Pukwudgie'
+}
+
+godric_gryffindor = {
+  first_name: 'Godric',
+  last_name: 'Gryffindor',
+  username: 'g.gryffindor79',
+  email: 'g.gryffindor79@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Wizard',
+  occupation: 'Co-Founder and Professor at Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Gryffindor'
+}
+ 
+rowena_ravenclaw = {
+  first_name: 'Rowena',
+  last_name: 'Ravenclaw',
+  username: 'rowena_ravenclaw80',
+  email: 'rowena_ravenclaw80@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Co-Founder and Professor at Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Ravenclaw'
+}
+ 
+helga_hufflepuff = {
+  first_name: 'Helga',
+  last_name: 'Hufflepuff',
+  username: 'helga_hufflepuff81',
+  email: 'helga_hufflepuff81@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood or Half-blood',
+  species: 'Witch',
+  occupation: 'Co-Founder and Professor at Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Hufflepuff'
+}
+ 
+salazar_slytherin = {
+  first_name: 'Salazar',
+  last_name: 'Slytherin',
+  username: 'salazar_slytherin82',
+  email: 'salazar_slytherin82@gmail.com',
+  password: 'a',
+  blood_status: 'Pure-blood',
+  species: 'Wizard',
+  occupation: 'Co-Founder and Professor at Hogwarts School of Witchcraft and Wizardry',
+  school: 'Hogwarts School of Witchcraft and Wizardry',
+  school_house: 'Slytherin'
+}
 
 
 
@@ -1488,6 +1681,102 @@ teddy_lupin_wand = {
   creator_id: 12
 }
 
+isolt_sayre_wand = {
+  length: nil,
+  core: 'Basilisk Horn',
+  wood_type: 'Snakewood',
+  owner_id: 69,
+  creator_id: 83
+}
+  
+william_sayre_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 70,
+  creator_id: 12
+}
+  
+rionach_sayre_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 71,
+  creator_id: 12
+}
+  
+chadwick_boot_wand = {
+  length: nil,
+  core: 'Horned Serpent Horn',
+  wood_type: 'Ash',
+  owner_id: 73,
+  creator_id: 69
+}
+
+webster_boot_wand = {
+  length: nil,
+  core: 'Horned Serpent Horn',
+  wood_type: 'unknown',
+  owner_id: 74,
+  creator_id: 69
+}
+  
+josefina_calderon_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 75,
+  creator_id: 69
+}
+  
+rionach_steward_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 77,
+  creator_id: 69
+}
+  
+gormlaith_gaunt_wand = {
+  length: nil,
+  core: 'Dragon Heartstring',
+  wood_type: 'unknown',
+  owner_id: 78,
+  creator_id: 12
+}
+
+godric_gryffindor_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 80,
+  creator_id: nil
+}
+  
+rowena_ravenclaw_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 81,
+  creator_id: nil
+}
+  
+helga_hufflepuff_wand = {
+  length: nil,
+  core: 'unknown',
+  wood_type: 'unknown',
+  owner_id: 82,
+  creator_id: nil
+}
+  
+salazar_slytherin_wand = {
+  length: nil,
+  core: 'Basilisk Horn',
+  wood_type: 'Snakewood',
+  owner_id: 83,
+  creator_id: 83
+}
+
 # Seed Data for the GringottsAccount Class
 harry_account = {
   user_id: 1,
@@ -1895,6 +2184,96 @@ lucy_weasley_account = {
 teddy_lupin_account = {
   user_id: 68,
   balance: 10_000,
+  interest_rate: 0.10
+}
+
+isolt_sayre_account = {
+  user_id: 69,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+william_sayre_account = {
+  user_id: 70,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+rionach_sayre_account = {
+  user_id: 71,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+james_steward_account = {
+  user_id: 72,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+chadwick_boot_account = {
+  user_id: 73,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+webster_boot_account = {
+  user_id: 74,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+josefina_calderon_account = {
+  user_id: 75,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+martha_steward_account = {
+  user_id: 76,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+rionach_steward_account = {
+  user_id: 77,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+gormlaith_gaunt_account = {
+  user_id: 78,
+  balance: 0,
+  interest_rate: 0.10
+}
+
+william_the_pukwudgie_account = {
+  user_id: 79,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+godric_gryffindor_account = {
+  user_id: 80,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+rowena_ravenclaw_account = {
+  user_id: 81,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+helga_hufflepuff_account = {
+  user_id: 82,
+  balance: 0,
+  interest_rate: 0.10
+}  
+
+salazar_slytherin_account = {
+  user_id: 83,
+  balance: 0,
   interest_rate: 0.10
 }
 
@@ -2306,28 +2685,123 @@ teddy_lupin_article = {
   article_title: 'Teddy Lupin Info Page',
   article_body: "Info about Teddy Lupin's Stuff"
 }
+
+isolt_sayre_article = {
+  user_id: 69,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+william_sayre_article = {
+  user_id: 70,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+rionach_sayre_article = {
+  user_id: 71,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+james_steward_article = {
+  user_id: 72,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+chadwick_boot_article = {
+  user_id: 73,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+webster_boot_article = {
+  user_id: 74,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+josefina_calderon_article = {
+  user_id: 75,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+martha_steward_article = {
+  user_id: 76,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+rionach_steward_article = {
+  user_id: 77,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+gormlaith_gaunt_article = {
+  user_id: 78,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+william_the_pukwudgie_article = {
+  user_id: 79,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+godric_gryffindor_article = {
+  user_id: 80,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+rowena_ravenclaw_article = {
+  user_id: 81,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+helga_hufflepuff_article = {
+  user_id: 82,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
+
+salazar_slytherin_article = {
+  user_id: 83,
+  article_title: ' Info Page',
+  article_body: "Info about Stuff"
+}
  
 # Seed Data for the Owl Class
-harry_owl = {
+harry_pet = {
   owner_id: 1,
   name: 'Hedwig',
   species: 'Snowy Owl'
 
 }
 
-
-
-ron_owl1 = {
+ron_pet1 = {
   owner_id: 3,
   name: 'Pigwidgeon',
   species: 'Little Owl'
 
 }
 
-ron_owl2 = {
+ron_pet2 = {
   owner_id: 3,
   name: 'Errol',
   species: 'Great Grey'
+
+}
+
+percy_pet = {
+  owner_id: 8,
+  name: 'Hermes',
+  species: 'Screech Owl'
 
 }
 
@@ -2369,6 +2843,6 @@ Article.create(ron_article3)
 Article.create(ollivander_article4)
 
 # Create Owl Objects
-Owl.create(harry_owl)
-Owl.create(ron_owl1)
-Owl.create(ron_owl2)
+Pet.create(harry_pet)
+Pet.create(ron_pet1)
+Pet.create(ron_pet2)
