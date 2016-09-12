@@ -1898,15 +1898,6 @@ teddy_lupin_account = {
   interest_rate: 0.10
 }
 
-
-
-
-
-
-
-
-
-
 # Seed Data for the Article Class
 harry_article = {
   user_id: 1,
@@ -1914,24 +1905,408 @@ harry_article = {
   article_body: "Info about Harry Potter's Stuff"
 }
 
-hermione_article2 = {
+hermione_article = {
   user_id: 2,
   article_title: 'Hermione Granger Info Page',
   article_body: "Info about Hermione Granger's Stuff"
 }
 
-ron_article3 = {
+ron_article = {
   user_id: 3,
   article_title: 'Ronald Weasley Info Page',
   article_body: "Info about Ronald Weasley's Stuff"
 }
 
-ollivander_article4 = {
+arthur_article = {
+  user_id: 4,
+  article_title: 'Arthur Weasley Info Page',
+  article_body: "Info about Arthur Weasley's Stuff"
+}
+ 
+molly_article = {
+  user_id: 5,
+  article_title: 'Molly Weasley Info Page',
+  article_body: "Info about Weasley's Stuff"
+}
+ 
+bill_article = {
+  user_id: 6,
+  article_title: 'Weasley Info Page',
+  article_body: "Info about Weasley's Stuff"
+}
+ 
+charlie_article = {
+  user_id: 7,
+  article_title: 'Charlie Weasley Info Page',
+  article_body: "Info about Charlie Weasley's Stuff"
+}
+ 
+percy_article = {
+  user_id: 8,
+  article_title: 'Percy Weasley Info Page',
+  article_body: "Info about Percy's Stuff"
+}
+ 
+fredI_article = {
+  user_id: 9,
+  article_title: 'Fred Weasley Info Page',
+  article_body: "Info about Fred Weasley's Stuff"
+}
+ 
+george_article = {
+  user_id: 10,
+  article_title: 'George Weasley Info Page',
+  article_body: "Info about George Weasley's Stuff"
+}
+ 
+ginny_article = {
+  user_id: 11,
+  article_title: 'Ginny Potter Info Page',
+  article_body: "Info about Ginny Potter's Stuff"
+}
+
+ollivander_article = {
   user_id: 12,
   article_title: 'Garrick Ollivander Info Page',
   article_body: "Info about Garrick Ollivander's Stuff"
 }
 
+sirius_article = {
+  user_id: 13,
+  article_title: 'Sirius Black Info Page',
+  article_body: "Info about Sirius Black's Stuff"
+}
+ 
+hagrid_article = {
+  user_id: 14,
+  article_title: 'Rubeus Hagrid Info Page',
+  article_body: "Info about Rubeus Hagrid's Stuff"
+}
+ 
+hooch_article = {
+  user_id: 15,
+  article_title: 'Rolanda Hooch Info Page',
+  article_body: "Info about Rolanda Hooch's Stuff"
+}
+ 
+lockhart_article = {
+  user_id: 16,
+  article_title: 'Gilderoy Lockhart Info Page',
+  article_body: "Info about Gilderoy Lockhart's Stuff"
+}
+ 
+lupin_article = {
+  user_id: 17,
+  article_title: 'Remus Lupin Info Page',
+  article_body: "Info about Remus Lupin's Stuff"
+}
+ 
+mcgonagall_article = {
+  user_id: 18,
+  article_title: 'Minerva McGonagall Info Page',
+  article_body: "Info about Minerva McGonagall's Stuff"
+}
+ 
+madeye_article = {
+  user_id: 19,
+  article_title: "Alastor 'Mad-Eye' Moody Info Page",
+  article_body: "Info about Alastor 'Mad-Eye' Moody's Stuff"
+}
+ 
+quirrell_article = {
+  user_id: 20,
+  article_title: 'Quirinus Quirrell Info Page',
+  article_body: "Info about Quirinus Quirrell's Stuff"
+}
+ 
+slughorn_article = {
+  user_id: 21,
+  article_title: 'Horace Slughorn Info Page',
+  article_body: "Info about Horace Slughorn's Stuff"
+}
+ 
+snape_article = {
+  user_id: 22,
+  article_title: 'Severus Snape Info Page',
+  article_body: "Info about Severus Snape's Stuff"
+}
+ 
+sprout_article = {
+  user_id: 23,
+  article_title: 'Pomona Sprout Info Page',
+  article_body: "Info about Pomona Sprout's Stuff"
+}
+ 
+trelawney_article = {
+  user_id: 24,
+  article_title: 'Sybill Trelawney Info Page',
+  article_body: "Info about Sybill Trelawney's Stuff"
+}
+
+james_potterI_article = {
+  user_id: 25,
+  article_title: 'James Potter I Info Page',
+  article_body: "Info about James Potter I Stuff"
+}
+ 
+lily_potter_article = {
+  user_id: 26,
+  article_title: 'Lily Potter I Info Page',
+  article_body: "Info about Lily Potter's Stuff"
+}
+ 
+winky_article = {
+  user_id: 27,
+  article_title: 'Winky Info Page',
+  article_body: "Info about Winky's Stuff"
+}
+ 
+albus_dumbledore_article = {
+  user_id: 28,
+  article_title: 'Albus Dumbledore Info Page',
+  article_body: "Info about Albus Dumbledore's Stuff"
+}
+ 
+flitwick_article = {
+  user_id: 29,
+  article_title: 'Filius Flitwick Info Page',
+  article_body: "Info about Filius Flitwick's Stuff"
+}
+
+abbott_article = {
+  user_id: 30,
+  article_title: 'Hannah Abbott Info Page',
+  article_body: "Info about Hannah Abbott's Stuff"
+}
+
+crabbe_article = {
+  user_id: 31,
+  article_title: 'Vincent Crabbe Info Page',
+  article_body: "Info about Vincent Crabbe's Stuff"
+}
+ 
+golye_article = {
+  user_id: 32,
+  article_title: 'Gregory Golye Info Page',
+  article_body: "Info about Gregory Golye Stuff"
+}
+ 
+diggory_article = {
+  user_id: 33,
+  article_title: 'Cedric Diggory Info Page',
+  article_body: "Info aboutCedric Diggory's Stuff"
+}
+ 
+finnigan_article = {
+  user_id: 34,
+  article_title: 'Seamus Finnigan Info Page',
+  article_body: "Info about Seamus Finnigan's Stuff"
+}
+
+longbottom_article = {
+  user_id: 35,
+  article_title: 'Neville Longbottom Info Page',
+  article_body: "Info about Neville Longbottom's Stuff"
+}
+ 
+lovegood_article = {
+  user_id: 36,
+  article_title: 'Luna Lovegood Info Page',
+  article_body: "Info about Luna Lovegood's Stuff"
+}
+ 
+malfoy_article = {
+  user_id: 37,
+  article_title: 'Draco Malfoy Info Page',
+  article_body: "Info about Draco Malfoy's Stuff"
+}
+ 
+shacklebolt_article = {
+  user_id: 38,
+  article_title: 'Kingsley Shacklebolt Info Page',
+  article_body: "Info about Kingsley Shacklebolt's Stuff"
+}
+ 
+tonks_article = {
+  user_id: 39,
+  article_title: 'Nymphadora Tonks Info Page',
+  article_body: "Info about Nymphadora Tonks's' Stuff"
+}
+ 
+umbridge_article = {
+  user_id: 40,
+  article_title: 'Dolores Umbridge Info Page',
+  article_body: "Info about Dolores Umbridge's' Stuff"
+}
+ 
+delacour_article = {
+  user_id: 41,
+  article_title: 'Fleur Delacour Info Page',
+  article_body: "Info about Fleur Delacour's' Stuff"
+}
+ 
+gabby_delacour_article = {
+  user_id: 42,
+  article_title: 'Gabrielle Delacour Info Page',
+  article_body: "Info about Gabrielle Delacour's' Stuff"
+}
+ 
+krum_article = {
+  user_id: 43,
+  article_title: 'Viktor Krum Info Page',
+  article_body: "Info about Viktor Krum's' Stuff"
+}
+ 
+maxime_article = {
+  user_id: 44,
+  article_title: 'Olympe Maxime Info Page',
+  article_body: "Info about Olympe Maxime's' Stuff"
+}
+ 
+karkaroff_article = {
+  user_id: 45,
+  article_title: 'Igor Karkaroff Info Page',
+  article_body: "Info about Igor Karkaroff's Stuff"
+}
+ 
+lestrange_article = {
+  user_id: 46,
+  article_title: 'Bellatrix Lestrange Info Page',
+  article_body: "Info about Bellatrix Lestrange's Stuff"
+}
+ 
+lucius_malfoy_article = {
+  user_id: 47,
+  article_title: 'Lucius Malfoy Info Page',
+  article_body: "Info about Lucius Malfoy's Stuff"
+}
+ 
+narcissa_malfoy_article = {
+  user_id: 48,
+  article_title: 'Narcissa Malfoy Info Page',
+  article_body: "Info about Narcissa Malfoy's Stuff"
+}
+ 
+pettigrew_article = {
+  user_id: 49,
+  article_title: 'Peter Pettigrew Info Page',
+  article_body: "Info about Peter Pettigrew's Stuff"
+}
+ 
+riddle_article = {
+  user_id: 50,
+  article_title: 'Tom Riddle Info Page',
+  article_body: "Info about Tom Riddle's Stuff"
+}
+ 
+dobby_article = {
+  user_id: 51,
+  article_title: 'Dobby Info Page',
+  article_body: "Info about Dobby's Stuff"
+}
+ 
+aberforth_article = {
+  user_id: 52,
+  article_title: 'Aberforth Dumbledore Info Page',
+  article_body: "Info about Aberforth Dumbledore's Stuff"
+}
+ 
+gregorovitch_article = {
+  user_id: 53,
+  article_title: 'Mykew Gregorovitch Info Page',
+  article_body: "Info about Mykew Gregorovitch's Stuff"
+}
+ 
+james_potterII_article = {
+  user_id: 54,
+  article_title: 'James Potter II Info Page',
+  article_body: "Info about James Potter II's Stuff"
+}
+ 
+albus_potter_article = {
+  user_id: 55,
+  article_title: 'Albus Potter Info Page',
+  article_body: "Info about Albus Potter's Stuff"
+}
+ 
+lily_luna_potter_article = {
+  user_id: 56,
+  article_title: 'Lily Potter II Info Page',
+  article_body: "Info about Lily Potter II's Stuff"
+}
+ 
+rose_granger_weasley_article = {
+  user_id: 57,
+  article_title: 'Rose Granger-Weasley Info Page',
+  article_body: "Info about Rose Granger-Weasley's Stuff"
+}
+ 
+hugo_granger_weasley_article = {
+  user_id: 58,
+  article_title: 'Hugo Granger-Weasley Info Page',
+  article_body: "Info about Hugo Granger-Weasley's Stuff"
+}
+ 
+audrey_weasley_article = {
+  user_id: 59,
+  article_title: 'Audrey Weasley Info Page',
+  article_body: "Info about Audrey Weasley's Stuff"
+}
+ 
+victoire_weasley_article = {
+  user_id: 60,
+  article_title: 'Victoire Weasley Info Page',
+  article_body: "Info about Victoire Weasley's Stuff"
+}
+ 
+dominique_weasley_article = {
+  user_id: 61,
+  article_title: 'Dominique Weasley Info Page',
+  article_body: "Info about Dominique Weasley's Stuff"
+}
+ 
+louis_weasley_article = {
+  user_id: 62,
+  article_title: 'Louis Weasley Info Page',
+  article_body: "Info about Louis Weasley's Stuff"
+}
+ 
+angelina_johnson_article = {
+  user_id: 63,
+  article_title: 'Angelina Johnson Info Page',
+  article_body: "Info about Angelina Johnson's Stuff"
+}
+ 
+fred_weasleyII_article = {
+  user_id: 64,
+  article_title: 'Fred Weasley II Info Page',
+  article_body: "Info about Fred Weasley II's Stuff"
+}
+ 
+roxanne_weasley_article = {
+  user_id: 65,
+  article_title: 'Roxanne Weasley Info Page',
+  article_body: "Info about Roxanne Weasley's Stuff"
+}
+ 
+molly_weasleyII_article = {
+  user_id: 66,
+  article_title: 'Molly Weasley II Info Page',
+  article_body: "Info about Molly Weasley II's  Stuff"
+}
+ 
+lucy_weasley_article = {
+  user_id: 67,
+  article_title: 'Lucy Weasley Info Page',
+  article_body: "Info about Lucy Weasley's Stuff"
+}
+ 
+teddy_lupin_article = {
+  user_id: 68,
+  article_title: 'Teddy Lupin Info Page',
+  article_body: "Info about Teddy Lupin's Stuff"
+}
+ 
 # Seed Data for the Owl Class
 harry_owl = {
   owner_id: 1,
