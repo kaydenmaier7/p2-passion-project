@@ -2688,92 +2688,92 @@ teddy_lupin_article = {
 
 isolt_sayre_article = {
   user_id: 69,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Isolt Sayre Info Page',
+  article_body: "Info about Isolt Sayre's Stuff"
 }
 
 william_sayre_article = {
   user_id: 70,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'William Sayre Info Page',
+  article_body: "Info about William Sayre's Stuff"
 }
 
 rionach_sayre_article = {
   user_id: 71,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Rionach Sayre Info Page',
+  article_body: "Info about Rionach Sayre's Stuff"
 }
 
 james_steward_article = {
   user_id: 72,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'James Steward Info Page',
+  article_body: "Info about James Steward's Stuff"
 }
 
 chadwick_boot_article = {
   user_id: 73,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Chadwick Boot Info Page',
+  article_body: "Info about Chadwick Boot's Stuff"
 }
 
 webster_boot_article = {
   user_id: 74,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Webster Boot Info Page',
+  article_body: "Info about Webster Boot's Stuff"
 }
 
 josefina_calderon_article = {
   user_id: 75,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Josefina Calderon Info Page',
+  article_body: "Info about Josefina Calderon's Stuff"
 }
 
 martha_steward_article = {
   user_id: 76,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Martha Steward Info Page',
+  article_body: "Info about Martha Steward's Stuff"
 }
 
 rionach_steward_article = {
   user_id: 77,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Rionach Steward Info Page',
+  article_body: "Info about Rionach Steward's Stuff"
 }
 
 gormlaith_gaunt_article = {
   user_id: 78,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Gormlaith Gaunt Info Page',
+  article_body: "Info about Gormlaith Gaunt's Stuff"
 }
 
 william_the_pukwudgie_article = {
   user_id: 79,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'William Pukwudgie Info Page',
+  article_body: "Info about William Pukwudgie's Stuff"
 }
 
 godric_gryffindor_article = {
   user_id: 80,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Godric Gryffindor Info Page',
+  article_body: "Info about Godric Gryffindor's Stuff"
 }
 
 rowena_ravenclaw_article = {
   user_id: 81,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Rowena Ravenclaw Info Page',
+  article_body: "Info about Rowena Ravenclaw's Stuff"
 }
 
 helga_hufflepuff_article = {
   user_id: 82,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Helga Hufflepuff Info Page',
+  article_body: "Info about Helga Hufflepuff's Stuff"
 }
 
 salazar_slytherin_article = {
   user_id: 83,
-  article_title: ' Info Page',
-  article_body: "Info about Stuff"
+  article_title: 'Salazar Slytherin Info Page',
+  article_body: "Info about Salazar Slytherin's Stuff"
 }
  
 # Seed Data for the Owl Class
