@@ -5,7 +5,7 @@ class CreatePets < ActiveRecord::Migration
   		t.string :species, null: false
   		t.references :owner
   		
-  		t.timestamps
+  		t.timestamps null: false
   	end
   end
 end

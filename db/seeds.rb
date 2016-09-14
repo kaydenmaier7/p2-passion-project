@@ -141,7 +141,7 @@ george = {
 }
 
 ginny = {
-  first_name: 'Ronald',
+  first_name: 'Ginny',
   last_name: 'Weasley',
   username: 'Ginny.weasley11',
   email: 'Ginny.weasley11@gmail.com',
@@ -1494,7 +1494,7 @@ maxime_wand = {
   core: 'unknown',
   wood_type: 'unknown',
   owner_id: 44,
-  creator_id: 12 djfasl;kjs
+  creator_id: nil
 }
 
 karkaroff_wand = {
@@ -1502,7 +1502,7 @@ karkaroff_wand = {
   core: 'unknown',
   wood_type: 'unknown',
   owner_id: 45,
-  creator_id: 12 ldjsfls;ak
+  creator_id: nil
 }
 
 lestrange_wand = {
@@ -2922,28 +2922,28 @@ harry_relationship1 = {
   # relative name: Hermione
   user_id: 1,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
 }
 
 harry_relationship2 = {
   # relative name: Ron
   user_id: 1,
   relative_id: 3,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
 }
 
 harry_relationship3 = {
   # relative name: Arthur
   user_id: 1,
   relative_id: 4,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
 }
 
 harry_relationship4 = {
   # relative name: Molly
   user_id: 1,
   relative_id: 5,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -2960,7 +2960,7 @@ harry_relationship5 = {
   # relative name: Bill
   user_id: 1,
   relative_id: 6,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -2977,7 +2977,7 @@ harry_relationship6 = {
   # relative name: Charlie
   user_id: 1,
   relative_id: 7,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -2994,7 +2994,7 @@ harry_relationship7 = {
   # relative name: Percy
   user_id: 1,
   relative_id: 8,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3011,7 +3011,7 @@ harry_relationship8 = {
   # relative name: Fred
   user_id: 1,
   relative_id: 9,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3028,7 +3028,7 @@ harry_relationship9 = {
   # relative name: George
   user_id: 1,
   relative_id: 10,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3045,7 +3045,7 @@ harry_relationship10 = {
   # relative name: Ginny
   user_id: 1,
   relative_id: 11,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -3062,7 +3062,7 @@ harry_relationship11 = {
   # relative name: Sirius
   user_id: 1,
   relative_id: 13,
-  type: 'Godfather'
+  kind: 'Godfather'
   # relationship types:
   # brother,
   # sister,
@@ -3079,7 +3079,7 @@ harry_relationship12 = {
   # relative name: James Potter I
   user_id: 1,
   relative_id: 25,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -3096,7 +3096,7 @@ harry_relationship13 = {
   # relative name: Lily
   user_id: 1,
   relative_id: 26,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -3113,7 +3113,7 @@ harry_relationship14 = {
   # relative name: Fleur
   user_id: 1,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3130,7 +3130,7 @@ harry_relationship15 = {
   # relative name: James Potter II
   user_id: 1,
   relative_id: 54,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -3147,7 +3147,7 @@ harry_relationship16 = {
   # relative name: Albus Potter
   user_id: 1,
   relative_id: 55,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -3164,7 +3164,7 @@ harry_relationship17 = {
   # relative name: Lily Potter II
   user_id: 1,
   relative_id: 56,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -3181,7 +3181,7 @@ harry_relationship18 = {
   # relative name: Rose
   user_id: 1,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3198,7 +3198,7 @@ harry_relationship19 = {
   # relative name: Hugo
   user_id: 1,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3215,7 +3215,7 @@ harry_relationship20 = {
   # relative name: Audrey
   user_id: 1,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3232,7 +3232,7 @@ harry_relationship21 = {
   # relative name: Victoire
   user_id: 1,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3249,7 +3249,7 @@ harry_relationship22 = {
   # relative name: Dominique
   user_id: 1,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3266,7 +3266,7 @@ harry_relationship23 = {
   # relative name: Louis
   user_id: 1,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3283,7 +3283,7 @@ harry_relationship24 = {
   # relative name: Angelina
   user_id: 1,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3300,7 +3300,7 @@ harry_relationship25 = {
   # relative name: Fred II
   user_id: 1,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3317,7 +3317,7 @@ harry_relationship26 = {
   # relative name: Roxanne
   user_id: 1,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3334,7 +3334,7 @@ harry_relationship27 = {
   # relative name: Molly II
   user_id: 1,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3351,7 +3351,7 @@ harry_relationship28 = {
   # relative name: Lucy
   user_id: 1,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3368,7 +3368,7 @@ harry_relationship29 = {
   # relative name: Teddy
   user_id: 1,
   relative_id: 68,
-  type: 'Godson'
+  kind: 'Godson'
   # relationship types:
   # brother,
   # sister,
@@ -3385,7 +3385,7 @@ hermione_relationship1 = {
   # relative name: Harry
   user_id: 2,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3402,7 +3402,7 @@ hermione_relationship2 = {
   # relative name: Ron
   user_id: 2,
   relative_id: 3,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -3419,7 +3419,7 @@ hermione_relationship3 = {
   # relative name: Arthur
   user_id: 2,
   relative_id: 4,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3436,7 +3436,7 @@ hermione_relationship4 = {
   # relative name: Molly
   user_id: 2,
   relative_id: 5,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3453,7 +3453,7 @@ hermione_relationship5 = {
   # relative name: Bill
   user_id: 2,
   relative_id: 6,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3470,7 +3470,7 @@ hermione_relationship6 = {
   # relative name: Charlie
   user_id: 2,
   relative_id: 7,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3487,7 +3487,7 @@ hermione_relationship7 = {
   # relative name: Percy
   user_id: 2,
   relative_id: 8,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3504,7 +3504,7 @@ hermione_relationship8 = {
   # relative name: Fred I
   user_id: 2,
   relative_id: 9,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3521,7 +3521,7 @@ hermione_relationship9 = {
   # relative name: George
   user_id: 2,
   relative_id: 10,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3538,7 +3538,7 @@ hermione_relationship10 = {
   # relative name: Ginny
   user_id: 2,
   relative_id: 11,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3555,7 +3555,7 @@ hermione_relationship11 = {
   # relative name: Fleur
   user_id: 2,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3572,7 +3572,7 @@ hermione_relationship12 = {
   # relative name: James Potter II
   user_id: 2,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3589,7 +3589,7 @@ hermione_relationship13 = {
   # relative name: Albus Potter
   user_id: 2,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3606,7 +3606,7 @@ hermione_relationship14 = {
   # relative name: Lily PotterII
   user_id: 2,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3623,7 +3623,7 @@ hermione_relationship15 = {
   # relative name: Rose
   user_id: 2,
   relative_id: 57,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -3640,7 +3640,7 @@ hermione_relationship16 = {
   # relative name: Hugo
   user_id: 2,
   relative_id: 58,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -3657,7 +3657,7 @@ hermione_relationship17 = {
   # relative name: Audrey
   user_id: 2,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3674,7 +3674,7 @@ hermione_relationship18 = {
   # relative name: Victoire
   user_id: 2,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3691,7 +3691,7 @@ hermione_relationship19 = {
   # relative name: Dominique
   user_id: 2,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3708,7 +3708,7 @@ hermione_relationship20 = {
   # relative name: Louis
   user_id: 2,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3725,7 +3725,7 @@ hermione_relationship21 = {
   # relative name: Angelina
   user_id: 2,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3742,7 +3742,7 @@ hermione_relationship22 = {
   # relative name: Fred II
   user_id: 2,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -3759,7 +3759,7 @@ hermione_relationship23 = {
   # relative name: Roxanne
   user_id: 2,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3776,7 +3776,7 @@ hermione_relationship24 = {
   # relative name: Molly
   user_id: 2,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3793,7 +3793,7 @@ hermione_relationship25 = {
   # relative name: Lucy
   user_id: 2,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -3810,7 +3810,7 @@ ron_relationship1 = {
   # relative name: Harry
   user_id: 3,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3827,7 +3827,7 @@ ron_relationship2 = {
   # relative name: Hermione
   user_id: 3,
   relative_id: 2,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -3844,7 +3844,7 @@ ron_relationship3 = {
   # relative name: Arthur
   user_id: 3,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -3861,7 +3861,7 @@ ron_relationship4 = {
   # relative name: Molly
   user_id: 3,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -3878,7 +3878,7 @@ ron_relationship5 = {
   # relative name: Bill
   user_id: 3,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -3895,7 +3895,7 @@ ron_relationship6 = {
   # relative name: Charlie
   user_id: 3,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -3912,7 +3912,7 @@ ron_relationship7 = {
   # relative name: Percy
   user_id: 3,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -3929,7 +3929,7 @@ ron_relationship8 = {
   # relative name: Fred
   user_id: 3,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -3946,7 +3946,7 @@ ron_relationship9 = {
   # relative name: George
   user_id: 3,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -3963,7 +3963,7 @@ ron_relationship10 = {
   # relative name: Ginny
   user_id: 3,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -3980,7 +3980,7 @@ ron_relationship11 = {
   # relative name: Fleur
   user_id: 3,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -3997,7 +3997,7 @@ ron_relationship12 = {
   # relative name: James II
   user_id: 3,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -4014,7 +4014,7 @@ ron_relationship13 = {
   # relative name: Albus Potter
   user_id: 3,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -4031,7 +4031,7 @@ ron_relationship14 = {
   # relative name: Lily II
   user_id: 3,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4048,7 +4048,7 @@ ron_relationship15 = {
   # relative name: Rose
   user_id: 3,
   relative_id: 57,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -4065,7 +4065,7 @@ ron_relationship16 = {
   # relative name: Hugo
   user_id: 3,
   relative_id: 58,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4082,7 +4082,7 @@ ron_relationship17 = {
   # relative name: Audrey
   user_id: 3,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4099,7 +4099,7 @@ ron_relationship18 = {
   # relative name: Victoire
   user_id: 3,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4116,7 +4116,7 @@ ron_relationship19 = {
   # relative name: Dominique
   user_id: 3,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4133,7 +4133,7 @@ ron_relationship20 = {
   # relative name: Louis
   user_id: 3,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -4150,7 +4150,7 @@ ron_relationship21 = {
   # relative name: Angelina
   user_id: 3,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4167,7 +4167,7 @@ ron_relationship22 = {
   # relative name: Fred II
   user_id: 3,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -4184,7 +4184,7 @@ ron_relationship23 = {
   # relative name: Roxanne
   user_id: 3,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4201,7 +4201,7 @@ ron_relationship24 = {
   # relative name: Molly
   user_id: 3,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4218,7 +4218,7 @@ ron_relationship25 = {
   # relative name: Lucy
   user_id: 3,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -4235,7 +4235,7 @@ arthur_relationship1 = {
   # relative name: Harry
   user_id: 4,
   relative_id: 1,
-  type: 'Son-In-Law'
+  kind: 'Son-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4252,7 +4252,7 @@ arthur_relationship2 = {
   # relative name: Hermione
   user_id: 4,
   relative_id: 2,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4269,7 +4269,7 @@ arthur_relationship3 = {
   # relative name: Ron
   user_id: 4,
   relative_id: 3,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4286,7 +4286,7 @@ arthur_relationship4 = {
   # relative name: Molly
   user_id: 4,
   relative_id: 5,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -4303,7 +4303,7 @@ arthur_relationship5 = {
   # relative name: Bill
   user_id: 4,
   relative_id: 6,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4320,7 +4320,7 @@ arthur_relationship6 = {
   # relative name: Charlie
   user_id: 4,
   relative_id: 7,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4337,7 +4337,7 @@ arthur_relationship7 = {
   # relative name: Percy
   user_id: 4,
   relative_id: 8,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4354,7 +4354,7 @@ arthur_relationship8 = {
   # relative name: Fred I
   user_id: 4,
   relative_id: 9,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4371,7 +4371,7 @@ arthur_relationship9 = {
   # relative name: George
   user_id: 4,
   relative_id: 10,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4388,7 +4388,7 @@ arthur_relationship10 = {
   # relative name: Ginny
   user_id: 4,
   relative_id: 11,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -4405,7 +4405,7 @@ arthur_relationship11 = {
   # relative name: Fleur
   user_id: 4,
   relative_id: 41,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4422,7 +4422,7 @@ arthur_relationship12 = {
   # relative name: James II
   user_id: 4,
   relative_id: 54,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4439,7 +4439,7 @@ arthur_relationship13 = {
   # relative name: Albus Potter
   user_id: 4,
   relative_id: 55,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4456,7 +4456,7 @@ arthur_relationship14 = {
   # relative name: Lily II
   user_id: 4,
   relative_id: 56,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4473,7 +4473,7 @@ arthur_relationship15 = {
   # relative name: Rose
   user_id: 4,
   relative_id: 57,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4490,7 +4490,7 @@ arthur_relationship16 = {
   # relative name: Hugo
   user_id: 4,
   relative_id: 58,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4507,7 +4507,7 @@ arthur_relationship17 = {
   # relative name: Audrey
   user_id: 4,
   relative_id: 59,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4524,7 +4524,7 @@ arthur_relationship18 = {
   # relative name: Victoire
   user_id: 4,
   relative_id: 60,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4541,7 +4541,7 @@ arthur_relationship19 = {
   # relative name: Dominique
   user_id: 4,
   relative_id: 61,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4558,7 +4558,7 @@ arthur_relationship20 = {
   # relative name: Louis
   user_id: 4,
   relative_id: 62,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4575,7 +4575,7 @@ arthur_relationship21 = {
   # relative name: Angelina
   user_id: 4,
   relative_id: 63,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4592,7 +4592,7 @@ arthur_relationship22 = {
   # relative name: Fred II
   user_id: 4,
   relative_id: 64,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4609,7 +4609,7 @@ arthur_relationship23 = {
   # relative name: Roxanne
   user_id: 4,
   relative_id: 65,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4626,7 +4626,7 @@ arthur_relationship24 = {
   # relative name: Molly
   user_id: 4,
   relative_id: 66,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4643,7 +4643,7 @@ arthur_relationship25 = {
   # relative name: Lucy
   user_id: 4,
   relative_id: 67,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4660,7 +4660,7 @@ molly_relationship1 = {
   # relative name: Harry
   user_id: 5,
   relative_id: 1,
-  type: 'Son-In-Law'
+  kind: 'Son-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4677,7 +4677,7 @@ molly_relationship2 = {
   # relative name: Hermione
   user_id: 5,
   relative_id: 2,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4694,7 +4694,7 @@ molly_relationship3 = {
   # relative name: Ron
   user_id: 5,
   relative_id: 3,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4711,7 +4711,7 @@ molly_relationship4 = {
   # relative name: Arthur
   user_id: 5,
   relative_id: 4,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -4728,7 +4728,7 @@ molly_relationship5 = {
   # relative name: Bill
   user_id: 5,
   relative_id: 6,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4745,7 +4745,7 @@ molly_relationship6 = {
   # relative name: Charlie
   user_id: 5,
   relative_id: 7,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4762,7 +4762,7 @@ molly_relationship7 = {
   # relative name: Percy
   user_id: 5,
   relative_id: 8,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4779,7 +4779,7 @@ molly_relationship8 = {
   # relative name: Fred I
   user_id: 5,
   relative_id: 9,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4796,7 +4796,7 @@ molly_relationship9 = {
   # relative name: George
   user_id: 5,
   relative_id: 10,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -4813,7 +4813,7 @@ molly_relationship10 = {
   # relative name: Ginny
   user_id: 5,
   relative_id: 11,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -4830,7 +4830,7 @@ molly_relationship11 = {
   # relative name: Fleur
   user_id: 5,
   relative_id: 41,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4847,7 +4847,7 @@ molly_relationship12 = {
   # relative name: James II
   user_id: 5,
   relative_id: 54,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4864,7 +4864,7 @@ molly_relationship13 = {
   # relative name: Albus Potter
   user_id: 5,
   relative_id: 55,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4881,7 +4881,7 @@ molly_relationship14 = {
   # relative name: Lily II
   user_id: 5,
   relative_id: 56,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4898,7 +4898,7 @@ molly_relationship15 = {
   # relative name: Rose
   user_id: 5,
   relative_id: 57,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4915,7 +4915,7 @@ molly_relationship16 = {
   # relative name: Hugo
   user_id: 5,
   relative_id: 58,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -4932,7 +4932,7 @@ molly_relationship17 = {
   # relative name: Audrey
   user_id: 5,
   relative_id: 59,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -4949,7 +4949,7 @@ molly_relationship18 = {
   # relative name: Victoire
   user_id: 5,
   relative_id: 60,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4966,7 +4966,7 @@ molly_relationship19 = {
   # relative name: Dominique
   user_id: 5,
   relative_id: 61,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -4983,7 +4983,7 @@ molly_relationship20 = {
   # relative name: Louis
   user_id: 5,
   relative_id: 62,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -5000,7 +5000,7 @@ molly_relationship21 = {
   # relative name: Angelina
   user_id: 5,
   relative_id: 63,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5017,7 +5017,7 @@ molly_relationship22 = {
   # relative name: Fred II
   user_id: 5,
   relative_id: 64,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -5034,7 +5034,7 @@ molly_relationship23 = {
   # relative name: Roxanne
   user_id: 5,
   relative_id: 65,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -5051,7 +5051,7 @@ molly_relationship24 = {
   # relative name: Molly II
   user_id: 5,
   relative_id: 66,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -5068,7 +5068,7 @@ molly_relationship25 = {
   # relative name: Lucy
   user_id: 5,
   relative_id: 67,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -5085,7 +5085,7 @@ bill_relationship1 = {
   # relative name: Harry
   user_id: 6,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5102,7 +5102,7 @@ bill_relationship2 = {
   # relative name: Hermione
   user_id: 6,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5119,7 +5119,7 @@ bill_relationship3 = {
   # relative name: Ron
   user_id: 6,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5136,7 +5136,7 @@ bill_relationship4 = {
   # relative name: Arthur
   user_id: 6,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -5153,7 +5153,7 @@ bill_relationship5 = {
   # relative name: Molly
   user_id: 6,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -5170,7 +5170,7 @@ bill_relationship6 = {
   # relative name: Charlie
   user_id: 6,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5187,7 +5187,7 @@ bill_relationship7 = {
   # relative name: Percy
   user_id: 6,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5204,7 +5204,7 @@ bill_relationship8 = {
   # relative name: Fred I
   user_id: 6,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5221,7 +5221,7 @@ bill_relationship9 = {
   # relative name: George
   user_id: 6,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5238,7 +5238,7 @@ bill_relationship10 = {
   # relative name: Ginny
   user_id: 6,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -5255,7 +5255,7 @@ bill_relationship11 = {
   # relative name: Fleur
   user_id: 6,
   relative_id: 41,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -5272,7 +5272,7 @@ bill_relationship12 = {
   # relative name: James II
   user_id: 6,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5289,7 +5289,7 @@ bill_relationship13 = {
   # relative name: Albus Potter
   user_id: 6,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5306,7 +5306,7 @@ bill_relationship14 = {
   # relative name: Lily II
   user_id: 6,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5323,7 +5323,7 @@ bill_relationship15 = {
   # relative name: Rose
   user_id: 6,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5340,7 +5340,7 @@ bill_relationship16 = {
   # relative name: Hugo
   user_id: 6,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5357,7 +5357,7 @@ bill_relationship17 = {
   # relative name: Audrey
   user_id: 6,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5374,7 +5374,7 @@ bill_relationship18 = {
   # relative name: Victoire
   user_id: 6,
   relative_id: 60,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -5391,7 +5391,7 @@ bill_relationship19 = {
   # relative name: Dominique
   user_id: 6,
   relative_id: 61,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -5408,7 +5408,7 @@ bill_relationship20 = {
   # relative name: Louis
   user_id: 6,
   relative_id: 62,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -5425,7 +5425,7 @@ bill_relationship21 = {
   # relative name: Angelina
   user_id: 6,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5442,7 +5442,7 @@ bill_relationship22 = {
   # relative name: Fred II
   user_id: 6,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5459,7 +5459,7 @@ bill_relationship23 = {
   # relative name: Roxanne
   user_id: 6,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5476,7 +5476,7 @@ bill_relationship24 = {
   # relative name: Molly
   user_id: 6,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5493,7 +5493,7 @@ bill_relationship25 = {
   # relative name: Lucy
   user_id: 6,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5510,7 +5510,7 @@ bill_relationship26 = {
   # relative name: Gabrielle
   user_id: 6,
   relative_id: 42,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5527,7 +5527,7 @@ charlie_relationship1 = {
   # relative name: Harry
   user_id: 7,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5544,7 +5544,7 @@ charlie_relationship2 = {
   # relative name: Hermione
   user_id: 7,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5561,7 +5561,7 @@ charlie_relationship3 = {
   # relative name: Ron
   user_id: 7,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5578,7 +5578,7 @@ charlie_relationship4 = {
   # relative name: Arthur
   user_id: 7,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -5595,7 +5595,7 @@ charlie_relationship5 = {
   # relative name:  Molly I
   user_id: 7,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -5612,7 +5612,7 @@ charlie_relationship6 = {
   # relative name: Bill
   user_id: 7,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5629,7 +5629,7 @@ charlie_relationship7 = {
   # relative name: Percy
   user_id: 7,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5646,7 +5646,7 @@ charlie_relationship8 = {
   # relative name: Fred I
   user_id: 7,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5663,7 +5663,7 @@ charlie_relationship9 = {
   # relative name: George
   user_id: 7,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -5680,7 +5680,7 @@ charlie_relationship10 = {
   # relative name: Ginny
   user_id: 7,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -5697,7 +5697,7 @@ charlie_relationship11 = {
   # relative name: Fleur
   user_id: 7,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5714,7 +5714,7 @@ charlie_relationship12 = {
   # relative name: James II
   user_id: 7,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5731,7 +5731,7 @@ charlie_relationship13 = {
   # relative name: Albus Potter
   user_id: 7,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5748,7 +5748,7 @@ charlie_relationship14 = {
   # relative name: Lily II
   user_id: 7,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5765,7 +5765,7 @@ charlie_relationship15 = {
   # relative name: Rose
   user_id: 7,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5782,7 +5782,7 @@ charlie_relationship16 = {
   # relative name: Hugo
   user_id: 7,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5799,7 +5799,7 @@ charlie_relationship17 = {
   # relative name: Audrey
   user_id: 7,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5816,7 +5816,7 @@ charlie_relationship18 = {
   # relative name: Victoire
   user_id: 7,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5833,7 +5833,7 @@ charlie_relationship19 = {
   # relative name: Dominique
   user_id: 7,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5850,7 +5850,7 @@ charlie_relationship20 = {
   # relative name: Louis
   user_id: 7,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5867,7 +5867,7 @@ charlie_relationship21 = {
   # relative name: Angelina
   user_id: 7,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5884,7 +5884,7 @@ charlie_relationship22 = {
   # relative name: Fred II
   user_id: 7,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -5901,7 +5901,7 @@ charlie_relationship23 = {
   # relative name: Roxanne
   user_id: 7,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5918,7 +5918,7 @@ charlie_relationship24 = {
   # relative name: Molly II
   user_id: 7,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5935,7 +5935,7 @@ charlie_relationship25 = {
   # relative name: Lucy
   user_id: 7,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -5952,7 +5952,7 @@ percy_relationship1 = {
   # relative name: Harry
   user_id: 8,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5969,7 +5969,7 @@ percy_relationship2 = {
   # relative name: Hermione
   user_id: 8,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -5986,7 +5986,7 @@ percy_relationship3 = {
   # relative name: Ron
   user_id: 8,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6003,7 +6003,7 @@ percy_relationship4 = {
   # relative name: Arthur
   user_id: 8,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -6020,7 +6020,7 @@ percy_relationship5 = {
   # relative name:  Molly I
   user_id: 8,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -6037,7 +6037,7 @@ percy_relationship6 = {
   # relative name: Bill
   user_id: 8,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6054,7 +6054,7 @@ percy_relationship7 = {
   # relative name: Charlie
   user_id: 8,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6071,7 +6071,7 @@ percy_relationship8 = {
   # relative name: Fred I
   user_id: 8,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6088,7 +6088,7 @@ percy_relationship9 = {
   # relative name: George
   user_id: 8,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6105,7 +6105,7 @@ percy_relationship10 = {
   # relative name: Ginny
   user_id: 8,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -6122,7 +6122,7 @@ percy_relationship11 = {
   # relative name: Fleur
   user_id: 8,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6139,7 +6139,7 @@ percy_relationship12 = {
   # relative name: James II
   user_id: 8,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6156,7 +6156,7 @@ percy_relationship13 = {
   # relative name: Albus Potter
   user_id: 8,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6173,7 +6173,7 @@ percy_relationship14 = {
   # relative name: Lily II
   user_id: 8,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6190,7 +6190,7 @@ percy_relationship15 = {
   # relative name: Rose
   user_id: 8,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6207,7 +6207,7 @@ percy_relationship16 = {
   # relative name: Hugo
   user_id: 8,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6224,7 +6224,7 @@ percy_relationship17 = {
   # relative name: Audrey
   user_id: 8,
   relative_id: 59,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -6241,7 +6241,7 @@ percy_relationship18 = {
   # relative name: Victoire
   user_id: 8,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6258,7 +6258,7 @@ percy_relationship19 = {
   # relative name: Dominique
   user_id: 8,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6275,7 +6275,7 @@ percy_relationship20 = {
   # relative name: Louis
   user_id: 8,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6292,7 +6292,7 @@ percy_relationship21 = {
   # relative name: Angelina
   user_id: 8,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6309,7 +6309,7 @@ percy_relationship22 = {
   # relative name: Fred II
   user_id: 8,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6326,7 +6326,7 @@ percy_relationship23 = {
   # relative name: Roxanne
   user_id: 8,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6343,7 +6343,7 @@ percy_relationship24 = {
   # relative name: Molly II
   user_id: 8,
   relative_id: 66,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -6360,7 +6360,7 @@ percy_relationship25 = {
   # relative name: Lucy
   user_id: 8,
   relative_id: 67,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -6377,7 +6377,7 @@ fredI_relationship1 = {
   # relative name: Harry
   user_id: 9,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6394,7 +6394,7 @@ fredI_relationship2 = {
   # relative name: Hermione
   user_id: 9,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6411,7 +6411,7 @@ fredI_relationship3 = {
   # relative name: Ron
   user_id: 9,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6428,7 +6428,7 @@ fredI_relationship4 = {
   # relative name: Arthur
   user_id: 9,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -6445,7 +6445,7 @@ fredI_relationship5 = {
   # relative name:  Molly I
   user_id: 9,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -6462,7 +6462,7 @@ fredI_relationship6 = {
   # relative name: Bill
   user_id: 9,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6479,7 +6479,7 @@ fredI_relationship7 = {
   # relative name: Charlie
   user_id: 9,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6496,7 +6496,7 @@ fredI_relationship8 = {
   # relative name: Percy
   user_id: 9,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6513,7 +6513,7 @@ fredI_relationship9 = {
   # relative name: George
   user_id: 9,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6530,7 +6530,7 @@ fredI_relationship10 = {
   # relative name: Ginny
   user_id: 9,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -6547,7 +6547,7 @@ fredI_relationship11 = {
   # relative name: Fleur
   user_id: 9,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6564,7 +6564,7 @@ fredI_relationship12 = {
   # relative name: James II
   user_id: 9,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6581,7 +6581,7 @@ fredI_relationship13 = {
   # relative name: Albus Potter
   user_id: 9,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6598,7 +6598,7 @@ fredI_relationship14 = {
   # relative name: Lily II
   user_id: 9,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6615,7 +6615,7 @@ fredI_relationship15 = {
   # relative name: Rose
   user_id: 9,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6632,7 +6632,7 @@ fredI_relationship16 = {
   # relative name: Hugo
   user_id: 9,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6649,7 +6649,7 @@ fredI_relationship17 = {
   # relative name: Audrey
   user_id: 9,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6666,7 +6666,7 @@ fredI_relationship18 = {
   # relative name: Victoire
   user_id: 9,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6683,7 +6683,7 @@ fredI_relationship19 = {
   # relative name: Dominique
   user_id: 9,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6700,7 +6700,7 @@ fredI_relationship20 = {
   # relative name: Louis
   user_id: 9,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6717,7 +6717,7 @@ fredI_relationship21 = {
   # relative name: Angelina
   user_id: 9,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6734,7 +6734,7 @@ fredI_relationship22 = {
   # relative name: Fred II
   user_id: 9,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -6751,7 +6751,7 @@ fredI_relationship23 = {
   # relative name: Roxanne
   user_id: 9,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6768,7 +6768,7 @@ fredI_relationship24 = {
   # relative name: Molly II
   user_id: 9,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6785,7 +6785,7 @@ fredI_relationship25 = {
   # relative name: Lucy
   user_id: 9,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -6802,7 +6802,7 @@ george_relationship1 = {
   # relative name: Harry
   user_id: 10,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6819,7 +6819,7 @@ george_relationship2 = {
   # relative name: Hermione
   user_id: 10,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6836,7 +6836,7 @@ george_relationship3 = {
   # relative name: Ron
   user_id: 10,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6853,7 +6853,7 @@ george_relationship4 = {
   # relative name: Arthur
   user_id: 10,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -6870,7 +6870,7 @@ george_relationship5 = {
   # relative name:  Molly I
   user_id: 10,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -6887,7 +6887,7 @@ george_relationship6 = {
   # relative name: Bill
   user_id: 10,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6904,7 +6904,7 @@ george_relationship7 = {
   # relative name: Charlie
   user_id: 10,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6921,7 +6921,7 @@ george_relationship8 = {
   # relative name: Percy
   user_id: 10,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6938,7 +6938,7 @@ george_relationship9 = {
   # relative name: Fred I
   user_id: 10,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -6955,7 +6955,7 @@ george_relationship10 = {
   # relative name: Ginny
   user_id: 10,
   relative_id: 11,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -6972,7 +6972,7 @@ george_relationship11 = {
   # relative name: Fleur
   user_id: 10,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -6989,7 +6989,7 @@ george_relationship12 = {
   # relative name: James II
   user_id: 10,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7006,7 +7006,7 @@ george_relationship13 = {
   # relative name: Albus Potter
   user_id: 10,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7023,7 +7023,7 @@ george_relationship14 = {
   # relative name: Lily II
   user_id: 10,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7040,7 +7040,7 @@ george_relationship15 = {
   # relative name: Rose
   user_id: 10,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7057,7 +7057,7 @@ george_relationship16 = {
   # relative name: Hugo
   user_id: 10,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7074,7 +7074,7 @@ george_relationship17 = {
   # relative name: Audrey
   user_id: 10,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7091,7 +7091,7 @@ george_relationship18 = {
   # relative name: Victoire
   user_id: 10,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7108,7 +7108,7 @@ george_relationship19 = {
   # relative name: Dominique
   user_id: 10,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7125,7 +7125,7 @@ george_relationship20 = {
   # relative name: Louis
   user_id: 10,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7142,7 +7142,7 @@ george_relationship21 = {
   # relative name: Angelina
   user_id: 10,
   relative_id: 63,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -7159,7 +7159,7 @@ george_relationship22 = {
   # relative name: Fred II
   user_id: 10,
   relative_id: 64,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -7176,7 +7176,7 @@ george_relationship23 = {
   # relative name: Roxanne
   user_id: 10,
   relative_id: 65,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -7193,7 +7193,7 @@ george_relationship24 = {
   # relative name: Molly II
   user_id: 10,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7210,7 +7210,7 @@ george_relationship25 = {
   # relative name: Lucy
   user_id: 10,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7227,28 +7227,28 @@ ginny_relationship1 = {
   # relative name: Hermione
   user_id: 11,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
 }
 
 ginny_relationship2 = {
   # relative name: Ron
   user_id: 11,
   relative_id: 3,
-  type: 'Brother'
+  kind: 'Brother'
 }
 
 ginny_relationship3 = {
   # relative name: Arthur
   user_id: 11,
   relative_id: 4,
-  type: 'Father'
+  kind: 'Father'
 }
 
 ginny_relationship4 = {
   # relative name: Molly
   user_id: 11,
   relative_id: 5,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -7265,7 +7265,7 @@ ginny_relationship5 = {
   # relative name: Bill
   user_id: 11,
   relative_id: 6,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -7282,7 +7282,7 @@ ginny_relationship6 = {
   # relative name: Charlie
   user_id: 11,
   relative_id: 7,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -7299,7 +7299,7 @@ ginny_relationship7 = {
   # relative name: Percy
   user_id: 11,
   relative_id: 8,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -7316,7 +7316,7 @@ ginny_relationship8 = {
   # relative name: Fred
   user_id: 11,
   relative_id: 9,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -7333,7 +7333,7 @@ ginny_relationship9 = {
   # relative name: George
   user_id: 11,
   relative_id: 10,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -7350,7 +7350,7 @@ ginny_relationship10 = {
   # relative name: Harry
   user_id: 11,
   relative_id: 1,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -7367,7 +7367,7 @@ ginny_relationship11 = {
   # relative name: Sirius
   user_id: 11,
   relative_id: 13,
-  type: 'Godfather'
+  kind: 'Godfather'
   # relationship types:
   # brother,
   # sister,
@@ -7384,7 +7384,7 @@ ginny_relationship12 = {
   # relative name: James Potter I
   user_id: 11,
   relative_id: 25,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7401,7 +7401,7 @@ ginny_relationship13 = {
   # relative name: Lily
   user_id: 11,
   relative_id: 26,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7418,7 +7418,7 @@ ginny_relationship14 = {
   # relative name: Fleur
   user_id: 11,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7435,7 +7435,7 @@ ginny_relationship15 = {
   # relative name: James Potter II
   user_id: 11,
   relative_id: 54,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -7452,7 +7452,7 @@ ginny_relationship16 = {
   # relative name: Albus Potter
   user_id: 11,
   relative_id: 55,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -7469,7 +7469,7 @@ ginny_relationship17 = {
   # relative name: Lily Potter II
   user_id: 11,
   relative_id: 56,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -7486,7 +7486,7 @@ ginny_relationship18 = {
   # relative name: Rose
   user_id: 11,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7503,7 +7503,7 @@ ginny_relationship19 = {
   # relative name: Hugo
   user_id: 11,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7520,7 +7520,7 @@ ginny_relationship20 = {
   # relative name: Audrey
   user_id: 11,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7537,7 +7537,7 @@ ginny_relationship21 = {
   # relative name: Victoire
   user_id: 11,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7554,7 +7554,7 @@ ginny_relationship22 = {
   # relative name: Dominique
   user_id: 11,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7571,7 +7571,7 @@ ginny_relationship23 = {
   # relative name: Louis
   user_id: 11,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7588,7 +7588,7 @@ ginny_relationship24 = {
   # relative name: Angelina
   user_id: 11,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7605,7 +7605,7 @@ ginny_relationship25 = {
   # relative name: Fred II
   user_id: 11,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -7622,7 +7622,7 @@ ginny_relationship26 = {
   # relative name: Roxanne
   user_id: 11,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7639,7 +7639,7 @@ ginny_relationship27 = {
   # relative name: Molly II
   user_id: 11,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7656,7 +7656,7 @@ ginny_relationship28 = {
   # relative name: Lucy
   user_id: 11,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -7673,7 +7673,7 @@ ginny_relationship29 = {
   # relative name: Teddy
   user_id: 11,
   relative_id: 68,
-  type: 'Godson'
+  kind: 'Godson'
   # relationship types:
   # brother,
   # sister,
@@ -7692,7 +7692,7 @@ sirius_relationship1 = {
   # relative name: Harry
   user_id: 13,
   relative_id: 1,
-  type: 'Godson'
+  kind: 'Godson'
   # relationship types:
   # brother,
   # sister,
@@ -7709,7 +7709,7 @@ sirius_relationship2 = {
   # relative name: Lupin
   user_id: 13,
   relative_id: 17,
-  type: 'Cousin-In-Law'
+  kind: 'Cousin-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7726,7 +7726,7 @@ sirius_relationship3 = {
   # relative name: Draco Malfoy
   user_id: 13,
   relative_id: 37,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7743,7 +7743,7 @@ sirius_relationship4 = {
   # relative name: Tonks
   user_id: 13,
   relative_id: 39,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7760,7 +7760,7 @@ sirius_relationship5 = {
   # relative name: Lestrange
   user_id: 13,
   relative_id: 46,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7777,7 +7777,7 @@ sirius_relationship6 = {
   # relative name: Lucius Malfoy
   user_id: 13,
   relative_id: 47,
-  type: 'Cousin-In-Law'
+  kind: 'Cousin-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7794,7 +7794,7 @@ sirius_relationship7 = {
   # relative name: Narcissa Malfoy
   user_id: 13,
   relative_id: 48,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7811,7 +7811,7 @@ sirius_relationship8 = {
   # relative name: Teddy Lupin
   user_id: 13,
   relative_id: 68,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7834,7 +7834,7 @@ lupin_relationship1 = {
   # relative name: Sirius
   user_id: 17,
   relative_id: 13,
-  type: 'Cousin-In-Law'
+  kind: 'Cousin-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -7851,7 +7851,7 @@ lupin_relationship2 = {
   # relative name: Draco Malfoy
   user_id: 17,
   relative_id: 37,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -7868,7 +7868,7 @@ lupin_relationship3 = {
   # relative name: Tonks
   user_id: 17,
   relative_id: 39,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -7885,7 +7885,7 @@ lupin_relationship4 = {
   # relative name: Bellatrix
   user_id: 17,
   relative_id: 46,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -7902,7 +7902,7 @@ lupin_relationship5 = {
   # relative name: Lucius
   user_id: 17,
   relative_id: 47,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -7919,7 +7919,7 @@ lupin_relationship6 = {
   # relative name: Narcissa
   user_id: 17,
   relative_id: 48,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -7936,7 +7936,7 @@ lupin_relationship7 = {
   # relative name:
   user_id: 17,
   relative_id: 68,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -7967,7 +7967,7 @@ james_potterI_relationship1 = {
   # relative name: Harry
   user_id: 25,
   relative_id: 1,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -7984,7 +7984,7 @@ james_potterI_relationship2 = {
   # relative name: Ginny
   user_id: 25,
   relative_id: 11,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8001,7 +8001,7 @@ james_potterI_relationship3 = {
   # relative name: Lily I
   user_id: 25,
   relative_id: 26,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8018,7 +8018,7 @@ james_potterI_relationship4 = {
   # relative name: James II
   user_id: 25,
   relative_id: 54,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -8035,7 +8035,7 @@ james_potterI_relationship5 = {
   # relative name: Albus Potter
   user_id: 25,
   relative_id: 55,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -8052,7 +8052,7 @@ james_potterI_relationship6 = {
   # relative name: Lily Potter II
   user_id: 25,
   relative_id: 56,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -8069,7 +8069,7 @@ lily_potter_relationship1 = {
   # relative name: Harry
   user_id: 26,
   relative_id: 1,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -8086,7 +8086,7 @@ lily_potter_relationship2 = {
   # relative name: Ginny
   user_id: 26,
   relative_id: 11,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8103,7 +8103,7 @@ lily_potter_relationship3 = {
   # relative name: James I
   user_id: 26,
   relative_id: 25,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8120,7 +8120,7 @@ lily_potter_relationship4 = {
   # relative name: James II
   user_id: 26,
   relative_id: 54,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -8137,7 +8137,7 @@ lily_potter_relationship5 = {
   # relative name: Albus Potter
   user_id: 26,
   relative_id: 55,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types:
   # brother,
   # sister,
@@ -8154,7 +8154,7 @@ lily_potter_relationship6 = {
   # relative name: Lily Potter II
   user_id: 26,
   relative_id: 56,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types:
   # brother,
   # sister,
@@ -8173,7 +8173,7 @@ albus_dumbledore_relationship1 = {
   # relative name: Aberforth
   user_id: 28,
   relative_id: 52,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -8188,11 +8188,11 @@ albus_dumbledore_relationship1 = {
 
 # Flitwick doesn't have Family in the DB 29
 
-abbott_relationship = {
+abbott_relationship1 = {
   # relative name: Neville
   user_id: 30,
   relative_id: 35,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8213,11 +8213,11 @@ abbott_relationship = {
 
 # Finnigan doesn't have Family in the DB 34
 
-longbottom_relationship = {
+longbottom_relationship1 = {
   # relative name:
   user_id: 35,
   relative_id: 30,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8236,7 +8236,7 @@ malfoy_relationship1 = {
   # relative name: Sirius
   user_id: 37,
   relative_id: 13,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8253,7 +8253,7 @@ malfoy_relationship2 = {
   # relative name: Lupin
   user_id: 37,
   relative_id: 17,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8270,7 +8270,7 @@ malfoy_relationship3 = {
   # relative name: Tonks
   user_id: 37,
   relative_id: 39,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8287,7 +8287,7 @@ malfoy_relationship4 = {
   # relative name: Bellatrix
   user_id: 37,
   relative_id: 46,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -8304,7 +8304,7 @@ malfoy_relationship5 = {
   # relative name: Lucius
   user_id: 37,
   relative_id: 47,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -8321,7 +8321,7 @@ malfoy_relationship6 = {
   # relative name: Narcissa
   user_id: 37,
   relative_id: 48,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -8338,7 +8338,7 @@ malfoy_relationship7 = {
   # relative name: Teddy Lupin
   user_id: 37,
   relative_id: 68,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8357,7 +8357,7 @@ tonks_relationship1 = {
   # relative name: Sirius
   user_id: 39,
   relative_id: 13,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8374,7 +8374,7 @@ tonks_relationship2 = {
   # relative name: Draco Malfoy
   user_id: 39,
   relative_id: 37,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -8391,7 +8391,7 @@ tonks_relationship3 = {
   # relative name: Lupin
   user_id: 39,
   relative_id: 17,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8408,7 +8408,7 @@ tonks_relationship4 = {
   # relative name: Bellatrix
   user_id: 39,
   relative_id: 46,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -8425,7 +8425,7 @@ tonks_relationship5 = {
   # relative name: Lucius
   user_id: 39,
   relative_id: 47,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -8442,7 +8442,7 @@ tonks_relationship6 = {
   # relative name: Narcissa
   user_id: 39,
   relative_id: 48,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -8459,7 +8459,7 @@ tonks_relationship7 = {
   # relative name: Teddy Lupin
   user_id: 39,
   relative_id: 68,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -8478,7 +8478,7 @@ delacour_relationship1 = {
   # relative name: Harry
   user_id: 41,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8495,7 +8495,7 @@ delacour_relationship2 = {
   # relative name: Hermione
   user_id: 41,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8512,7 +8512,7 @@ delacour_relationship3 = {
   # relative name: Ron
   user_id: 41,
   relative_id: 3,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8529,7 +8529,7 @@ delacour_relationship4 = {
   # relative name: Arthur
   user_id: 41,
   relative_id: 4,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8546,7 +8546,7 @@ delacour_relationship5 = {
   # relative name: Molly
   user_id: 41,
   relative_id: 5,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8563,7 +8563,7 @@ delacour_relationship6 = {
   # relative name: Charlie
   user_id: 41,
   relative_id: 7,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8580,7 +8580,7 @@ delacour_relationship7 = {
   # relative name: Percy
   user_id: 41,
   relative_id: 8,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8597,7 +8597,7 @@ delacour_relationship8 = {
   # relative name: Fred I
   user_id: 41,
   relative_id: 9,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8614,7 +8614,7 @@ delacour_relationship9 = {
   # relative name: George
   user_id: 41,
   relative_id: 10,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8631,7 +8631,7 @@ delacour_relationship10 = {
   # relative name: Ginny
   user_id: 41,
   relative_id: 11,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8648,7 +8648,7 @@ delacour_relationship11 = {
   # relative name: Bill
   user_id: 41,
   relative_id: 6,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -8665,7 +8665,7 @@ delacour_relationship12 = {
   # relative name: James II
   user_id: 41,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -8682,7 +8682,7 @@ delacour_relationship13 = {
   # relative name: Albus Potter
   user_id: 41,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -8699,7 +8699,7 @@ delacour_relationship14 = {
   # relative name: Lily II
   user_id: 41,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8716,7 +8716,7 @@ delacour_relationship15 = {
   # relative name: Rose
   user_id: 41,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8733,7 +8733,7 @@ delacour_relationship16 = {
   # relative name: Hugo
   user_id: 41,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -8750,7 +8750,7 @@ delacour_relationship17 = {
   # relative name: Audrey
   user_id: 41,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8767,7 +8767,7 @@ delacour_relationship18 = {
   # relative name: Victoire
   user_id: 41,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8784,7 +8784,7 @@ delacour_relationship19 = {
   # relative name: Dominique
   user_id: 41,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8801,7 +8801,7 @@ delacour_relationship20 = {
   # relative name: Louis
   user_id: 41,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -8818,7 +8818,7 @@ delacour_relationship21 = {
   # relative name: Angelina
   user_id: 41,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -8835,7 +8835,7 @@ delacour_relationship22 = {
   # relative name: Fred II
   user_id: 41,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -8852,7 +8852,7 @@ delacour_relationship23 = {
   # relative name: Roxanne
   user_id: 41,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8869,7 +8869,7 @@ delacour_relationship24 = {
   # relative name: Molly II
   user_id: 41,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8886,7 +8886,7 @@ delacour_relationship25 = {
   # relative name: Lucy
   user_id: 41,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -8903,7 +8903,7 @@ delacour_relationship26 = {
   # relative name: Gabrielle
   user_id: 41,
   relative_id: 42,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -8920,7 +8920,7 @@ gabby_delacour_relationship = {
     # relative name: Fleur
   user_id: 42,
   relative_id: 41,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -8943,7 +8943,7 @@ lestrange_relationship1 = {
     # relative name: Sirius
   user_id: 46,
   relative_id: 13,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types: 
     # brother, 
     # sister, 
@@ -8960,7 +8960,7 @@ lestrange_relationship2 = {
     # relative name: Lupin
   user_id: 46,
   relative_id: 17,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -8977,7 +8977,7 @@ lestrange_relationship3 = {
     # relative name: Draco Malfoy
   user_id: 46,
   relative_id: 37,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -8994,7 +8994,7 @@ lestrange_relationship4 = {
     # relative name: Tonks 
   user_id: 46,
   relative_id: 39,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9011,7 +9011,7 @@ lestrange_relationship5 = {
     # relative name: Lucius
   user_id: 46,
   relative_id: 47,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9028,7 +9028,7 @@ lestrange_relationship6 = {
     # relative name: Narcissa 
   user_id: 46,
   relative_id: 48,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9045,7 +9045,7 @@ lestrange_relationship7 = {
     # relative name: Teddy Lupin
   user_id: 46,
   relative_id: 68,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9062,7 +9062,7 @@ lucius_malfoy_relationship1 = {
     # relative name: Sirius
   user_id: 47,
   relative_id: 13,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9079,7 +9079,7 @@ lucius_malfoy_relationship2 = {
     # relative name: Lupin
   user_id: 47,
   relative_id: 17,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9096,7 +9096,7 @@ lucius_malfoy_relationship3 = {
     # relative name: Draco
   user_id: 47,
   relative_id: 37,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9113,7 +9113,7 @@ lucius_malfoy_relationship4 = {
     # relative name: Tonks
   user_id: 47,
   relative_id: 39,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9130,7 +9130,7 @@ lucius_malfoy_relationship5 = {
     # relative name: Bellatrix
   user_id: 47,
   relative_id: 46,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9147,7 +9147,7 @@ lucius_malfoy_relationship6 = {
     # relative name: Narcissa
   user_id: 47,
   relative_id: 48,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9164,7 +9164,7 @@ lucius_malfoy_relationship7 = {
     # relative name: Teddy 
   user_id: 47,
   relative_id: 68,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9181,7 +9181,7 @@ narcissa_malfoy_relationship1 = {
     # relative name: Sirius
   user_id: 48,
   relative_id: 13,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9198,7 +9198,7 @@ narcissa_malfoy_relationship2 = {
     # relative name: Lupin
   user_id: 48,
   relative_id: 17,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9215,7 +9215,7 @@ narcissa_malfoy_relationship3 = {
     # relative name: Draco
   user_id: 48,
   relative_id: 37,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9232,7 +9232,7 @@ narcissa_malfoy_relationship4 = {
     # relative name: Tonks
   user_id: 48,
   relative_id: 39,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9249,7 +9249,7 @@ narcissa_malfoy_relationship5 = {
     # relative name: Bellatrix
   user_id: 48,
   relative_id: 46,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9266,7 +9266,7 @@ narcissa_malfoy_relationship6 = {
     # relative name: Lucius
   user_id: 48,
   relative_id: 47,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9283,7 +9283,7 @@ narcissa_malfoy_relationship7 = {
     # relative name: Teddy 
   user_id: 48,
   relative_id: 68,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9306,7 +9306,7 @@ aberforth_relationship = {
     # relative name: Albus
   user_id: 52,
   relative_id: 28,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -9325,7 +9325,7 @@ james_potterII_relationship1 = {
   # relative name: Harry
   user_id: 54,
   relative_id: 1,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -9342,7 +9342,7 @@ james_potterII_relationship2 = {
   # relative name: Hermione
   user_id: 54,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9359,7 +9359,7 @@ james_potterII_relationship3 = {
   # relative name: Ron
   user_id: 54,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9376,7 +9376,7 @@ james_potterII_relationship4 = {
   # relative name: Arthur
   user_id: 54,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -9393,7 +9393,7 @@ james_potterII_relationship5 = {
   # relative name: Molly I
   user_id: 54,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -9410,7 +9410,7 @@ james_potterII_relationship6 = {
   # relative name: Bill
   user_id: 54,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9427,7 +9427,7 @@ james_potterII_relationship7 = {
   # relative name: Charlie
   user_id: 54,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9444,7 +9444,7 @@ james_potterII_relationship8 = {
   # relative name: Percy
   user_id: 54,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9461,7 +9461,7 @@ james_potterII_relationship9 = {
   # relative name: FredI
   user_id: 54,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9478,7 +9478,7 @@ james_potterII_relationship10 = {
   # relative name: George
   user_id: 54,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9495,7 +9495,7 @@ james_potterII_relationship11 = {
   # relative name: Ginny
   user_id: 54,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9512,7 +9512,7 @@ james_potterII_relationship12 = {
   # relative name: James I
   user_id: 54,
   relative_id: 25,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -9529,7 +9529,7 @@ james_potterII_relationship13 = {
   # relative name: Lily I
   user_id: 54,
   relative_id: 26,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -9546,7 +9546,7 @@ james_potterII_relationship14 = {
   # relative name: Fleur
   user_id: 54,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9563,7 +9563,7 @@ james_potterII_relationship15 = {
   # relative name: Albus Potter
   user_id: 54,
   relative_id: 55,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -9580,7 +9580,7 @@ james_potterII_relationship16 = {
   # relative name: Lily II
   user_id: 54,
   relative_id: 56,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -9597,7 +9597,7 @@ james_potterII_relationship17 = {
   # relative name: Rose
   user_id: 54,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9614,7 +9614,7 @@ james_potterII_relationship18 = {
   # relative name: Hugo
   user_id: 54,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9631,7 +9631,7 @@ james_potterII_relationship19 = {
   # relative name: Audrey
   user_id: 54,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9648,7 +9648,7 @@ james_potterII_relationship20 = {
   # relative name: Victoire
   user_id: 54,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9665,7 +9665,7 @@ james_potterII_relationship21 = {
   # relative name: Dominique
   user_id: 54,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9682,7 +9682,7 @@ james_potterII_relationship22 = {
   # relative name: Louis
   user_id: 54,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9699,7 +9699,7 @@ james_potterII_relationship23 = {
   # relative name: Angelina
   user_id: 54,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9716,7 +9716,7 @@ james_potterII_relationship24 = {
   # relative name: Fred II
   user_id: 54,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9733,7 +9733,7 @@ james_potterII_relationship25 = {
   # relative name: Roxanne
   user_id: 54,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9750,7 +9750,7 @@ james_potterII_relationship26 = {
   # relative name: Molly II
   user_id: 54,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9767,7 +9767,7 @@ james_potterII_relationship27 = {
   # relative name: Lucy
   user_id: 54,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -9784,7 +9784,7 @@ albus_potter_relationship1 = {
   # relative name: Harry
   user_id: 55,
   relative_id: 1,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -9801,7 +9801,7 @@ albus_potter_relationship2 = {
   # relative name: Hermione
   user_id: 55,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9818,7 +9818,7 @@ albus_potter_relationship3 = {
   # relative name: Ron
   user_id: 55,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9835,7 +9835,7 @@ albus_potter_relationship4 = {
   # relative name: Arthur
   user_id: 55,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -9852,7 +9852,7 @@ albus_potter_relationship5 = {
   # relative name: Molly I
   user_id: 55,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -9869,7 +9869,7 @@ albus_potter_relationship6 = {
   # relative name: Bill
   user_id: 55,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9886,7 +9886,7 @@ albus_potter_relationship7 = {
   # relative name: Charlie
   user_id: 55,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9903,7 +9903,7 @@ albus_potter_relationship8 = {
   # relative name: Percy
   user_id: 55,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9920,7 +9920,7 @@ albus_potter_relationship9 = {
   # relative name: FredI
   user_id: 55,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9937,7 +9937,7 @@ albus_potter_relationship10 = {
   # relative name: George
   user_id: 55,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -9954,7 +9954,7 @@ albus_potter_relationship11 = {
   # relative name: Ginny
   user_id: 55,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -9971,7 +9971,7 @@ albus_potter_relationship12 = {
   # relative name: James I
   user_id: 55,
   relative_id: 25,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -9988,7 +9988,7 @@ albus_potter_relationship13 = {
   # relative name: Lily I
   user_id: 55,
   relative_id: 26,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -10005,7 +10005,7 @@ albus_potter_relationship14 = {
   # relative name: Fleur
   user_id: 55,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10022,7 +10022,7 @@ albus_potter_relationship15 = {
   # relative name: James Potter II
   user_id: 55,
   relative_id: 54,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -10039,7 +10039,7 @@ albus_potter_relationship16 = {
   # relative name: Lily II
   user_id: 55,
   relative_id: 56,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -10056,7 +10056,7 @@ albus_potter_relationship17 = {
   # relative name: Rose
   user_id: 55,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10073,7 +10073,7 @@ albus_potter_relationship18 = {
   # relative name: Hugo
   user_id: 55,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10090,7 +10090,7 @@ albus_potter_relationship19 = {
   # relative name: Audrey
   user_id: 55,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10107,7 +10107,7 @@ albus_potter_relationship20 = {
   # relative name: Victoire
   user_id: 55,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10124,7 +10124,7 @@ albus_potter_relationship21 = {
   # relative name: Dominique
   user_id: 55,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10141,7 +10141,7 @@ albus_potter_relationship22 = {
   # relative name: Louis
   user_id: 55,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10158,7 +10158,7 @@ albus_potter_relationship23 = {
   # relative name: Angelina
   user_id: 55,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10175,7 +10175,7 @@ albus_potter_relationship24 = {
   # relative name: Fred II
   user_id: 55,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10192,7 +10192,7 @@ albus_potter_relationship25 = {
   # relative name: Roxanne
   user_id: 55,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10209,7 +10209,7 @@ albus_potter_relationship26 = {
   # relative name: Molly II
   user_id: 55,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10226,7 +10226,7 @@ albus_potter_relationship27 = {
   # relative name: Lucy
   user_id: 55,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10243,7 +10243,7 @@ lily_luna_potter_relationship1 = {
   # relative name: Harry
   user_id: 56,
   relative_id: 1,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -10260,7 +10260,7 @@ lily_luna_potter_relationship2 = {
   # relative name: Hermione
   user_id: 56,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10277,7 +10277,7 @@ lily_luna_potter_relationship3 = {
   # relative name: Ron
   user_id: 56,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10294,7 +10294,7 @@ lily_luna_potter_relationship4 = {
   # relative name: Arthur
   user_id: 56,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -10311,7 +10311,7 @@ lily_luna_potter_relationship5 = {
   # relative name: Molly I
   user_id: 56,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -10328,7 +10328,7 @@ lily_luna_potter_relationship6 = {
   # relative name: Bill
   user_id: 56,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10345,7 +10345,7 @@ lily_luna_potter_relationship7 = {
   # relative name: Charlie
   user_id: 56,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10362,7 +10362,7 @@ lily_luna_potter_relationship8 = {
   # relative name: Percy
   user_id: 56,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10379,7 +10379,7 @@ lily_luna_potter_relationship9 = {
   # relative name: FredI
   user_id: 56,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10396,7 +10396,7 @@ lily_luna_potter_relationship10 = {
   # relative name: George
   user_id: 56,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10413,7 +10413,7 @@ lily_luna_potter_relationship11 = {
   # relative name: Ginny
   user_id: 56,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10430,7 +10430,7 @@ lily_luna_potter_relationship12 = {
   # relative name: James I
   user_id: 56,
   relative_id: 25,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -10447,7 +10447,7 @@ lily_luna_potter_relationship13 = {
   # relative name: Lily I
   user_id: 56,
   relative_id: 26,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -10464,7 +10464,7 @@ lily_luna_potter_relationship14 = {
   # relative name: Fleur
   user_id: 56,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10481,7 +10481,7 @@ lily_luna_potter_relationship15 = {
   # relative name: James II
   user_id: 56,
   relative_id: 54,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -10498,7 +10498,7 @@ lily_luna_potter_relationship16 = {
   # relative name: Albus Potter
   user_id: 56,
   relative_id: 55,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -10516,7 +10516,7 @@ lily_luna_potter_relationship17 = {
   # relative name: Rose
   user_id: 56,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10533,7 +10533,7 @@ lily_luna_potter_relationship18 = {
   # relative name: Hugo
   user_id: 56,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10550,7 +10550,7 @@ lily_luna_potter_relationship19 = {
   # relative name: Audrey
   user_id: 56,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10567,7 +10567,7 @@ lily_luna_potter_relationship20 = {
   # relative name: Victoire
   user_id: 56,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10584,7 +10584,7 @@ lily_luna_potter_relationship21 = {
   # relative name: Dominique
   user_id: 56,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10601,7 +10601,7 @@ lily_luna_potter_relationship22 = {
   # relative name: Louis
   user_id: 56,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10618,7 +10618,7 @@ lily_luna_potter_relationship23 = {
   # relative name: Angelina
   user_id: 56,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10635,7 +10635,7 @@ lily_luna_potter_relationship24 = {
   # relative name: Fred II
   user_id: 56,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10652,7 +10652,7 @@ lily_luna_potter_relationship25 = {
   # relative name: Roxanne
   user_id: 56,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10669,7 +10669,7 @@ lily_luna_potter_relationship26 = {
   # relative name: Molly II
   user_id: 56,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10686,7 +10686,7 @@ lily_luna_potter_relationship27 = {
   # relative name: Lucy
   user_id: 56,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10703,7 +10703,7 @@ rose_granger_weasley_relationship1 = {
   # relative name: Harry
   user_id: 57,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10720,7 +10720,7 @@ rose_granger_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 57,
   relative_id: 2,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -10737,7 +10737,7 @@ rose_granger_weasley_relationship3 = {
   # relative name: Ron
   user_id: 57,
   relative_id: 3,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -10754,7 +10754,7 @@ rose_granger_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 57,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -10771,7 +10771,7 @@ rose_granger_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 57,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -10788,7 +10788,7 @@ rose_granger_weasley_relationship6 = {
   # relative name: Bill
   user_id: 57,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10805,7 +10805,7 @@ rose_granger_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 57,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10822,7 +10822,7 @@ rose_granger_weasley_relationship8 = {
   # relative name: Percy
   user_id: 57,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10839,7 +10839,7 @@ rose_granger_weasley_relationship9 = {
   # relative name: FredI
   user_id: 57,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10856,7 +10856,7 @@ rose_granger_weasley_relationship10 = {
   # relative name: George
   user_id: 57,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -10873,7 +10873,7 @@ rose_granger_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 57,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10890,7 +10890,7 @@ rose_granger_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 57,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10907,7 +10907,7 @@ rose_granger_weasley_relationship13 = {
   # relative name: James II
   user_id: 57,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10924,7 +10924,7 @@ rose_granger_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 57,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10941,7 +10941,7 @@ rose_granger_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 57,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -10958,7 +10958,7 @@ rose_granger_weasley_relationship16 = {
   # relative name: Hugo
   user_id: 57,
   relative_id: 58,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -10975,7 +10975,7 @@ rose_granger_weasley_relationship17 = {
   # relative name: Audrey
   user_id: 57,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -10992,7 +10992,7 @@ rose_granger_weasley_relationship18 = {
   # relative name: Victoire
   user_id: 57,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11009,7 +11009,7 @@ rose_granger_weasley_relationship19 = {
   # relative name: Dominique
   user_id: 57,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11026,7 +11026,7 @@ rose_granger_weasley_relationship20 = {
   # relative name: Louis
   user_id: 57,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11043,7 +11043,7 @@ rose_granger_weasley_relationship21 = {
   # relative name: Angelina
   user_id: 57,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -11060,7 +11060,7 @@ rose_granger_weasley_relationship22 = {
   # relative name: Fred II
   user_id: 57,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11077,7 +11077,7 @@ rose_granger_weasley_relationship23 = {
   # relative name: Roxanne
   user_id: 57,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11094,7 +11094,7 @@ rose_granger_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 57,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11111,7 +11111,7 @@ rose_granger_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 57,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11128,7 +11128,7 @@ hugo_granger_weasley_relationship1 = {
   # relative name: Harry
   user_id: 58,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11145,7 +11145,7 @@ hugo_granger_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 58,
   relative_id: 2,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -11162,7 +11162,7 @@ hugo_granger_weasley_relationship3 = {
   # relative name: Ron
   user_id: 58,
   relative_id: 3,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -11179,7 +11179,7 @@ hugo_granger_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 58,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -11196,7 +11196,7 @@ hugo_granger_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 58,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -11213,7 +11213,7 @@ hugo_granger_weasley_relationship6 = {
   # relative name: Bill
   user_id: 58,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11230,7 +11230,7 @@ hugo_granger_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 58,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11247,7 +11247,7 @@ hugo_granger_weasley_relationship8 = {
   # relative name: Percy
   user_id: 58,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11264,7 +11264,7 @@ hugo_granger_weasley_relationship9 = {
   # relative name: FredI
   user_id: 58,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11281,7 +11281,7 @@ hugo_granger_weasley_relationship10 = {
   # relative name: George
   user_id: 58,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11298,7 +11298,7 @@ hugo_granger_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 58,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -11315,7 +11315,7 @@ hugo_granger_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 58,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -11332,7 +11332,7 @@ hugo_granger_weasley_relationship13 = {
   # relative name: James II
   user_id: 58,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11349,7 +11349,7 @@ hugo_granger_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 58,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11366,7 +11366,7 @@ hugo_granger_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 58,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11383,7 +11383,7 @@ hugo_granger_weasley_relationship16 = {
   # relative name: Hugo
   user_id: 58,
   relative_id: 57,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -11400,7 +11400,7 @@ hugo_granger_weasley_relationship17 = {
   # relative name: Audrey
   user_id: 58,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -11417,7 +11417,7 @@ hugo_granger_weasley_relationship18 = {
   # relative name: Victoire
   user_id: 58,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11434,7 +11434,7 @@ hugo_granger_weasley_relationship19 = {
   # relative name: Dominique
   user_id: 58,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11451,7 +11451,7 @@ hugo_granger_weasley_relationship20 = {
   # relative name: Louis
   user_id: 58,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11468,7 +11468,7 @@ hugo_granger_weasley_relationship21 = {
   # relative name: Angelina
   user_id: 58,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -11485,7 +11485,7 @@ hugo_granger_weasley_relationship22 = {
   # relative name: Fred II
   user_id: 58,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11502,7 +11502,7 @@ hugo_granger_weasley_relationship23 = {
   # relative name: Roxanne
   user_id: 58,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11519,7 +11519,7 @@ hugo_granger_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 58,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11536,7 +11536,7 @@ hugo_granger_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 58,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -11553,7 +11553,7 @@ audrey_relationship1 = {
   # relative name: Harry
   user_id: 59,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11570,7 +11570,7 @@ audrey_relationship2 = {
   # relative name: Hermione
   user_id: 59,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11587,7 +11587,7 @@ audrey_relationship3 = {
   # relative name: Ron
   user_id: 59,
   relative_id: 3,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11604,7 +11604,7 @@ audrey_relationship4 = {
   # relative name: Arthur
   user_id: 59,
   relative_id: 4,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11621,7 +11621,7 @@ audrey_relationship5 = {
   # relative name:  Molly I
   user_id: 59,
   relative_id: 5,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11638,7 +11638,7 @@ audrey_relationship6 = {
   # relative name: Bill
   user_id: 59,
   relative_id: 6,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11655,7 +11655,7 @@ audrey_relationship7 = {
   # relative name: Charlie
   user_id: 59,
   relative_id: 7,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11672,7 +11672,7 @@ audrey_relationship8 = {
   # relative name: Fred I
   user_id: 59,
   relative_id: 9,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11689,7 +11689,7 @@ audrey_relationship9 = {
   # relative name: George
   user_id: 59,
   relative_id: 10,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11706,7 +11706,7 @@ audrey_relationship10 = {
   # relative name: Ginny
   user_id: 59,
   relative_id: 11,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11723,7 +11723,7 @@ audrey_relationship11 = {
   # relative name: Fleur
   user_id: 59,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11740,7 +11740,7 @@ audrey_relationship12 = {
   # relative name: James II
   user_id: 59,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -11757,7 +11757,7 @@ audrey_relationship13 = {
   # relative name: Albus Potter
   user_id: 59,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -11774,7 +11774,7 @@ audrey_relationship14 = {
   # relative name: Lily II
   user_id: 59,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -11791,7 +11791,7 @@ audrey_relationship15 = {
   # relative name: Rose
   user_id: 59,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -11808,7 +11808,7 @@ audrey_relationship16 = {
   # relative name: Hugo
   user_id: 59,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -11825,7 +11825,7 @@ audrey_relationship17 = {
   # relative name: Percy
   user_id: 59,
   relative_id: 8,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -11842,7 +11842,7 @@ audrey_relationship18 = {
   # relative name: Victoire
   user_id: 59,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -11859,7 +11859,7 @@ audrey_relationship19 = {
   # relative name: Dominique
   user_id: 59,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -11876,7 +11876,7 @@ audrey_relationship20 = {
   # relative name: Louis
   user_id: 59,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -11893,7 +11893,7 @@ audrey_relationship21 = {
   # relative name: Angelina
   user_id: 59,
   relative_id: 63,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -11910,7 +11910,7 @@ audrey_relationship22 = {
   # relative name: Fred II
   user_id: 59,
   relative_id: 64,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -11927,7 +11927,7 @@ audrey_relationship23 = {
   # relative name: Roxanne
   user_id: 59,
   relative_id: 65,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -11944,7 +11944,7 @@ audrey_relationship24 = {
   # relative name: Molly II
   user_id: 59,
   relative_id: 66,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -11961,7 +11961,7 @@ audrey_relationship25 = {
   # relative name: Lucy
   user_id: 59,
   relative_id: 67,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -11978,7 +11978,7 @@ victoire_weasley_relationship1 = {
   # relative name: Harry
   user_id: 60,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -11995,7 +11995,7 @@ victoire_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 60,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12012,7 +12012,7 @@ victoire_weasley_relationship3 = {
   # relative name: Ron
   user_id: 60,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12029,7 +12029,7 @@ victoire_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 60,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -12046,7 +12046,7 @@ victoire_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 60,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -12063,7 +12063,7 @@ victoire_weasley_relationship6 = {
   # relative name: Bill
   user_id: 60,
   relative_id: 6,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -12080,7 +12080,7 @@ victoire_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 60,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12097,7 +12097,7 @@ victoire_weasley_relationship8 = {
   # relative name: Percy
   user_id: 60,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12114,7 +12114,7 @@ victoire_weasley_relationship9 = {
   # relative name: FredI
   user_id: 60,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12131,7 +12131,7 @@ victoire_weasley_relationship10 = {
   # relative name: George
   user_id: 60,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12148,7 +12148,7 @@ victoire_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 60,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12165,7 +12165,7 @@ victoire_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 60,
   relative_id: 41,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -12182,7 +12182,7 @@ victoire_weasley_relationship13 = {
   # relative name: James II
   user_id: 60,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12199,7 +12199,7 @@ victoire_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 60,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12216,7 +12216,7 @@ victoire_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 60,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12233,7 +12233,7 @@ victoire_weasley_relationship16 = {
   # relative name: Rose
   user_id: 60,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12250,7 +12250,7 @@ victoire_weasley_relationship17 = {
   # relative name: Hugo
   user_id: 60,
   relative_id: 58,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -12267,7 +12267,7 @@ victoire_weasley_relationship18 = {
   # relative name: Audrey
   user_id: 60,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12285,7 +12285,7 @@ victoire_weasley_relationship19 = {
   # relative name: Dominique
   user_id: 60,
   relative_id: 61,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -12302,7 +12302,7 @@ victoire_weasley_relationship20 = {
   # relative name: Louis
   user_id: 60,
   relative_id: 62,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -12319,7 +12319,7 @@ victoire_weasley_relationship21 = {
   # relative name: Angelina
   user_id: 60,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12336,7 +12336,7 @@ victoire_weasley_relationship22 = {
   # relative name: Fred II
   user_id: 60,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12353,7 +12353,7 @@ victoire_weasley_relationship23 = {
   # relative name: Roxanne
   user_id: 60,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12370,7 +12370,7 @@ victoire_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 60,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12387,7 +12387,7 @@ victoire_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 60,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12404,7 +12404,7 @@ dominique_weasley_relationship1 = {
   # relative name: Harry
   user_id: 61,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12421,7 +12421,7 @@ dominique_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 61,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12438,7 +12438,7 @@ dominique_weasley_relationship3 = {
   # relative name: Ron
   user_id: 61,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12455,7 +12455,7 @@ dominique_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 61,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -12472,7 +12472,7 @@ dominique_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 61,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -12489,7 +12489,7 @@ dominique_weasley_relationship6 = {
   # relative name: Bill
   user_id: 61,
   relative_id: 6,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -12506,7 +12506,7 @@ dominique_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 61,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12523,7 +12523,7 @@ dominique_weasley_relationship8 = {
   # relative name: Percy
   user_id: 61,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12540,7 +12540,7 @@ dominique_weasley_relationship9 = {
   # relative name: FredI
   user_id: 61,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12557,7 +12557,7 @@ dominique_weasley_relationship10 = {
   # relative name: George
   user_id: 61,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12574,7 +12574,7 @@ dominique_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 61,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12591,7 +12591,7 @@ dominique_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 61,
   relative_id: 41,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -12608,7 +12608,7 @@ dominique_weasley_relationship13 = {
   # relative name: James II
   user_id: 61,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12625,7 +12625,7 @@ dominique_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 61,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12642,7 +12642,7 @@ dominique_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 61,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12659,7 +12659,7 @@ dominique_weasley_relationship16 = {
   # relative name: Rose
   user_id: 61,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12676,7 +12676,7 @@ dominique_weasley_relationship17 = {
   # relative name: Hugo
   user_id: 61,
   relative_id: 58,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -12693,7 +12693,7 @@ dominique_weasley_relationship18 = {
   # relative name: Audrey
   user_id: 61,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12711,7 +12711,7 @@ dominique_weasley_relationship19 = {
   # relative name: Victoire
   user_id: 61,
   relative_id: 60,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -12728,7 +12728,7 @@ dominique_weasley_relationship20 = {
   # relative name: Louis
   user_id: 61,
   relative_id: 62,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -12745,7 +12745,7 @@ dominique_weasley_relationship21 = {
   # relative name: Angelina
   user_id: 61,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12762,7 +12762,7 @@ dominique_weasley_relationship22 = {
   # relative name: Fred II
   user_id: 61,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12779,7 +12779,7 @@ dominique_weasley_relationship23 = {
   # relative name: Roxanne
   user_id: 61,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12796,7 +12796,7 @@ dominique_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 61,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12813,7 +12813,7 @@ dominique_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 61,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -12830,7 +12830,7 @@ louis_weasley_relationship1 = {
   # relative name: Harry
   user_id: 62,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12847,7 +12847,7 @@ louis_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 62,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -12864,7 +12864,7 @@ louis_weasley_relationship3 = {
   # relative name: Ron
   user_id: 62,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12881,7 +12881,7 @@ louis_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 62,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -12898,7 +12898,7 @@ louis_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 62,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -12915,7 +12915,7 @@ louis_weasley_relationship6 = {
   # relative name: Bill
   user_id: 62,
   relative_id: 6,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -12932,7 +12932,7 @@ louis_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 62,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12949,7 +12949,7 @@ louis_weasley_relationship8 = {
   # relative name: Percy
   user_id: 62,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12966,7 +12966,7 @@ louis_weasley_relationship9 = {
   # relative name: FredI
   user_id: 62,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -12983,7 +12983,7 @@ louis_weasley_relationship10 = {
   # relative name: George
   user_id: 62,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13000,7 +13000,7 @@ louis_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 62,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13017,7 +13017,7 @@ louis_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 62,
   relative_id: 41,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -13034,7 +13034,7 @@ louis_weasley_relationship13 = {
   # relative name: James II
   user_id: 62,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13051,7 +13051,7 @@ louis_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 62,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13068,7 +13068,7 @@ louis_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 62,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13085,7 +13085,7 @@ louis_weasley_relationship16 = {
   # relative name: Rose
   user_id: 62,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13102,7 +13102,7 @@ louis_weasley_relationship17 = {
   # relative name: Hugo
   user_id: 62,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13119,7 +13119,7 @@ louis_weasley_relationship18 = {
   # relative name: Audrey
   user_id: 62,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13137,7 +13137,7 @@ louis_weasley_relationship19 = {
   # relative name: Victoire
   user_id: 62,
   relative_id: 60,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -13154,7 +13154,7 @@ louis_weasley_relationship20 = {
   # relative name: Dominique
   user_id: 62,
   relative_id: 61,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -13171,7 +13171,7 @@ louis_weasley_relationship21 = {
   # relative name: Angelina
   user_id: 62,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13188,7 +13188,7 @@ louis_weasley_relationship22 = {
   # relative name: Fred II
   user_id: 62,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13205,7 +13205,7 @@ louis_weasley_relationship23 = {
   # relative name: Roxanne
   user_id: 62,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13222,7 +13222,7 @@ louis_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 62,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13239,7 +13239,7 @@ louis_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 62,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13256,7 +13256,7 @@ angelina_relationship1 = {
   # relative name: Harry
   user_id: 63,
   relative_id: 1,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -13273,7 +13273,7 @@ angelina_relationship2 = {
   # relative name: Hermione
   user_id: 63,
   relative_id: 2,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -13290,7 +13290,7 @@ angelina_relationship3 = {
   # relative name: Ron
   user_id: 63,
   relative_id: 3,
-  type: 'Brother-In-Laws'
+  kind: 'Brother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13307,7 +13307,7 @@ angelina_relationship4 = {
   # relative name: Arthur
   user_id: 63,
   relative_id: 4,
-  type: 'Father-In-Laws'
+  kind: 'Father-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13324,7 +13324,7 @@ angelina_relationship5 = {
   # relative name:  Molly I
   user_id: 63,
   relative_id: 5,
-  type: 'Mother-In-Laws'
+  kind: 'Mother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13341,7 +13341,7 @@ angelina_relationship6 = {
   # relative name: Bill
   user_id: 63,
   relative_id: 6,
-  type: 'Brother-In-Laws'
+  kind: 'Brother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13358,7 +13358,7 @@ angelina_relationship7 = {
   # relative name: Charlie
   user_id: 63,
   relative_id: 7,
-  type: 'Brother-In-Laws'
+  kind: 'Brother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13375,7 +13375,7 @@ angelina_relationship8 = {
   # relative name: Percy
   user_id: 63,
   relative_id: 8,
-  type: 'Brother-In-Laws'
+  kind: 'Brother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13392,7 +13392,7 @@ angelina_relationship9 = {
   # relative name: Fred I
   user_id: 63,
   relative_id: 9,
-  type: 'Brother-In-Laws'
+  kind: 'Brother-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13409,7 +13409,7 @@ angelina_relationship10 = {
   # relative name: Ginny
   user_id: 63,
   relative_id: 11,
-  type: 'Sister-In-Laws'
+  kind: 'Sister-In-Laws'
   # relationship types:
   # brother,
   # sister,
@@ -13426,7 +13426,7 @@ angelina_relationship11 = {
   # relative name: Fleur
   user_id: 63,
   relative_id: 41,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -13443,7 +13443,7 @@ angelina_relationship12 = {
   # relative name: James II
   user_id: 63,
   relative_id: 54,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -13460,7 +13460,7 @@ angelina_relationship13 = {
   # relative name: Albus Potter
   user_id: 63,
   relative_id: 55,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -13477,7 +13477,7 @@ angelina_relationship14 = {
   # relative name: Lily II
   user_id: 63,
   relative_id: 56,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13494,7 +13494,7 @@ angelina_relationship15 = {
   # relative name: Rose
   user_id: 63,
   relative_id: 57,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13511,7 +13511,7 @@ angelina_relationship16 = {
   # relative name: Hugo
   user_id: 63,
   relative_id: 58,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -13528,7 +13528,7 @@ angelina_relationship17 = {
   # relative name: Audrey
   user_id: 63,
   relative_id: 59,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types:
   # brother,
   # sister,
@@ -13545,7 +13545,7 @@ angelina_relationship18 = {
   # relative name: Victoire
   user_id: 63,
   relative_id: 60,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13562,7 +13562,7 @@ angelina_relationship19 = {
   # relative name: Dominique
   user_id: 63,
   relative_id: 61,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13579,7 +13579,7 @@ angelina_relationship20 = {
   # relative name: Louis
   user_id: 63,
   relative_id: 62,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types:
   # brother,
   # sister,
@@ -13596,7 +13596,7 @@ angelina_relationship21 = {
   # relative name: George
   user_id: 63,
   relative_id: 10,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types:
   # brother,
   # sister,
@@ -13613,7 +13613,7 @@ angelina_relationship22 = {
   # relative name: Fred II
   user_id: 63,
   relative_id: 64,
-  type: 'Son'
+  kind: 'Son'
   # relationship types:
   # brother,
   # sister,
@@ -13630,7 +13630,7 @@ angelina_relationship23 = {
   # relative name: Roxanne
   user_id: 63,
   relative_id: 65,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types:
   # brother,
   # sister,
@@ -13647,7 +13647,7 @@ angelina_relationship24 = {
   # relative name: Molly II
   user_id: 63,
   relative_id: 66,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13664,7 +13664,7 @@ angelina_relationship25 = {
   # relative name: Lucy
   user_id: 63,
   relative_id: 67,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types:
   # brother,
   # sister,
@@ -13681,7 +13681,7 @@ fred_weasleyII_relationship1 = {
   # relative name: Harry
   user_id: 64,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13698,7 +13698,7 @@ fred_weasleyII_relationship2 = {
   # relative name: Hermione
   user_id: 64,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13715,7 +13715,7 @@ fred_weasleyII_relationship3 = {
   # relative name: Ron
   user_id: 64,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13732,7 +13732,7 @@ fred_weasleyII_relationship4 = {
   # relative name: Arthur
   user_id: 64,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -13749,7 +13749,7 @@ fred_weasleyII_relationship5 = {
   # relative name: Molly I
   user_id: 64,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -13766,7 +13766,7 @@ fred_weasleyII_relationship6 = {
   # relative name: Bill
   user_id: 64,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13783,7 +13783,7 @@ fred_weasleyII_relationship7 = {
   # relative name: Charlie
   user_id: 64,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13800,7 +13800,7 @@ fred_weasleyII_relationship8 = {
   # relative name: Percy
   user_id: 64,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13817,7 +13817,7 @@ fred_weasleyII_relationship9 = {
   # relative name: FredI
   user_id: 64,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -13834,7 +13834,7 @@ fred_weasleyII_relationship10 = {
   # relative name: George
   user_id: 64,
   relative_id: 10,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -13851,7 +13851,7 @@ fred_weasleyII_relationship11 = {
   # relative name: Ginny
   user_id: 64,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13868,7 +13868,7 @@ fred_weasleyII_relationship12 = {
   # relative name: Fleur
   user_id: 64,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13885,7 +13885,7 @@ fred_weasleyII_relationship13 = {
   # relative name: James II
   user_id: 64,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13902,7 +13902,7 @@ fred_weasleyII_relationship14 = {
   # relative name: Albus Potter
   user_id: 64,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13919,7 +13919,7 @@ fred_weasleyII_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 64,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13936,7 +13936,7 @@ fred_weasleyII_relationship16 = {
   # relative name: Rose
   user_id: 64,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13953,7 +13953,7 @@ fred_weasleyII_relationship17 = {
   # relative name: Hugo
   user_id: 64,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -13970,7 +13970,7 @@ fred_weasleyII_relationship18 = {
   # relative name: Audrey
   user_id: 64,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -13988,7 +13988,7 @@ fred_weasleyII_relationship19 = {
   # relative name: Victoire
   user_id: 64,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14005,7 +14005,7 @@ fred_weasleyII_relationship20 = {
   # relative name: Dominique
   user_id: 64,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14022,7 +14022,7 @@ fred_weasleyII_relationship21 = {
   # relative name: Louis
   user_id: 64,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14039,7 +14039,7 @@ fred_weasleyII_relationship22 = {
   # relative name: Angelina
   user_id: 64,
   relative_id: 63,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -14057,7 +14057,7 @@ fred_weasleyII_relationship23 = {
   # relative name: Roxanne
   user_id: 64,
   relative_id: 65,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -14074,7 +14074,7 @@ fred_weasleyII_relationship24 = {
   # relative name: Molly II
   user_id: 64,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14091,7 +14091,7 @@ fred_weasleyII_relationship25 = {
   # relative name: Lucy
   user_id: 64,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14108,7 +14108,7 @@ roxanne_weasley_relationship1 = {
   # relative name: Harry
   user_id: 65,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14125,7 +14125,7 @@ roxanne_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 65,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14142,7 +14142,7 @@ roxanne_weasley_relationship3 = {
   # relative name: Ron
   user_id: 65,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14159,7 +14159,7 @@ roxanne_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 65,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -14176,7 +14176,7 @@ roxanne_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 65,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -14193,7 +14193,7 @@ roxanne_weasley_relationship6 = {
   # relative name: Bill
   user_id: 65,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14210,7 +14210,7 @@ roxanne_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 65,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14227,7 +14227,7 @@ roxanne_weasley_relationship8 = {
   # relative name: Percy
   user_id: 65,
   relative_id: 8,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14244,7 +14244,7 @@ roxanne_weasley_relationship9 = {
   # relative name: FredI
   user_id: 65,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14261,7 +14261,7 @@ roxanne_weasley_relationship10 = {
   # relative name: George
   user_id: 65,
   relative_id: 10,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -14278,7 +14278,7 @@ roxanne_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 65,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14295,7 +14295,7 @@ roxanne_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 65,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14312,7 +14312,7 @@ roxanne_weasley_relationship13 = {
   # relative name: James II
   user_id: 65,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14329,7 +14329,7 @@ roxanne_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 65,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14346,7 +14346,7 @@ roxanne_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 65,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14363,7 +14363,7 @@ roxanne_weasley_relationship16 = {
   # relative name: Rose
   user_id: 65,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14380,7 +14380,7 @@ roxanne_weasley_relationship17 = {
   # relative name: Hugo
   user_id: 65,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14397,7 +14397,7 @@ roxanne_weasley_relationship18 = {
   # relative name: Audrey
   user_id: 65,
   relative_id: 59,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14414,7 +14414,7 @@ roxanne_weasley_relationship19 = {
   # relative name: Victoire
   user_id: 65,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14431,7 +14431,7 @@ roxanne_weasley_relationship20 = {
   # relative name: Dominique
   user_id: 65,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14448,7 +14448,7 @@ roxanne_weasley_relationship21 = {
   # relative name: Louis
   user_id: 65,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14465,7 +14465,7 @@ roxanne_weasley_relationship22 = {
   # relative name: Angelina
   user_id: 65,
   relative_id: 63,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -14483,7 +14483,7 @@ roxanne_weasley_relationship23 = {
   # relative name: Fred II
   user_id: 65,
   relative_id: 64,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types:
   # brother,
   # sister,
@@ -14500,7 +14500,7 @@ roxanne_weasley_relationship24 = {
   # relative name: Molly II
   user_id: 65,
   relative_id: 66,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14517,7 +14517,7 @@ roxanne_weasley_relationship25 = {
   # relative name: Lucy
   user_id: 65,
   relative_id: 67,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14534,7 +14534,7 @@ molly_weasleyII_relationship1 = {
   # relative name: Harry
   user_id: 66,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14551,7 +14551,7 @@ molly_weasleyII_relationship2 = {
   # relative name: Hermione
   user_id: 66,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14568,7 +14568,7 @@ molly_weasleyII_relationship3 = {
   # relative name: Ron
   user_id: 66,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14585,7 +14585,7 @@ molly_weasleyII_relationship4 = {
   # relative name: Arthur
   user_id: 66,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -14602,7 +14602,7 @@ molly_weasleyII_relationship5 = {
   # relative name: Molly I
   user_id: 66,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -14619,7 +14619,7 @@ molly_weasleyII_relationship6 = {
   # relative name: Bill
   user_id: 66,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14636,7 +14636,7 @@ molly_weasleyII_relationship7 = {
   # relative name: Charlie
   user_id: 66,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14653,7 +14653,7 @@ molly_weasleyII_relationship8 = {
   # relative name: Percy
   user_id: 66,
   relative_id: 8,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -14670,7 +14670,7 @@ molly_weasleyII_relationship9 = {
   # relative name: FredI
   user_id: 66,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14687,7 +14687,7 @@ molly_weasleyII_relationship10 = {
   # relative name: George
   user_id: 66,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14704,7 +14704,7 @@ molly_weasleyII_relationship11 = {
   # relative name: Ginny
   user_id: 66,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14721,7 +14721,7 @@ molly_weasleyII_relationship12 = {
   # relative name: Fleur
   user_id: 66,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14738,7 +14738,7 @@ molly_weasleyII_relationship13 = {
   # relative name: James II
   user_id: 66,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14755,7 +14755,7 @@ molly_weasleyII_relationship14 = {
   # relative name: Albus Potter
   user_id: 66,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14772,7 +14772,7 @@ molly_weasleyII_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 66,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14789,7 +14789,7 @@ molly_weasleyII_relationship16 = {
   # relative name: Rose
   user_id: 66,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14806,7 +14806,7 @@ molly_weasleyII_relationship17 = {
   # relative name: Hugo
   user_id: 66,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14823,7 +14823,7 @@ molly_weasleyII_relationship18 = {
   # relative name: Audrey
   user_id: 66,
   relative_id: 59,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -14840,7 +14840,7 @@ molly_weasleyII_relationship19 = {
   # relative name: Victoire
   user_id: 66,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14857,7 +14857,7 @@ molly_weasleyII_relationship20 = {
   # relative name: Dominique
   user_id: 66,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14874,7 +14874,7 @@ molly_weasleyII_relationship21 = {
   # relative name: Louis
   user_id: 66,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14891,7 +14891,7 @@ molly_weasleyII_relationship22 = {
   # relative name: Angelina
   user_id: 66,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14908,7 +14908,7 @@ molly_weasleyII_relationship23 = {
   # relative name: Fred II
   user_id: 66,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14925,7 +14925,7 @@ molly_weasleyII_relationship24 = {
   # relative name: Roxanne
   user_id: 66,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -14942,7 +14942,7 @@ molly_weasleyII_relationship25 = {
   # relative name: Lucy
   user_id: 66,
   relative_id: 67,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -14959,7 +14959,7 @@ lucy_weasley_relationship1 = {
   # relative name: Harry
   user_id: 67,
   relative_id: 1,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -14976,7 +14976,7 @@ lucy_weasley_relationship2 = {
   # relative name: Hermione
   user_id: 67,
   relative_id: 2,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -14993,7 +14993,7 @@ lucy_weasley_relationship3 = {
   # relative name: Ron
   user_id: 67,
   relative_id: 3,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -15010,7 +15010,7 @@ lucy_weasley_relationship4 = {
   # relative name: Arthur
   user_id: 67,
   relative_id: 4,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types:
   # brother,
   # sister,
@@ -15027,7 +15027,7 @@ lucy_weasley_relationship5 = {
   # relative name: Molly I
   user_id: 67,
   relative_id: 5,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types:
   # brother,
   # sister,
@@ -15044,7 +15044,7 @@ lucy_weasley_relationship6 = {
   # relative name: Bill
   user_id: 67,
   relative_id: 6,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -15061,7 +15061,7 @@ lucy_weasley_relationship7 = {
   # relative name: Charlie
   user_id: 67,
   relative_id: 7,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -15078,7 +15078,7 @@ lucy_weasley_relationship8 = {
   # relative name: Percy
   user_id: 67,
   relative_id: 8,
-  type: 'Father'
+  kind: 'Father'
   # relationship types:
   # brother,
   # sister,
@@ -15095,7 +15095,7 @@ lucy_weasley_relationship9 = {
   # relative name: FredI
   user_id: 67,
   relative_id: 9,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -15112,7 +15112,7 @@ lucy_weasley_relationship10 = {
   # relative name: George
   user_id: 67,
   relative_id: 10,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types:
   # brother,
   # sister,
@@ -15129,7 +15129,7 @@ lucy_weasley_relationship11 = {
   # relative name: Ginny
   user_id: 67,
   relative_id: 11,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -15146,7 +15146,7 @@ lucy_weasley_relationship12 = {
   # relative name: Fleur
   user_id: 67,
   relative_id: 41,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -15163,7 +15163,7 @@ lucy_weasley_relationship13 = {
   # relative name: James II
   user_id: 67,
   relative_id: 54,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15180,7 +15180,7 @@ lucy_weasley_relationship14 = {
   # relative name: Albus Potter
   user_id: 67,
   relative_id: 55,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15197,7 +15197,7 @@ lucy_weasley_relationship15 = {
   # relative name: Lily Luna Potter
   user_id: 67,
   relative_id: 56,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15214,7 +15214,7 @@ lucy_weasley_relationship16 = {
   # relative name: Rose
   user_id: 67,
   relative_id: 57,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15231,7 +15231,7 @@ lucy_weasley_relationship17 = {
   # relative name: Hugo
   user_id: 67,
   relative_id: 58,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15248,7 +15248,7 @@ lucy_weasley_relationship18 = {
   # relative name: Audrey
   user_id: 67,
   relative_id: 59,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types:
   # brother,
   # sister,
@@ -15265,7 +15265,7 @@ lucy_weasley_relationship19 = {
   # relative name: Victoire
   user_id: 67,
   relative_id: 60,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15282,7 +15282,7 @@ lucy_weasley_relationship20 = {
   # relative name: Dominique
   user_id: 67,
   relative_id: 61,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15299,7 +15299,7 @@ lucy_weasley_relationship21 = {
   # relative name: Louis
   user_id: 67,
   relative_id: 62,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15316,7 +15316,7 @@ lucy_weasley_relationship22 = {
   # relative name: Angelina
   user_id: 67,
   relative_id: 63,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types:
   # brother,
   # sister,
@@ -15333,7 +15333,7 @@ lucy_weasley_relationship23 = {
   # relative name: Fred II
   user_id: 67,
   relative_id: 64,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15350,7 +15350,7 @@ lucy_weasley_relationship24 = {
   # relative name: Roxanne
   user_id: 67,
   relative_id: 65,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types:
   # brother,
   # sister,
@@ -15367,7 +15367,7 @@ lucy_weasley_relationship25 = {
   # relative name: Molly II
   user_id: 67,
   relative_id: 66,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types:
   # brother,
   # sister,
@@ -15384,7 +15384,7 @@ teddy_lupin_relationship1 = {
     # relative name: Harry 
   user_id: 68,
   relative_id: 1,
-  type: 'Godfather'
+  kind: 'Godfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15401,7 +15401,7 @@ teddy_lupin_relationship2 = {
     # relative name: Ginny
   user_id: 68,
   relative_id: 11,
-  type: 'Godmother'
+  kind: 'Godmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15418,7 +15418,7 @@ teddy_lupin_relationship3 = {
     # relative name: Lupin
   user_id: 68,
   relative_id: 17,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15435,7 +15435,7 @@ teddy_lupin_relationship4 = {
     # relative name: Draco Malfoy
   user_id: 68,
   relative_id: 37,
-  type: 'Cousin'
+  kind: 'Cousin'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15452,7 +15452,7 @@ teddy_lupin_relationship5 = {
     # relative name: Tonks
   user_id: 68,
   relative_id: 39,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15469,7 +15469,7 @@ teddy_lupin_relationship6 = {
     # relative name: Bellatrix
   user_id: 68,
   relative_id: 46,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15486,7 +15486,7 @@ teddy_lupin_relationship7 = {
     # relative name: Lucius
   user_id: 68,
   relative_id: 47,
-  type: 'Uncle'
+  kind: 'Uncle'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15503,7 +15503,7 @@ teddy_lupin_relationship8 = {
     # relative name: Narcissa
   user_id: 68,
   relative_id: 48,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15520,7 +15520,7 @@ isolt_sayre_relationship1 = {
     # relative name: William Sayre
   user_id: 69,
   relative_id: 70,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15537,7 +15537,7 @@ isolt_sayre_relationship2 = {
     # relative name: Rionach Sayre
   user_id: 69,
   relative_id: 71,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15554,7 +15554,7 @@ isolt_sayre_relationship3 = {
     # relative name: James Steward
   user_id: 69,
   relative_id: 72,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15571,7 +15571,7 @@ isolt_sayre_relationship4 = {
     # relative name: Chadwick Boot
   user_id: 69,
   relative_id: 73,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15588,7 +15588,7 @@ isolt_sayre_relationship5 = {
     # relative name: Webster Boot
   user_id: 69,
   relative_id: 74,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15605,7 +15605,7 @@ isolt_sayre_relationship6 = {
     # relative name: Josefina Calderon
   user_id: 69,
   relative_id: 75,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15622,7 +15622,7 @@ isolt_sayre_relationship7 = {
     # relative name: Martha Steward
   user_id: 69,
   relative_id: 76,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15639,7 +15639,7 @@ isolt_sayre_relationship8 = {
     # relative name: Rionach Steward
   user_id: 69,
   relative_id: 77,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15656,7 +15656,7 @@ isolt_sayre_relationship9 = {
     # relative name: Gormlaith 
   user_id: 69,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15673,7 +15673,7 @@ william_sayre_relationship1 = {
     # relative name: Isolt
   user_id: 70,
   relative_id: 69,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15690,7 +15690,7 @@ william_sayre_relationship2 = {
     # relative name: Rionach Sayre
   user_id: 70,
   relative_id: 71,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15707,7 +15707,7 @@ william_sayre_relationship3 = {
     # relative name: Jame Steward
   user_id: 70,
   relative_id: 72,
-  type: 'Son-In-Law'
+  kind: 'Son-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15724,7 +15724,7 @@ william_sayre_relationship4 = {
     # relative name: Chadwick 
   user_id: 70,
   relative_id: 73,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15741,7 +15741,7 @@ william_sayre_relationship5 = {
     # relative name: Webster
   user_id: 70,
   relative_id: 74,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15758,7 +15758,7 @@ william_sayre_relationship6 = {
     # relative name: Josefina Calderon 
   user_id: 70,
   relative_id: 75,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15775,7 +15775,7 @@ william_sayre_relationship7 = {
     # relative name: Martha Steward
   user_id: 70,
   relative_id: 76,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15792,7 +15792,7 @@ william_sayre_relationship8 = {
     # relative name: Rionach Steward 
   user_id: 70,
   relative_id: 77,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15809,7 +15809,7 @@ william_sayre_relationship9 = {
     # relative name: Gormlaith
   user_id: 70,
   relative_id: 78,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15826,7 +15826,7 @@ rionach_sayre_relationship1 = {
     # relative name: Isolt
   user_id: 71,
   relative_id: 69,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15843,7 +15843,7 @@ rionach_sayre_relationship2 = {
     # relative name: Rionach Sayre
   user_id: 71,
   relative_id: 70,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15860,7 +15860,7 @@ rionach_sayre_relationship3 = {
     # relative name: James Steward
   user_id: 71,
   relative_id: 72,
-  type: 'Son-In-Law'
+  kind: 'Son-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15877,7 +15877,7 @@ rionach_sayre_relationship4 = {
     # relative name: Chadwick 
   user_id: 71,
   relative_id: 73,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15894,7 +15894,7 @@ rionach_sayre_relationship5 = {
     # relative name: Webster
   user_id: 71,
   relative_id: 74,
-  type: 'Grandson'
+  kind: 'Grandson'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15911,7 +15911,7 @@ rionach_sayre_relationship6 = {
     # relative name: Josefina Calderon 
   user_id: 71,
   relative_id: 75,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15928,7 +15928,7 @@ rionach_sayre_relationship7 = {
     # relative name: Martha Steward
   user_id: 71,
   relative_id: 76,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15945,7 +15945,7 @@ rionach_sayre_relationship8 = {
     # relative name: Rionach Steward 
   user_id: 71,
   relative_id: 77,
-  type: 'Granddaughter'
+  kind: 'Granddaughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15962,7 +15962,7 @@ rionach_sayre_relationship9 = {
     # relative name: Gormlaith
   user_id: 71,
   relative_id: 78,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15979,7 +15979,7 @@ james_steward_relationship1 = {
     # relative name: William Sayre
   user_id: 72,
   relative_id: 70,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -15996,7 +15996,7 @@ james_steward_relationship2 = {
     # relative name: Rionach Sayre
   user_id: 72,
   relative_id: 71,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16013,7 +16013,7 @@ james_steward_relationship3 = {
     # relative name: Isolt
   user_id: 72,
   relative_id: 69,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16030,7 +16030,7 @@ james_steward_relationship4 = {
     # relative name: Chadwick Boot
   user_id: 72,
   relative_id: 73,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16047,7 +16047,7 @@ james_steward_relationship5 = {
     # relative name: Webster Boot
   user_id: 72,
   relative_id: 74,
-  type: 'Son'
+  kind: 'Son'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16064,7 +16064,7 @@ james_steward_relationship6 = {
     # relative name: Josefina Calderon
   user_id: 72,
   relative_id: 75,
-  type: 'Daughter-In-Law'
+  kind: 'Daughter-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16081,7 +16081,7 @@ james_steward_relationship7 = {
     # relative name: Martha Steward
   user_id: 72,
   relative_id: 76,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16098,7 +16098,7 @@ james_steward_relationship8 = {
     # relative name: Rionach Steward
   user_id: 72,
   relative_id: 77,
-  type: 'Daughter'
+  kind: 'Daughter'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16115,7 +16115,7 @@ james_steward_relationship9 = {
     # relative name: Gormlaith
   user_id: 72,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16132,7 +16132,7 @@ chadwick_boot_relationship1 = {
     # relative name: Isolt
   user_id: 73,
   relative_id: 69,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16149,7 +16149,7 @@ chadwick_boot_relationship2 = {
     # relative name: William Sayre
   user_id: 73,
   relative_id: 70,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16166,7 +16166,7 @@ chadwick_boot_relationship3 = {
     # relative name: Rionach Sayre
   user_id: 73,
   relative_id: 71,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16183,7 +16183,7 @@ chadwick_boot_relationship4 = {
     # relative name: James Steward
   user_id: 73,
   relative_id: 72,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16200,7 +16200,7 @@ chadwick_boot_relationship5 = {
     # relative name: Webster Boot
   user_id: 73,
   relative_id: 74,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16217,7 +16217,7 @@ chadwick_boot_relationship6 = {
     # relative name: Josefina Calderon
   user_id: 73,
   relative_id: 75,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16234,7 +16234,7 @@ chadwick_boot_relationship7 = {
     # relative name: Martha Steward 
   user_id: 73,
   relative_id: 76,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16251,7 +16251,7 @@ chadwick_boot_relationship8 = {
     # relative name: Rionach Steward
   user_id: 73,
   relative_id: 77,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16268,7 +16268,7 @@ chadwick_boot_relationship9 = {
     # relative name: Gormlaith
   user_id: 73,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16285,7 +16285,7 @@ webster_boot_relationship1 = {
     # relative name: Isolt
   user_id: 74,
   relative_id: 69,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16302,7 +16302,7 @@ webster_boot_relationship2 = {
     # relative name: William Sayre
   user_id: 74,
   relative_id: 70,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16319,7 +16319,7 @@ webster_boot_relationship3 = {
     # relative name: Rionach Sayre
   user_id: 74,
   relative_id: 71,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16336,7 +16336,7 @@ webster_boot_relationship4 = {
     # relative name: James Steward
   user_id: 74,
   relative_id: 72,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16353,7 +16353,7 @@ webster_boot_relationship5 = {
     # relative name: Chadwick Boot
   user_id: 74,
   relative_id: 73,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16370,7 +16370,7 @@ webster_boot_relationship6 = {
     # relative name: Josefina Calderon
   user_id: 74,
   relative_id: 75,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16387,7 +16387,7 @@ webster_boot_relationship7 = {
     # relative name: Martha Steward 
   user_id: 74,
   relative_id: 76,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16404,7 +16404,7 @@ webster_boot_relationship8 = {
     # relative name: Rionach Steward
   user_id: 74,
   relative_id: 77,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16421,7 +16421,7 @@ webster_boot_relationship9 = {
     # relative name: Gormlaith
   user_id: 74,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16438,7 +16438,7 @@ josefina_calderon_relationship1 = {
     # relative name: Isolt
   user_id: 75,
   relative_id: 69,
-  type: 'Mother-In-Law'
+  kind: 'Mother-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16455,7 +16455,7 @@ josefina_calderon_relationship2 = {
     # relative name: William Sayre
   user_id: 75,
   relative_id: 70,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16472,7 +16472,7 @@ josefina_calderon_relationship3 = {
     # relative name: Rionach Sayre
   user_id: 75,
   relative_id: 71,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16489,7 +16489,7 @@ josefina_calderon_relationship4 = {
     # relative name: James Steward
   user_id: 75,
   relative_id: 72,
-  type: 'Father-In-Law'
+  kind: 'Father-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16506,7 +16506,7 @@ josefina_calderon_relationship5 = {
     # relative name: Chadwick Boot
   user_id: 75,
   relative_id: 73,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16523,7 +16523,7 @@ josefina_calderon_relationship6 = {
     # relative name: Webster Boot
   user_id: 75,
   relative_id: 74,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16540,7 +16540,7 @@ josefina_calderon_relationship7 = {
     # relative name: Martha Steward 
   user_id: 75,
   relative_id: 76,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16557,7 +16557,7 @@ josefina_calderon_relationship8 = {
     # relative name: Rionach Steward
   user_id: 75,
   relative_id: 77,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16574,7 +16574,7 @@ josefina_calderon_relationship9 = {
     # relative name: Gormlaith
   user_id: 75,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16591,7 +16591,7 @@ martha_steward_relationship1 = {
     # relative name: Isolt
   user_id: 76,
   relative_id: 69,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16608,7 +16608,7 @@ martha_steward_relationship2 = {
     # relative name: William Sayre
   user_id: 76,
   relative_id: 70,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16625,7 +16625,7 @@ martha_steward_relationship3 = {
     # relative name: Rionach Sayre
   user_id: 76,
   relative_id: 71,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16642,7 +16642,7 @@ martha_steward_relationship4 = {
     # relative name: James Steward
   user_id: 76,
   relative_id: 72,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16659,7 +16659,7 @@ martha_steward_relationship5 = {
     # relative name: Chadwick Boot
   user_id: 76,
   relative_id: 73,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16676,7 +16676,7 @@ martha_steward_relationship6 = {
     # relative name: Webster Boot 
   user_id: 76,
   relative_id: 74,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16693,7 +16693,7 @@ martha_steward_relationship7 = {
     # relative name: Josefina Calderon
   user_id: 76,
   relative_id: 75,
-  type: 'Spouse'
+  kind: 'Spouse'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16710,7 +16710,7 @@ martha_steward_relationship8 = {
     # relative name: Rionach Steward
   user_id: 76,
   relative_id: 77,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16727,7 +16727,7 @@ martha_steward_relationship9 = {
     # relative name: Gormlaith
   user_id: 76,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16744,7 +16744,7 @@ rionach_steward_relationship1 = {
     # relative name: Isolt
   user_id: 77,
   relative_id: 69,
-  type: 'Mother'
+  kind: 'Mother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16761,7 +16761,7 @@ rionach_steward_relationship2 = {
     # relative name: William Sayre
   user_id: 77,
   relative_id: 70,
-  type: 'Grandfather'
+  kind: 'Grandfather'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16778,7 +16778,7 @@ rionach_steward_relationship3 = {
     # relative name: Rionach Sayre
   user_id: 77,
   relative_id: 71,
-  type: 'Grandmother'
+  kind: 'Grandmother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16795,7 +16795,7 @@ rionach_steward_relationship4 = {
     # relative name: James Steward
   user_id: 77,
   relative_id: 72,
-  type: 'Father'
+  kind: 'Father'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16812,7 +16812,7 @@ rionach_steward_relationship5 = {
     # relative name: Chadwick Boot
   user_id: 77,
   relative_id: 73,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16829,7 +16829,7 @@ rionach_steward_relationship6 = {
     # relative name: Webster Boot 
   user_id: 77,
   relative_id: 74,
-  type: 'Brother'
+  kind: 'Brother'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16846,7 +16846,7 @@ rionach_steward_relationship7 = {
     # relative name: Josefina Calderon
   user_id: 77,
   relative_id: 75,
-  type: 'Sister-In-Law'
+  kind: 'Sister-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16863,7 +16863,7 @@ rionach_steward_relationship8 = {
     # relative name: Martha Steward
   user_id: 77,
   relative_id: 76,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16880,7 +16880,7 @@ rionach_steward_relationship9 = {
     # relative name: Gormlaith
   user_id: 77,
   relative_id: 78,
-  type: 'Aunt'
+  kind: 'Aunt'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16897,7 +16897,7 @@ gormlaith_gaunt_relationship1 = {
     # relative name: Isolt
   user_id: 78,
   relative_id: 69,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16914,7 +16914,7 @@ gormlaith_gaunt_relationship2 = {
     # relative name: William Sayre
   user_id: 78,
   relative_id: 70,
-  type: 'Brother-In-Law'
+  kind: 'Brother-In-Law'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16931,7 +16931,7 @@ gormlaith_gaunt_relationship3 = {
     # relative name: Rionach Sayre 
   user_id: 78,
   relative_id: 71,
-  type: 'Sister'
+  kind: 'Sister'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16948,7 +16948,7 @@ gormlaith_gaunt_relationship4 = {
     # relative name: James Steward
   user_id: 78,
   relative_id: 72,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16965,7 +16965,7 @@ gormlaith_gaunt_relationship5 = {
     # relative name: Chadwick
   user_id: 78,
   relative_id: 73,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16982,7 +16982,7 @@ gormlaith_gaunt_relationship6 = {
     # relative name: Webster
   user_id: 78,
   relative_id: 74,
-  type: 'Nephew'
+  kind: 'Nephew'
   # relationship types: 
     # brother, 
     # sister, 
@@ -16999,7 +16999,7 @@ gormlaith_gaunt_relationship7 = {
     # relative name: Josefina 
   user_id: 78,
   relative_id: 75,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -17016,7 +17016,7 @@ gormlaith_gaunt_relationship8 = {
     # relative name: Martha
   user_id: 78,
   relative_id: 76,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -17033,7 +17033,7 @@ gormlaith_gaunt_relationship9 = {
     # relative name: Rionach
   user_id: 78,
   relative_id: 77,
-  type: 'Niece'
+  kind: 'Niece'
   # relationship types: 
     # brother, 
     # sister, 
@@ -17168,7 +17168,6 @@ Wand.create(sprout_wand)
 Wand.create(trelawney_wand)
 Wand.create(james_potterI_wand)
 Wand.create(lily_potter_wand)
-Wand.create(winky_wand)
 Wand.create(albus_dumbledore_wand)
 Wand.create(flitwick_wand)
 Wand.create(abbott_wand)
@@ -17192,7 +17191,6 @@ Wand.create(lucius_malfoy_wand)
 Wand.create(narcissa_malfoy_wand)
 Wand.create(pettigrew_wand)
 Wand.create(riddle_wand)
-Wand.create(dobby_wand)
 Wand.create(aberforth_wand)
 Wand.create(gregorovitch_wand)
 Wand.create(james_potterII_wand)
@@ -17213,14 +17211,11 @@ Wand.create(teddy_lupin_wand)
 Wand.create(isolt_sayre_wand)
 Wand.create(william_sayre_wand)
 Wand.create(rionach_sayre_wand)
-Wand.create(james_steward_wand)
 Wand.create(chadwick_boot_wand)
 Wand.create(webster_boot_wand)
 Wand.create(josefina_calderon_wand)
-Wand.create(martha_steward_wand)
 Wand.create(rionach_steward_wand)
 Wand.create(gormlaith_gaunt_wand)
-Wand.create(william_the_pukwudgie_wand)
 Wand.create(godric_gryffindor_wand)
 Wand.create(rowena_ravenclaw_wand)
 Wand.create(helga_hufflepuff_wand)
@@ -17731,7 +17726,7 @@ Relationship.create(lily_potter_relationship5)
 Relationship.create(lily_potter_relationship6)
 Relationship.create(albus_dumbledore_relationship1)
 Relationship.create(longbottom_relationship1)
-Relationship.create(abbot_relationship1)
+Relationship.create(abbott_relationship1)
 Relationship.create(malfoy_relationship1)
 Relationship.create(malfoy_relationship2)
 Relationship.create(malfoy_relationship3)
@@ -17795,7 +17790,7 @@ Relationship.create(narcissa_malfoy_relationship5)
 Relationship.create(narcissa_malfoy_relationship6)
 Relationship.create(narcissa_malfoy_relationship7)
 Relationship.create(aberforth_relationship)
-ationship.create(james_potterII_relationship1)
+Relationship.create(james_potterII_relationship1)
 Relationship.create(james_potterII_relationship2)
 Relationship.create(james_potterII_relationship3)
 Relationship.create(james_potterII_relationship4)
@@ -18240,12 +18235,12 @@ Relationship.create(rionach_steward_relationship6)
 Relationship.create(rionach_steward_relationship7)
 Relationship.create(rionach_steward_relationship8)
 Relationship.create(rionach_steward_relationship9)
-Relationship.create(gormlaith_relationship1)
-Relationship.create(gormlaith_relationship2)
-Relationship.create(gormlaith_relationship3)
-Relationship.create(gormlaith_relationship4)
-Relationship.create(gormlaith_relationship5)
-Relationship.create(gormlaith_relationship6)
-Relationship.create(gormlaith_relationship7)
-Relationship.create(gormlaith_relationship8)
-Relationship.create(gormlaith_relationship9)
+Relationship.create(gormlaith_gaunt_relationship1)
+Relationship.create(gormlaith_gaunt_relationship2)
+Relationship.create(gormlaith_gaunt_relationship3)
+Relationship.create(gormlaith_gaunt_relationship4)
+Relationship.create(gormlaith_gaunt_relationship5)
+Relationship.create(gormlaith_gaunt_relationship6)
+Relationship.create(gormlaith_gaunt_relationship7)
+Relationship.create(gormlaith_gaunt_relationship8)
+Relationship.create(gormlaith_gaunt_relationship9)

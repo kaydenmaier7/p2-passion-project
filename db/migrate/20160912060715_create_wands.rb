@@ -7,7 +7,7 @@ class CreateWands < ActiveRecord::Migration
   		t.references :owner
   		t.references :creator
 
-  		t.timestamps
+  		t.timestamps null: false
   	end
   end
 end

@@ -13,7 +13,7 @@ class CreateUsers < ActiveRecord::Migration
 			t.string :school_house			
 			t.string :patronus
 
-			t.timestamps			
+			t.timestamps null: false			
   	end
   end
 end

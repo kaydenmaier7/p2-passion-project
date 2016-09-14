@@ -4,7 +4,7 @@ class CreateBrooms < ActiveRecord::Migration
   		t.string :brand, null: false
   		t.references :owner
   		
-  		t.timestamps
+  		t.timestamps null: false
   	end
   end
 end
