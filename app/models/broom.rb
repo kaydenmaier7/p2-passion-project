@@ -1,3 +1,3 @@
 class Broom < ActiveRecord::Base
-  # Remember to create a migration!
+	belongs_to :owner, class_name: 'User'
 end

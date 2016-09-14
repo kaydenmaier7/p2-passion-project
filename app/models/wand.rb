@@ -1,3 +1,4 @@
 class Wand < ActiveRecord::Base
-  # Remember to create a migration!
+	belongs_to :owner, class_name: 'User'
+	belongs_to :wandmaker, class_name: 'User'
 end

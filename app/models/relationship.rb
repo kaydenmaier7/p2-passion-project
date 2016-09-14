@@ -1,3 +1,4 @@
 class Relationship < ActiveRecord::Base
-  # Remember to create a migration!
+	belongs_to :user, dependent: :destroy
+	belongs_to :relative, class_name: 'User'
 end
