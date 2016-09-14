@@ -176,7 +176,7 @@ sirius = {
   password: 'a',
   blood_status: 'Pure-blood',
   species: 'Wizard',
-  occupation: '',
+  occupation: 'Member of the Order of the Phoenix',
   school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor',
   patronus: nil
@@ -193,7 +193,7 @@ hagrid = {
   occupation: 'Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry',
   school: 'Hogwarts School of Witchcraft and Wizardry',
   school_house: 'Gryffindor',
-  patronus: nil
+  patronus: "Hagrid cannot produce a patronus"
 }
 
 hooch = {
@@ -366,7 +366,7 @@ lily_potter = {
 
 winky = {
   first_name: 'Winky',
-  last_name: nil,
+  last_name: 'House-Elf',
   username: 'winky27',
   email: 'winky27@gmail.com',
   password: 'a',
@@ -702,7 +702,7 @@ riddle = {
 
 dobby = {
   first_name: 'Dobby',
-  last_name: nil,
+  last_name: 'House-Elf',
   username: 'dobby51',
   email: 'dobby51@gmail.com',
   password: 'a',
