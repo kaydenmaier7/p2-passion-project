@@ -9,9 +9,8 @@ end
 
 
 
-# delete '/sessions/:id' do
+# delete '/sessions/:id'
 delete '/sessions' do
-  # session[:id] = nil
   logout 
   redirect '/'
 end

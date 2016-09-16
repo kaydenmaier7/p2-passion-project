@@ -510,7 +510,7 @@ salazar_slytherin_relationship
 
 # Notes about webpage design:
 # -Link harry potter wiki webpage
-# All users show up on the home page but you can only see the bank account if logged in
+# When a user is logged in, he/she can click a link to view/create resources he/she has ie wands, pets, articles, etc
 # ___________________________________
 # Create a method from the below code to find a relative type
 # a is an user stored in that variable
