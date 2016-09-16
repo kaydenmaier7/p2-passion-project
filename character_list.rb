@@ -510,4 +510,9 @@ salazar_slytherin_relationship
 
 # Notes about webpage design:
 # -Link harry potter wiki webpage
+# All users show up on the home page but you can only see the bank account if logged in
+# ___________________________________
+# Create a method from the below code to find a relative type
+# a is an user stored in that variable
+# User.find(a.relationships.where(kind: "Spouse").first.relative_id)
 

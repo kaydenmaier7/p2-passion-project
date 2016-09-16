@@ -1780,7 +1780,7 @@ salazar_slytherin_wand = {
 # Seed Data for the GringottsAccount Class
 harry_account = {
   user_id: 1,
-  balance: 15_000_00,
+  balance: 15_000_000.65,
   interest_rate: 0.10
 }
 
@@ -1828,7 +1828,7 @@ percy_account = {
 
 fredI_account = {
   user_id: 9,
-  balance: 5_000,
+  balance: 0,
   interest_rate: 0.10
 }
 
