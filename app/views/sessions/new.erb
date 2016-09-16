@@ -9,10 +9,4 @@
   <input type="submit" value="Login!">
 </form>
 
-<% if @errors %>
-	<ul>
-		<% @errors.each do |error| %>
-			<%= error %>
-		<% end %>
-	</ul>
-<% end %>
+<%= erb :'partials/_errors' %>
