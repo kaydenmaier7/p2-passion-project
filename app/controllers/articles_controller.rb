@@ -6,13 +6,27 @@ end
 
 # Articles New Form
 get '/articles/new' do
-	@article 
-	erb :'articles/new'
+	if logged_in?
+		erb :'articles/new'
+		else
+			erb :'sessions/new'
+	end
 end
 
 # Articles Create 
 post '/articles' do
 	# create_articles
+	if current_user
+		@article = Article.new(params[:article])
+		if @article.save
+			@article.user_id = @current_user.id
+			redirect "/articles/#{@article.id}"
+			else
+				erb :'articles/new'
+		end
+		else
+			erb :'sessions/new'
+	end
 end
 
 # Articles Show 
@@ -31,7 +45,7 @@ put '/articles/:id' do
 
 end
 
-# Articles Destory
+# Articles Destroy
 delete '/articles/:id' do 
 
 end
