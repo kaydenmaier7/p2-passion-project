@@ -1,5 +1,13 @@
 
 <h1>hello</h1>
-<% @articles.each do |article| %>
-	<%= article.article_title %>
+<% if @articles %>
+	<ol>
+		<% @articles.each do |article| %>
+			<li>
+				<a href="/articles/<%= article.id %>"><%= article.article_title %></a> 
+			</li>
+		<% end %>
+	</ol>
+	<% else %>
+		<%= redirect '/' %>
 <% end %>

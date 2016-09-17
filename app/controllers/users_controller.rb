@@ -7,7 +7,7 @@ end
 
 # USERS CREATE
 post '/users' do
-  create_user
+  create_user(params[:password_confirmation], params[:user])
 end
 
 # USERS SHOW

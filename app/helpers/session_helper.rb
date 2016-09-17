@@ -17,7 +17,7 @@ helpers do
 
     if @user && @user.password == params[:password]
       login(@user)
-      redirect '/'
+      redirect "/users/#{@user.id}"
 
     else
       @errors = ["User name and/or Password not found."]

@@ -6,6 +6,7 @@ end
 
 # Articles New Form
 get '/articles/new' do
+	@article 
 	erb :'articles/new'
 end
 
@@ -16,7 +17,8 @@ end
 
 # Articles Show 
 get '/articles/:id' do
-
+	@article = Article.find(params[:id])
+	erb :'articles/show'
 end
 
 # Articles Edit Form

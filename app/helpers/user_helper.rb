@@ -1,8 +1,8 @@
 helpers do
 
-  def create_user
-    if params[:password_confirmation] == params[:user][:password]
-      @user = User.new(params[:user])
+  def create_user(password_confirmation, user)
+    if password_confirmation == user[:password]
+      @user = User.new(user)
 
       if @user.save
         login(@user)
