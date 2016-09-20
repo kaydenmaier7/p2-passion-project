@@ -11,19 +11,7 @@ end
 
 # Pets Create
 post '/pets' do
-  if current_user
-    @pet = Pet.new(params[:pet])
-    @pet.owner_id = @current_user.id
-
-    if @pet.save
-      redirect "/pets/#{@pet.id}"
-    else
-    	errors(@pet)
-      erb :'pets/new'
-    end
-  else
-    erb :'sessions/new'
-  end
+  create_pet(params[:pet])
 end
 
 # Pets Show
