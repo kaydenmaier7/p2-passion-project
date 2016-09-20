@@ -28,5 +28,9 @@ helpers do
   def logout
     session[:id] = nil
   end
+
+  def errors(item)
+    @errors = item.errors.full_messages
+  end
   
 end

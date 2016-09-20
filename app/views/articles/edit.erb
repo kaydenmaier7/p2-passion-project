@@ -1,0 +1,10 @@
+<h1>Update Your Article Here</h1>
+
+<form action="/articles/<%= @article.id %>" method="POST">
+	<input type="hidden" name="_method" value="PATCH">
+	<input type="text" name="article[article_title]" placeholder="Title">
+	<input type="text" name="article[article_body]" placeholder="Body">
+	<input type="submit" value="Submit">
+</form>
+
+<%= erb :'partials/_errors' %>

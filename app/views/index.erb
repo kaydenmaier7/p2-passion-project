@@ -2,7 +2,6 @@
 <!-- <h1>HELLO WORLD</h1> -->
 <% if logged_in?  %>
 	<h3>Welcome <%= @current_user.first_name %>!</h3>
-	<a href="/users/<%= @current_user.id %>">Profile Page</a>
 	<% else %>
 	<h3>Welcome!</h3>
 <% end %>

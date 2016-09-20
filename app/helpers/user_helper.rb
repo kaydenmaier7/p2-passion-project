@@ -9,7 +9,6 @@ helpers do
         redirect '/'
       else
         @errors = @user.errors.full_messages
-        p @errors
         erb :'users/new'
       end
 
