@@ -4,4 +4,7 @@ get '/pets' do
 	erb :'pets/index'
 end
 
-get ''
+# Pets New Form
+get '/pets/new' do
+	erb :'pets/new'
+end
