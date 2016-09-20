@@ -15,20 +15,7 @@ end
 
 # Articles Create
 post '/articles' do
-  # create_articles
-  if current_user
-    @article = Article.new(params[:article])
-    @article.user_id = @current_user.id
-    
-    if @article.save
-      redirect "/articles/#{@article.id}"
-    else
-      errors(@article)
-      erb :'articles/new'
-    end
-  else
-    erb :'sessions/new'
-  end
+  create_article(params[:article])
 end
 
 # Articles Show
