@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   has_many  :wands, foreign_key: :owner_id
   has_many  :wandmakers, through: :wands, source: :creator
   has_many  :articles  
-  has_many  :pets
+  has_many  :pets, foreign_key: :owner_id
   has_many  :brooms
   has_many  :relationships
   has_one   :gringotts_account
