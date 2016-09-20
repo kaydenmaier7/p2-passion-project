@@ -5,8 +5,8 @@
 	<ol>
 		<% @pets.each do |pet| %>
 			<li>
-				<a href="/pets/<%= pet.id %>">pet.name</a>
+				<a href="/pets/<%= pet.id %>"><%= pet.name %></a>
 			</li>
-		<% end %> %>
+		<% end %>
 	</ol>
 <% end %>
