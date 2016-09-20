@@ -1,0 +1,12 @@
+
+<table border="1">
+	<h3><%= @pet.name %></h3>
+	<tr>
+		<th> Species </th>
+		<th> Owner </th>
+	</tr>
+	<tr>
+		<td> <%= @pet.species %> </td>
+		<td> <%= @current_user.first_name + ' ' + @current_user.last_name %> </td>
+	</tr>
+</table>
