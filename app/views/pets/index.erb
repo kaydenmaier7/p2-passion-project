@@ -1,0 +1,12 @@
+<h1>All user pets</h1>
+<h1>Pets:</h1>
+
+<% if @pets %>
+	<ol>
+		<% @pets.each do |pet| %>
+			<li>
+				<a href="/pets/<%= pet.id %>">pet.name</a>
+			</li>
+		<% end %> %>
+	</ol>
+<% end %>
