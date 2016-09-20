@@ -18,14 +18,14 @@ post '/articles' do
 	# create_articles
 	if current_user
 		@article = Article.new(params[:article])
+		@article.user_id = @current_user.id
 		if @article.save
-			@article.user_id = @current_user.id
 			redirect "/articles/#{@article.id}"
-			else
+		else
 				erb :'articles/new'
 		end
-		else
-			erb :'sessions/new'
+	else
+		erb :'sessions/new'
 	end
 end
 

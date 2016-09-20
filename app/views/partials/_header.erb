@@ -3,9 +3,8 @@
     <input type="hidden" name="_method" value="DELETE">
     <input type="submit" value="Logout">
   </form>
-	<% if @article != nil %>
-		<a href="/users/<%=	 @article.user_id %>">Profile Page</a>
-	<% end %>
+	<a href="/users/<%=	 @current_user.id %>">Profile Page</a>
+
 <% else %>
   <a href="/sessions/new">Login</a>
   <a href="/users/new">Register</a>
