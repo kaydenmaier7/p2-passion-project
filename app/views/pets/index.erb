@@ -1,0 +1,16 @@
+<header>
+	<a href="/pets/new">Add A New Pet</a>
+</header>
+<h1>Pets:</h1>
+
+<% if @pets %>
+	<ol>
+		<% @pets.each do |pet| %>
+			<li>
+				<a href="/pets/<%= pet.id %>"><%= pet.name %></a>
+			</li>
+		<% end %>
+	</ol>
+	<% else %>
+		<%= redirect '/' %>
+<% end %>

@@ -9,51 +9,61 @@ get '/articles/new' do
   if logged_in?
     erb :'articles/new'
   else
+    @errors = ['You must be logged in to add a new pet.']
     erb :'sessions/new'
   end
 end
 
 # Articles Create
 post '/articles' do
-  # create_articles
-  if current_user
-    @article = Article.new(params[:article])
-    @article.user_id = @current_user.id
-    if @article.save
-      redirect "/articles/#{@article.id}"
-    else
-      erb :'articles/new'
-    end
-  else
-    erb :'sessions/new'
-  end
+  create_article(params[:article])
 end
 
 # Articles Show
 get '/articles/:id' do
-  @article = Article.find(params[:id])
-  erb :'articles/show'
+  find_article
+
+  if authenticated_user(@article)
+    erb :'articles/show'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
+  else
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
+    logout
+    erb :'sessions/new'
+  end
 end
 
 # Articles Edit Form
 get '/articles/:id/edit' do
-  if logged_in?
-    @article = Article.find(params[:id])
+  find_article
+
+  if authenticated_user(@article)
     erb :'articles/edit'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
   else
-    redirect '/sessions/new'
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
+    logout
+    erb :'sessions/new'
   end
 end
 
 # Articles Update
 patch '/articles/:id' do
-  @article = Article.find(params[:id])
+  find_article
   @article.update(params[:article])
   if @article.save
-    p "Updated" * 100
     redirect "/articles/#{@article.id}"
   else
-    p '* errors' * 100
     errors(@article)
     erb :'articles/edit'
   end
@@ -61,7 +71,7 @@ end
 
 # Articles Destroy
 delete '/articles/:id' do
-  @article = Article.find(params[:id])
+  find_article
   @article.destroy
-  redirect '/articles' 
+  redirect '/articles'
 end

@@ -6,15 +6,15 @@ helpers do
 
       if @user.save
         login(@user)
-        redirect '/'
+        return redirect '/'
       else
         @errors = @user.errors.full_messages
-        erb :'users/new'
+        return erb :'users/new'
       end
 
     else
       @errors = ["Passwords do not match!"]
-      erb :'users/new'
+      return erb :'users/new'
     end
   end
 

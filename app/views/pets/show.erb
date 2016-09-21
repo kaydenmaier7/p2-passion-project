@@ -1,0 +1,17 @@
+<a href="/pets/<%= @pet.id %>/edit ">Update Pet</a>
+<table border="1">
+	<h3><%= @pet.name %></h3>
+	<tr>
+		<th> Species </th>
+		<th> Owner </th>
+	</tr>
+	<tr>
+		<td> <%= @pet.species %> </td>
+		<td> <%= @current_user.first_name + ' ' + @current_user.last_name %> </td>
+	</tr>
+</table>
+
+<form action="/pets/<%= @pet.id %>" method="POST">
+	<input type="hidden" name="_method" value="DELETE">
+	<input type="submit" value="Remove Pet">
+</form>

@@ -1,0 +1,10 @@
+<h1>Update Your Pet Info Here</h1>
+
+<form action="/pets/<%= @pet.id %>" method="POST">
+	<input type="hidden" name="_method" value="PATCH">
+	<input type="text" name="pet[name]" placeholder="Name">
+	<input type="text" name="pet[species]" placeholder="Species">
+	<input type="submit" value="Update Pet">
+</form>
+
+<%= erb :'partials/_errors' %>
