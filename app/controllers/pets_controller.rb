@@ -6,7 +6,12 @@ end
 
 # Pets New Form
 get '/pets/new' do
-  erb :'pets/new'
+  if logged_in?
+    erb :'pets/new'
+  else
+    @errors = ['You must be logged in to add a new pet.']
+    erb :'sessions/new'
+  end
 end
 
 # Pets Create
@@ -16,27 +21,57 @@ end
 
 # Pets Show
 get '/pets/:id' do
-  if logged_in?
-    @pet = Pet.find(params[:id])
+  find_pet
+
+  if authenticated_owner(@pet)
     erb :'pets/show'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
   else
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
+    logout
     erb :'sessions/new'
   end
 end
 
 # Pets Edit Form
 get '/pets/:id/edit' do
-	@pet = Pet.find(params[:id])
-	
+  find_pet
+
+  if authenticated_owner(@pet)
+    erb :'pets/edit'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
+  else
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
+    logout
+    erb :'sessions/new'
+  end
 end
 
+# Pets Update
+patch '/pets/:id' do
+  find_pet
+  @pet.update(params[:pet])
+  if @pet.save
+    redirect "/pets/#{@pet.id}"
+  else
+    errors(@pet)
+    erb :'pets/edit'
+  end
+end
 
-
-
-
-
-
-
-
-
-
+# Pets Destroy
+delete '/pets/:id' do
+	find_pet
+	@pet.destroy
+	redirect '/pets'
+end
