@@ -1,0 +1,7 @@
+<h1>Welcome To Virtual Gringotts, <%= @current_user.first_name %> </h1>
+
+<h2>Balance</h2>
+<%= @gringotts_account.balance %>
+
+<h2>Current Interest Rate</h2>
+<%= @gringotts_account.interest_rate * 100  %>%
