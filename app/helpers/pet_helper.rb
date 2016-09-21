@@ -1,4 +1,5 @@
 helpers do
+  
   def create_pet(pet)
     if current_user
       @pet = Pet.new(params[:pet])
@@ -13,5 +14,10 @@ helpers do
     else
       erb :'sessions/new'
     end
+  end
+
+
+  def find_pet
+    @pet = Pet.find(params[:id])
   end
 end
