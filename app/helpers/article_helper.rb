@@ -14,4 +14,8 @@ helpers do
       erb :'sessions/new'
     end
   end
+
+  def find_article
+    @article = Article.find(params[:id])
+  end
 end

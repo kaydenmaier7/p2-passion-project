@@ -20,7 +20,8 @@ end
 
 # Articles Show
 get '/articles/:id' do
-  @article = Article.find(params[:id])
+  find_article
+
   if authenticated(@article)
     erb :'articles/show'
   elsif session[:id] == nil
@@ -37,7 +38,7 @@ end
 
 # Articles Edit Form
 get '/articles/:id/edit' do
-  @article = Article.find(params[:id])
+  find_article
 
   if authenticated(@article)
     erb :'articles/edit'
@@ -57,7 +58,7 @@ end
 
 # Articles Update
 patch '/articles/:id' do
-  @article = Article.find(params[:id])
+  find_article
   @article.update(params[:article])
   if @article.save
     p "Updated" * 100
@@ -71,7 +72,7 @@ end
 
 # Articles Destroy
 delete '/articles/:id' do
-  @article = Article.find(params[:id])
+  find_article
   @article.destroy
   redirect '/articles'
 end
