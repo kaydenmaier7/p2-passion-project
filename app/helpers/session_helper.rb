@@ -32,5 +32,9 @@ helpers do
   def errors(item)
     @errors = item.errors.full_messages
   end
+
+  def authenticated(item)
+    logged_in? && @current_user.id == item.user_id
+  end
   
 end

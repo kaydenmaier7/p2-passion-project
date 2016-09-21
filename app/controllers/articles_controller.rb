@@ -26,11 +26,13 @@ end
 
 # Articles Edit Form
 get '/articles/:id/edit' do
-  if logged_in?
-    @article = Article.find(params[:id])
+  @article = Article.find(params[:id])
+  if authenticated(@article)
     erb :'articles/edit'
   else
-    redirect '/sessions/new'
+    @errors = ['You are not authorized to view this content!', 'For security reasons, you are being logged out.']
+    logout
+    erb :'sessions/new'
   end
 end
 

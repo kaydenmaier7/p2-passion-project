@@ -20,9 +20,17 @@ get '/pets/:id' do
     @pet = Pet.find(params[:id])
     erb :'pets/show'
   else
-  	erb :'sessions/new'
+    erb :'sessions/new'
   end
 end
+
+# Pets Edit Form
+get '/pets/:id/edit' do
+	@pet = Pet.find(params[:id])
+	
+end
+
+
 
 
 
