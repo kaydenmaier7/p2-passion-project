@@ -23,8 +23,13 @@ get '/articles/:id' do
   @article = Article.find(params[:id])
   if authenticated(@article)
     erb :'articles/show'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
   else
-    @errors = ['You are not authorized to view this content!', 'For security reasons, you are being logged out.']
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
     logout
     erb :'sessions/new'
   end
@@ -33,13 +38,21 @@ end
 # Articles Edit Form
 get '/articles/:id/edit' do
   @article = Article.find(params[:id])
+
   if authenticated(@article)
     erb :'articles/edit'
+  elsif session[:id] == nil
+    @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
   else
-    @errors = ['You are not authorized to view this content!', 'For security reasons, you are being logged out.']
+    @errors = [
+      'You are not authorized to view this content!',
+      'For security reasons, you are being logged out.'
+    ]
     logout
     erb :'sessions/new'
   end
+
 end
 
 # Articles Update
@@ -60,5 +73,5 @@ end
 delete '/articles/:id' do
   @article = Article.find(params[:id])
   @article.destroy
-  redirect '/articles' 
+  redirect '/articles'
 end
