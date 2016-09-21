@@ -21,7 +21,13 @@ end
 # Articles Show
 get '/articles/:id' do
   @article = Article.find(params[:id])
-  erb :'articles/show'
+  if authenticated(@article)
+    erb :'articles/show'
+  else
+    @errors = ['You are not authorized to view this content!', 'For security reasons, you are being logged out.']
+    logout
+    erb :'sessions/new'
+  end
 end
 
 # Articles Edit Form
