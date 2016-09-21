@@ -9,7 +9,7 @@ get '/pets/new' do
   if logged_in?
     erb :'pets/new'
   else
-    @errors = ['You must be logged in to add a new pet.']
+    @errors = [ 'You must be logged in to add a new pet.' ]
     erb :'sessions/new'
   end
 end
