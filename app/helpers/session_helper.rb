@@ -33,8 +33,12 @@ helpers do
     @errors = item.errors.full_messages
   end
 
-  def authenticated(item)
+  def authenticated_user(item)
     logged_in? && @current_user.id == item.user_id
   end
   
+  def authenticated_owner(item)
+    logged_in? && @current_user.id == item.owner_id
+  end
+
 end
