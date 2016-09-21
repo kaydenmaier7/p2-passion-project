@@ -9,6 +9,7 @@ get '/articles/new' do
   if logged_in?
     erb :'articles/new'
   else
+    @errors = ['You must be logged in to add a new pet.']
     erb :'sessions/new'
   end
 end
@@ -22,10 +23,11 @@ end
 get '/articles/:id' do
   find_article
 
-  if authenticated(@article)
+  if authenticated_user(@article)
     erb :'articles/show'
   elsif session[:id] == nil
     @errors = ['You must be logged to view this content.']
+    erb :'sessions/new'
   else
     @errors = [
       'You are not authorized to view this content!',
@@ -40,7 +42,7 @@ end
 get '/articles/:id/edit' do
   find_article
 
-  if authenticated(@article)
+  if authenticated_user(@article)
     erb :'articles/edit'
   elsif session[:id] == nil
     @errors = ['You must be logged to view this content.']
@@ -53,7 +55,6 @@ get '/articles/:id/edit' do
     logout
     erb :'sessions/new'
   end
-
 end
 
 # Articles Update
@@ -61,10 +62,8 @@ patch '/articles/:id' do
   find_article
   @article.update(params[:article])
   if @article.save
-    p "Updated" * 100
     redirect "/articles/#{@article.id}"
   else
-    p '* errors' * 100
     errors(@article)
     erb :'articles/edit'
   end
