@@ -5,7 +5,7 @@ end
  
 # Gringotts Account Create
 post '/gringotts_accounts' do	
-	@gringotts_account = GringottsAccount.new(params[:gringotts_account])
+	
 end
 
 # Account Show
