@@ -1,11 +1,17 @@
 <% if current_user %>
+  
   <form action="/sessions" method="POST">
     <input type="hidden" name="_method" value="DELETE">
     <input type="submit" value="Logout">
   </form>
-	<a href="/users/<%=	 @current_user.id %>">Profile Page</a>
+	<a href="/users/<%=	current_user.id %>">Profile Page</a>
+	
+  <% if current_user.gringotts_account == nil %>
+		<a href="/gringotts_accounts/new">Link Your Gringotts Account Here!</a>
+	<% end %>
 
 <% else %>
+  
   <a href="/sessions/new">Login</a>
   <a href="/users/new">Register</a>
 <% end %>

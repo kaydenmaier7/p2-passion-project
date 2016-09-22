@@ -1,6 +1,11 @@
+# rails example for the array
+# before [create,update,show,edit] do
+#   set_article
+# end
+
 # Articles Index
 get '/articles' do
-  @articles = @current_user.articles if logged_in?
+  @articles = current_user.articles if logged_in?
   erb :'articles/index'
 end
 
@@ -21,6 +26,9 @@ end
 
 # Articles Show
 get '/articles/:id' do
+  # you'll see this pattern as 
+  # set_article
+  # also it would be included in a before hook in your routes
   find_article
 
   if authenticated_user(@article)

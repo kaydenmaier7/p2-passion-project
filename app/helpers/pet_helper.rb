@@ -3,7 +3,7 @@ helpers do
   def create_pet(pet)
     if current_user
       @pet = Pet.new(params[:pet])
-      @pet.owner_id = @current_user.id
+      @pet.owner_id = current_user.id
 
       if @pet.save
         redirect "/pets/#{@pet.id}"

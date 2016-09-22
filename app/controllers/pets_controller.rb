@@ -1,6 +1,7 @@
 # Pets Index
 get '/pets' do
-  @pets = @current_user.pets if logged_in?
+  # Change this to just current_user not current_user
+  @pets = current_user.pets if logged_in?
   erb :'pets/index'
 end
 
