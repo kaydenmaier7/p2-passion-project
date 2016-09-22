@@ -14,7 +14,9 @@ get '/articles/new' do
   if logged_in?
     erb :'articles/new'
   else
-    @errors = ['You must be logged in to add a new pet.']
+    @errors = [
+      'You must be logged in to add a new article.'
+    ]
     erb :'sessions/new'
   end
 end
@@ -26,16 +28,20 @@ end
 
 # Articles Show
 get '/articles/:id' do
-  # you'll see this pattern as 
+  # you'll see this pattern as
   # set_article
   # also it would be included in a before hook in your routes
   set_article
 
-  if authenticated_user(@article)
+  if resource_owner(@article)
     erb :'articles/show'
+  
   elsif session[:id] == nil
-    @errors = ['You must be logged to view this content.']
+    @errors = [
+      'You must be logged in to view this content.'
+    ]
     erb :'sessions/new'
+  
   else
     @errors = [
       'You are not authorized to view this content!',
@@ -50,7 +56,7 @@ end
 get '/articles/:id/edit' do
   set_article
 
-  if authenticated_user(@article)
+  if resource_owner(@article)
     erb :'articles/edit'
   elsif session[:id] == nil
     @errors = ['You must be logged to view this content.']
@@ -69,6 +75,7 @@ end
 patch '/articles/:id' do
   set_article
   @article.update(params[:article])
+  
   if @article.save
     redirect "/articles/#{@article.id}"
   else

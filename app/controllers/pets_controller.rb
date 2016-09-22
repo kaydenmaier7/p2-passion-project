@@ -27,7 +27,7 @@ get '/pets/:id' do
   if authenticated_owner(@pet)
     erb :'pets/show'
   elsif session[:id] == nil
-    @errors = ['You must be logged to view this content.']
+    @errors = ['You must be logged in to view this content.']
     erb :'sessions/new'
   else
     @errors = [

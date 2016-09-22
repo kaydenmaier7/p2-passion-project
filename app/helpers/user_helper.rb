@@ -20,7 +20,7 @@ helpers do
 
   # This method is poorly named.....
   # this should be called resource_owner
-  def authenticated_user(item)
+  def resource_owner(item)
     logged_in? && current_user.id == item.user_id
   end
   
