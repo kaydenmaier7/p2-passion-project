@@ -1,6 +1,7 @@
 # Pets Index
 get '/pets' do
-  @pets = @current_user.pets if logged_in?
+  # Change this to just current_user not current_user
+  @pets = current_user.pets if logged_in?
   erb :'pets/index'
 end
 
@@ -26,7 +27,7 @@ get '/pets/:id' do
   if authenticated_owner(@pet)
     erb :'pets/show'
   elsif session[:id] == nil
-    @errors = ['You must be logged to view this content.']
+    @errors = ['You must be logged in to view this content.']
     erb :'sessions/new'
   else
     @errors = [

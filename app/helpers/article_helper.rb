@@ -2,7 +2,7 @@ helpers do
   def create_article(article)
     if current_user
       @article = Article.new(params[:article])
-      @article.user_id = @current_user.id
+      @article.user_id = current_user.id
 
       if @article.save
         redirect "/articles/#{@article.id}"
@@ -15,7 +15,7 @@ helpers do
     end
   end
 
-  def find_article
+  def set_article
     @article = Article.find(params[:id])
   end
 end
