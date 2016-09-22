@@ -29,7 +29,7 @@ get '/articles/:id' do
   # you'll see this pattern as 
   # set_article
   # also it would be included in a before hook in your routes
-  find_article
+  set_article
 
   if authenticated_user(@article)
     erb :'articles/show'
@@ -48,7 +48,7 @@ end
 
 # Articles Edit Form
 get '/articles/:id/edit' do
-  find_article
+  set_article
 
   if authenticated_user(@article)
     erb :'articles/edit'
@@ -67,7 +67,7 @@ end
 
 # Articles Update
 patch '/articles/:id' do
-  find_article
+  set_article
   @article.update(params[:article])
   if @article.save
     redirect "/articles/#{@article.id}"
@@ -79,7 +79,7 @@ end
 
 # Articles Destroy
 delete '/articles/:id' do
-  find_article
+  set_article
   @article.destroy
   redirect '/articles'
 end

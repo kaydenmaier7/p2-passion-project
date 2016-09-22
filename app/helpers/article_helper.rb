@@ -15,7 +15,7 @@ helpers do
     end
   end
 
-  def find_article
+  def set_article
     @article = Article.find(params[:id])
   end
 end
