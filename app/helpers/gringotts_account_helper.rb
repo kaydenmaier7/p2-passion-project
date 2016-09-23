@@ -52,6 +52,12 @@ helpers do
       logout
       erb :'sessions/new'
     end
+  end
 
+  def update_gringotts_account
+    @gringotts_account.balance = params[:gringotts_account][:balance]
+    @gringotts_account.interest_rate = params[:gringotts_account][:interest_rate]
+
+    return @gringotts_account
   end
 end

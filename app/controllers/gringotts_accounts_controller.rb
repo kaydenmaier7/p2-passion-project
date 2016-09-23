@@ -27,8 +27,8 @@ end
 # Account Update
 patch '/gringotts_accounts/:id' do
   set_gringotts_account
-  @gringotts_account.update(params[:gringotts_account])
-
+  # @gringotts_account.update(params[:gringotts_account])
+  update_gringotts_account
   if @gringotts_account.save
     redirect "/gringotts_accounts/#{@gringotts_account.id}"
   else
