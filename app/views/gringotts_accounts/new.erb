@@ -1,7 +1,7 @@
 <h1>Summon the Portal to Gringotts</h1>
 
 <form action="/gringotts_accounts" method="POST">
-	<input type="number" min="0" name="gringotts_account[balance]" placeholder="balance">
+	<input type="number" step="any" name="gringotts_account[balance]" placeholder="balance">
 	<input type="text" name="gringotts_account[interest_rate]" placeholder="Interest Rate">
 	<input type="submit" value="Link Account">
 </form>

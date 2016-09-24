@@ -1,7 +1,7 @@
 <h1>Update Your Gringotts Account Here</h1>
 <form action="/gringotts_accounts/<%= @gringotts_account.id %>" method="POST">
 	<input type="hidden" name="_method" value="PATCH">
-	<input type="number" min="0" name="gringotts_account[balance]" value="<%= @gringotts_account.balance %>">
+	<input type="number" step="any" name="gringotts_account[balance]" value="<%= @gringotts_account.balance %>">
 	<input type="text" name="gringotts_account[interest_rate]" value="<%= @gringotts_account.interest_rate %>">
 	<input type="submit" value="Update Gringotts Account">
 	
