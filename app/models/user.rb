@@ -24,6 +24,8 @@ class User < ActiveRecord::Base
   # has_many :relations, through: :relationships, source: :relative
 # This method can be done using scope. Have someone explain how to syntactically do this!
   def relations(relationship_type)
+    relationship_type.capitalize!
+
     self.relationships.where(kind: relationship_type).map {|relationship_object| User.find(relationship_object.relative_id)}
       
   end
