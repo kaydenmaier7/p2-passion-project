@@ -2,9 +2,12 @@
 
 <table border="1" >
 	<thead>
-		<th colspan="<%= @relationships.length %>"> <%= current_user.first_name %> <%= current_user.last_name %>'s Family Tree </th>
+		<th colspan="<%= @relationships.length + 1 %>"> <%= current_user.first_name %> <%= current_user.last_name %>'s Family Tree </th>
 	</thead>
 	<tr>
+		<th>
+			Name
+		</th>
 		<% @relationships.each do |relationship| %>
 			<td> 
 				<%= relationship.relative_info.first_name %> <%= relationship.relative_info.last_name %> 
@@ -12,6 +15,9 @@
 		<% end %>
 	</tr>
 	<tr>
+		<th>
+			Relationship
+		</th>
 		<% @relationships.each do |relationship| %>
 			<td>
 				<%= relationship.kind %>

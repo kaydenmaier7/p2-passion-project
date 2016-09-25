@@ -3,11 +3,19 @@
 
 <table border="1">
 	<tr>
-		<th> Balance </th>
-		<th> Period Interest Rate </th>
+		<th> 
+			Balance 
+		</th>
+		<th> 
+			Period Interest Rate 
+		</th>
 	</tr>
 	<tr>
-		<td> <%= @gringotts_account.balance %> </td>
-		<td> <%= @gringotts_account.interest_rate * 100  %>% </td>
+		<td> 
+			$<%= @gringotts_account.balance %> 
+		</td>
+		<td> 
+			<%= @gringotts_account.interest_rate * 100  %>% 
+			</td>
 	</tr>
 </table>
