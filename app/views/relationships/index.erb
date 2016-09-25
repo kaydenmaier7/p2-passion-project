@@ -1,1 +1,21 @@
-<h1><%= current_user.first_name %> <%= current_user.last_name %> Family Tree</h1>
+<h1></h1>
+
+<table border="1" >
+	<thead>
+		<th colspan="<%= @relationships.length %>"> <%= current_user.first_name %> <%= current_user.last_name %>'s Family Tree </th>
+	</thead>
+	<tr>
+		<% @relationships.each do |relationship| %>
+			<td> 
+				<%= relationship.relative_info.first_name %> <%= relationship.relative_info.last_name %> 
+			</td>
+		<% end %>
+	</tr>
+	<tr>
+		<% @relationships.each do |relationship| %>
+			<td>
+				<%= relationship.kind %>
+			</td>
+		<% end %>
+	</tr>
+</table>
