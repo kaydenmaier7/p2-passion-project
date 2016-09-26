@@ -19,8 +19,8 @@ helpers do
   end
 
   # This method is poorly named.....
-  # this should be called resource_owner
-  def resource_owner(item)
+  # this should be called resource_owner?
+  def resource_owner?(item)
     logged_in? && current_user.id == item.user_id
   end
   

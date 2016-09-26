@@ -17,7 +17,7 @@ helpers do
   end
 
   def authenticated_gringotts_account_show_form
-    if resource_owner(@gringotts_account)
+    if resource_owner?(@gringotts_account)
       erb :'gringotts_accounts/show'
 
     elsif session[:id] == nil
@@ -37,7 +37,7 @@ helpers do
   end
 
   def authenticated_gringotts_account_edit_form
-    if resource_owner(@gringotts_account)
+    if resource_owner?(@gringotts_account)
       erb :'gringotts_accounts/edit'
 
     elsif session[:id] == nil

@@ -1,5 +1,6 @@
 # Account New Form
-get '/gringotts_accounts/new' do
+get '/users/:user_id/gringotts_accounts/new' do
+  @user = User.find(:user_id)
   erb :'gringotts_accounts/new'
 end
 

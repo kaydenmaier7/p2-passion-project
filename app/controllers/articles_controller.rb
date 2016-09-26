@@ -33,7 +33,7 @@ get '/articles/:id' do
   # also it would be included in a before hook in your routes
   set_article
 
-  if resource_owner(@article)
+  if resource_owner?(@article)
     erb :'articles/show'
   
   elsif session[:id] == nil
@@ -56,7 +56,7 @@ end
 get '/articles/:id/edit' do
   set_article
 
-  if resource_owner(@article)
+  if resource_owner?(@article)
     erb :'articles/edit'
   elsif session[:id] == nil
     @errors = ['You must be logged to view this content.']
