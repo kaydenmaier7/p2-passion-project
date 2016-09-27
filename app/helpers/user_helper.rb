@@ -27,4 +27,8 @@ helpers do
   def authenticated_owner(item)
     logged_in? && current_user.id == item.owner_id
   end
+
+  def set_resource_owner
+    @user = User.find(current_user.id)
+  end
 end

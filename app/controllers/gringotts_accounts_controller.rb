@@ -1,6 +1,6 @@
 # Account New Form
 get '/users/:user_id/gringotts_accounts/new' do
-  @user = User.find(:user_id)
+  set_resource_owner
   erb :'gringotts_accounts/new'
 end
 
