@@ -5,14 +5,14 @@ get '/users/:user_id/gringotts_accounts/new' do
 end
 
 # Gringotts Account Create
-post '/gringotts_accounts' do
+post '/users/:user_id/gringotts_accounts' do
   link_gringotts_account(params[:gringotts_account])
 end
 
 # Account Show
-get '/gringotts_accounts/:id' do
+get '/users/:user_id/gringotts_accounts/:id' do
+  set_resource_owner
   set_gringotts_account
-
   authenticated_gringotts_account_show_form
   
 end

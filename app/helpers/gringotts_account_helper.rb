@@ -5,7 +5,7 @@ helpers do
     @gringotts_account.user_id = current_user.id
 
     if @gringotts_account.save
-      redirect "/gringotts_accounts/#{@gringotts_account.id}"
+      redirect "/users/:user_id/gringotts_accounts/#{@gringotts_account.id}"
     else
       errors(@gringotts_account)
       erb :'gringotts_accounts/new'
