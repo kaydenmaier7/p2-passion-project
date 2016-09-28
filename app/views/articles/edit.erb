@@ -2,9 +2,9 @@
 
 <form action="/articles/<%= @article.id %>" method="POST">
 	<input type="hidden" name="_method" value="PATCH">
-	<input type="text" name="article[article_title]" placeholder="Title">
-	<input type="text" name="article[article_body]" placeholder="Body">
-	<input type="submit" value="Update Pet">
+	<input type="text" name="article[article_title]" value="<%= @article.article_title %>">
+	<input type="text" name="article[article_body]" value="<%= @article.article_body %>">
+	<input type="submit" value="Update Article">
 </form>
 
 <%= erb :'partials/_errors' %>
