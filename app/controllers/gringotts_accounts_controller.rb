@@ -4,7 +4,7 @@ get '/gringotts_accounts/new' do
 end
 
 # Gringotts Account Create
-post '/gringotts_accounts' do
+post '/users/:user_id/gringotts_accounts' do
   link_gringotts_account(params[:gringotts_account])
 end
 
