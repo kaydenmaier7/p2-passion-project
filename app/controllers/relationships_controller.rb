@@ -4,6 +4,12 @@ get '/users/:user_id/relationships' do
 	erb :'relationships/index'
 end
 
+# Relationships New Form
+# get '/users/:user_id/relationships/new' do
+# 	erb :'relationships/new'
+# end
+
+# Relationships Create
 # Relationships Edit
 
 # Relationships Update

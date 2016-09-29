@@ -6,6 +6,7 @@
   	<a href="/articles">Articles</a>
   	<a href="/pets">Pets</a>
   	<a href="/users/<%= current_user.id %>/relationships">Family Tree</a>
+  	
   	<% if current_user.gringotts_account %>
   		<a href="/users/<%= current_user.id %>/gringotts_accounts/<%= current_user.gringotts_account.id %>">Gringotts Account Portal</a>
   	<% end %>
