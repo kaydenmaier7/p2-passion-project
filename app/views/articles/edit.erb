@@ -2,8 +2,9 @@
 
 <form action="/articles/<%= @article.id %>" method="POST">
 	<input type="hidden" name="_method" value="PATCH">
-	<input type="text" name="article[article_title]" value="<%= @article.article_title %>">
-	<input type="text" name="article[article_body]" value="<%= @article.article_body %>">
+	<textarea cols="25" name="article[article_title]" placeholder="Title:"><%= @article.article_title %></textarea> 
+	<br>
+	<textarea cols="25" rows="10" name="article[article_body]" placeholder="Body:"><%= @article.article_body %></textarea>
 	<input type="submit" value="Update Article">
 </form>
 
