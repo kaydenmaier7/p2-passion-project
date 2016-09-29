@@ -1050,7 +1050,7 @@ martha_steward = {
   email: 'm.steward76@gmail.com',
   password: 'a',
   blood_status: 'Half-blood',
-  species: 'Witch',
+  species: 'Muggle',
   occupation: 'unknown',
   school: nil,
   school_house: nil
@@ -1098,8 +1098,8 @@ william_the_pukwudgie = {
 godric_gryffindor = {
   first_name: 'Godric',
   last_name: 'Gryffindor',
-  username: 'g.gryffindor79',
-  email: 'g.gryffindor79@gmail.com',
+  username: 'g.gryffindor80',
+  email: 'g.gryffindor80@gmail.com',
   password: 'a',
   blood_status: 'Pure-blood or Half-blood',
   species: 'Wizard',
@@ -1111,8 +1111,8 @@ godric_gryffindor = {
 rowena_ravenclaw = {
   first_name: 'Rowena',
   last_name: 'Ravenclaw',
-  username: 'rowena_ravenclaw80',
-  email: 'rowena_ravenclaw80@gmail.com',
+  username: 'rowena_ravenclaw81',
+  email: 'rowena_ravenclaw81@gmail.com',
   password: 'a',
   blood_status: 'Pure-blood or Half-blood',
   species: 'Witch',
@@ -1124,8 +1124,8 @@ rowena_ravenclaw = {
 helga_hufflepuff = {
   first_name: 'Helga',
   last_name: 'Hufflepuff',
-  username: 'helga_hufflepuff81',
-  email: 'helga_hufflepuff81@gmail.com',
+  username: 'helga_hufflepuff82',
+  email: 'helga_hufflepuff82@gmail.com',
   password: 'a',
   blood_status: 'Pure-blood or Half-blood',
   species: 'Witch',
@@ -1137,8 +1137,8 @@ helga_hufflepuff = {
 salazar_slytherin = {
   first_name: 'Salazar',
   last_name: 'Slytherin',
-  username: 'salazar_slytherin82',
-  email: 'salazar_slytherin82@gmail.com',
+  username: 'salazar_slytherin83',
+  email: 'salazar_slytherin83@gmail.com',
   password: 'a',
   blood_status: 'Pure-blood',
   species: 'Wizard',
@@ -1147,7 +1147,18 @@ salazar_slytherin = {
   school_house: 'Slytherin'
 }
 
-
+kayden_williams = {
+  first_name: 'Kayden',
+  last_name: 'Williams',
+  username: 'kaydenwilliams7',
+  email: 'kaydenwilliams7@gmail.com',
+  password: 'a',
+  blood_status: 'Muggle-born',
+  species: 'Wizard',
+  occupation: 'Spell Creator',
+  school: 'Ilvermorny School of Witchcraft and Wizardry',
+  school_house: 'Horned Serpent'
+}
 
 
 
@@ -1775,6 +1786,15 @@ salazar_slytherin_wand = {
   wood_type: 'Snakewood',
   owner_id: 83,
   creator_id: 83
+}
+
+kayden_williams_wand = {
+  length: 10.75,
+  core: 'Unicorn Hair',
+  wood_type: 'Ash',
+  owner_id: 84,
+  creator_id: 12
+
 }
 
 # Seed Data for the GringottsAccount Class
@@ -2774,6 +2794,12 @@ salazar_slytherin_article = {
   user_id: 83,
   article_title: 'Salazar Slytherin Info Page',
   article_body: "Info about Salazar Slytherin's Stuff"
+}
+
+kayden_williams_article = {
+  user_id: 84,
+  article_title: "Kayden Williams' Info Page",
+  article_body: "Info about Kayden Williams' Stuff"
 }
 
 # Seed Data for the Pet Class
@@ -17140,6 +17166,7 @@ User.create(godric_gryffindor)
 User.create(rowena_ravenclaw)
 User.create(helga_hufflepuff)
 User.create(salazar_slytherin)
+User.create(kayden_williams)
 
 # Create Wand Objects
 Wand.create(harry_wand)
@@ -17220,6 +17247,7 @@ Wand.create(godric_gryffindor_wand)
 Wand.create(rowena_ravenclaw_wand)
 Wand.create(helga_hufflepuff_wand)
 Wand.create(salazar_slytherin_wand)
+Wand.create(kayden_williams_wand)
 
 # Create GringottsAccount Objects
 GringottsAccount.create(harry_account)
@@ -17390,6 +17418,7 @@ Article.create(godric_gryffindor_article)
 Article.create(rowena_ravenclaw_article)
 Article.create(helga_hufflepuff_article)
 Article.create(salazar_slytherin_article)
+Article.create(kayden_williams_article)
 
 # Create Owl Objects
 Pet.create(harry_pet)

@@ -32,7 +32,7 @@ patch '/gringotts_accounts/:id' do
   update_gringotts_account
  
   if @gringotts_account.save
-    redirect "/gringotts_accounts/#{@gringotts_account.id}"
+    redirect "/users/#{current_user.id}/gringotts_accounts/#{@gringotts_account.id}"
   else
     errors(@gringotts_account)
     erb :'gringotts_accounts/edit'

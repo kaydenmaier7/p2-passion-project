@@ -1,5 +1,5 @@
 class GringottsAccount < ActiveRecord::Base
-	belongs_to :user, dependent: :destroy
+	belongs_to :user
 	validates :balance, :interest_rate, presence: true
 
 	
