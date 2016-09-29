@@ -9,7 +9,7 @@ post '/users/:user_id/gringotts_accounts' do
 end
 
 # Account Show
-get '/gringotts_accounts/:id' do
+get '/users/:user_id/gringotts_accounts/:id' do
   set_gringotts_account
 
   authenticated_gringotts_account_show_form
@@ -31,7 +31,7 @@ patch '/gringotts_accounts/:id' do
   update_gringotts_account
  
   if @gringotts_account.save
-    redirect "/gringotts_accounts/#{@gringotts_account.id}"
+    redirect "/users/#{current_user.id}/gringotts_accounts/#{@gringotts_account.id}"
   else
     errors(@gringotts_account)
     erb :'gringotts_accounts/edit'
