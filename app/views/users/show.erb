@@ -5,8 +5,9 @@
   	<h2>Welcome <%= current_user.username %>!</h2>
   	<a href="/articles">Articles</a>
   	<a href="/pets">Pets</a>
-  	<a href="/users/<%= current_user.id %>/gringotts_accounts/<%= current_user.gringotts_account.id %>">Gringotts Account Portal</a>
-  	<!-- <a href="/users/<%= current_user.id %>/gringotts_accounts/<%= current_user.gringotts_account.id %>">Gringotts Account Portal</a> -->
+  	<% if current_user.gringotts_account %>
+  		<a href="/users/<%= current_user.id %>/gringotts_accounts/<%= current_user.gringotts_account.id %>">Gringotts Account Portal</a>
+  	<% end %>
 <% else %>
 		<%= redirect '/sessions/new' %>
 <% end %>

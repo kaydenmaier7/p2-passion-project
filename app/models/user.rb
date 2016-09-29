@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
   has_many  :pets, foreign_key: :owner_id
   has_many  :brooms
   has_many  :relationships
-  has_one   :gringotts_account
+  has_one   :gringotts_account, dependent: :destroy
 
   validates_presence_of :first_name
   validates_presence_of :last_name
